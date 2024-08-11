@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../fifo/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v" \
+"../../../../../../src/fft_ctrl.v" \
+"../../../../../../src/fft_test.v" \
+"../../../../../../sim/tb_fft_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

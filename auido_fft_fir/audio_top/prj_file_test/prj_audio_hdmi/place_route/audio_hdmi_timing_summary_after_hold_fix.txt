@@ -1,0 +1,144 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ audio_hdmi|sys_clk     audio_hdmi|sys_clk         992.465       0.000              0          14820
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                   992.775       0.000              0           1677
+ audio_hdmi|es1_dsclk   audio_hdmi|es1_dsclk       498.504       0.000              0             48
+ audio_hdmi|es0_dsclk   audio_hdmi|es0_dsclk       997.828       0.000              0            188
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                                                   990.830       0.000              0            240
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                                                   995.423       0.000              0            539
+ DebugCore_JCLK         DebugCore_JCLK              23.898       0.000              0           1071
+ DebugCore_CAPTURE      DebugCore_JCLK              20.936       0.000              0            117
+ DebugCore_JCLK         DebugCore_CAPTURE           47.681       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ audio_hdmi|sys_clk     audio_hdmi|sys_clk           0.137       0.000              0          14820
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                     0.312       0.000              0           1677
+ audio_hdmi|es1_dsclk   audio_hdmi|es1_dsclk         0.381       0.000              0             48
+ audio_hdmi|es0_dsclk   audio_hdmi|es0_dsclk         0.356       0.000              0            188
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                                                     0.356       0.000              0            240
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                                                     0.299       0.000              0            539
+ DebugCore_JCLK         DebugCore_JCLK               0.341       0.000              0           1071
+ DebugCore_CAPTURE      DebugCore_JCLK              24.903       0.000              0            117
+ DebugCore_JCLK         DebugCore_CAPTURE            0.384       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                   995.738       0.000              0            552
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                     0.618       0.000              0            552
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ audio_hdmi|sys_clk     audio_hdmi|sys_clk         994.565       0.000              0          14820
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                   994.851       0.000              0           1677
+ audio_hdmi|es1_dsclk   audio_hdmi|es1_dsclk       498.946       0.000              0             48
+ audio_hdmi|es0_dsclk   audio_hdmi|es0_dsclk       998.376       0.000              0            188
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                                                   993.471       0.000              0            240
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                                                   996.816       0.000              0            539
+ DebugCore_JCLK         DebugCore_JCLK              24.196       0.000              0           1071
+ DebugCore_CAPTURE      DebugCore_JCLK              22.176       0.000              0            117
+ DebugCore_JCLK         DebugCore_CAPTURE           48.248       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ audio_hdmi|sys_clk     audio_hdmi|sys_clk           0.100       0.000              0          14820
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                     0.251       0.000              0           1677
+ audio_hdmi|es1_dsclk   audio_hdmi|es1_dsclk         0.298       0.000              0             48
+ audio_hdmi|es0_dsclk   audio_hdmi|es0_dsclk         0.287       0.000              0            188
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT0
+                                                     0.287       0.000              0            240
+ pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                        pll|hdmi_test1_inst/pll_inst/u_pll_e3/CLKOUT1
+                                                     0.213       0.000              0            539
+ DebugCore_JCLK         DebugCore_JCLK               0.265       0.000              0           1071
+ DebugCore_CAPTURE      DebugCore_JCLK              25.065       0.000              0            117
+ DebugCore_JCLK         DebugCore_CAPTURE            0.526       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                   996.903       0.000              0            552
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                        PLL1|voice_loop_test_inst/pll1/u_pll_e3/CLKOUT0
+                                                     0.453       0.000              0            552
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

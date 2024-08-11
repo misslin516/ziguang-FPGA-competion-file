@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_newton_prj/sim/behav
+T_opt
+!s110 1711939413
+Vh>_b7nUGfl?nzSj0LKZ[d2
+04 18 4 work tb_data_module_fft fast 0
+04 7 4 usim GTP_GRS fast 0
+=1-84a938bfc9a0-660a1f55-138-4570
+o-quiet -auto_acc_if_foreign -work work -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vcordic_newton
+Z2 !s110 1711939412
+!i10b 1
+!s100 >IIZISkDVS<h3H3J0T4d30
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHP^i23_LgoV>2@z81E9SD2
+R0
+w1711938659
+8C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_newton.v
+FC:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_newton.v
+!i122 12
+L0 23 128
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1711939412.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_newton.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_newton.v|-work|work|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdata_module_fft
+R2
+!i10b 1
+!s100 THl`on9P5ZJLa]X4_mGBA1
+R3
+ILYjnf:Ck9nab:E<`:2:M83
+R0
+w1711939289
+8C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/data_module_fft.v
+FC:/Users/86151/Desktop/auido_fft_fir/fft_top/src/data_module_fft.v
+!i122 13
+L0 14 142
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/data_module_fft.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/data_module_fft.v|-work|work|
+!i113 0
+R7
+R1
+vtb_data_module_fft
+R2
+!i10b 1
+!s100 bD_l5EOb[58=J_7H5HmKl2
+R3
+Il[[e7`2d0WAdXnCg@iRnK0
+R0
+w1711936650
+8C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_data_module_fft.v
+FC:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_data_module_fft.v
+!i122 14
+L0 5 101
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_data_module_fft.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_data_module_fft.v|-work|work|
+!i113 0
+R7
+R1

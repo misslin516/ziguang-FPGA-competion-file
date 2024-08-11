@@ -1,0 +1,37 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_hdmi_revised
+vO0ziwO1S/XWymEy9d2neipmNOpERfwrgOcDo5z25df8=
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1715429392
+!i10b 0
+!s100 mVHzFDFVMj?29UQGazWKU2
+IKzS6:71E7hObWX;P7Ub>[0
+VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+!i8a 313534800
+!s105 oserdes_e3_hcl_iologic_vp_unit
+S1
+dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+w1715429392
+8./oserdes_e3_source_codes/oserdes_e3_hcl_iologic.vp
+F./oserdes_e3_source_codes/oserdes_e3_hcl_iologic.vp
+L0 23
+OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1715429391.000000
+!s107 ./oserdes_e3_source_codes/oserdes_e3_hcl_iologic.vp|
+!s90 -incr|-f|./filelist_oserdes_e3_gtp.f|-work|oserdes_e3|-sv|-mfcu|
+!i113 0
+o-work oserdes_e3 -sv -mfcu -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+nfb823e3

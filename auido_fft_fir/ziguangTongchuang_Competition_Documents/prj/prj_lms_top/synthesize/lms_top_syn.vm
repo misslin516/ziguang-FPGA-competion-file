@@ -1,0 +1,168 @@
+//
+// Generated (version 2022.1<build 99559>) at Thu May 23 15:08:28 2024
+//
+
+module lms_top
+(
+    input [15:0] adc_data,
+    input [31:0] rec_data,
+    input audio_clk,
+    input data_valid,
+    input rec_en,
+    input rgmii_clk,
+    input rst_n,
+    input sys_clk,
+    output [15:0] y_lms
+);
+	// SDC constraint : (object audio_clk) (id 1000) (clock lms_top|audio_clk) (inferred)
+
+    GTP_GRS GRS_INST (
+            .GRS_N (1'b1));
+
+    GTP_OUTBUF /* \y_lms_obuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[0]  (
+            .O (y_lms[0]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[1]  (
+            .O (y_lms[1]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[2]  (
+            .O (y_lms[2]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[3]  (
+            .O (y_lms[3]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[4]  (
+            .O (y_lms[4]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[5]  (
+            .O (y_lms[5]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[6]  (
+            .O (y_lms[6]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[7]  (
+            .O (y_lms[7]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[8]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[8]  (
+            .O (y_lms[8]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[9]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[9]  (
+            .O (y_lms[9]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[10]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[10]  (
+            .O (y_lms[10]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[11]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[11]  (
+            .O (y_lms[11]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[12]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[12]  (
+            .O (y_lms[12]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[13]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[13]  (
+            .O (y_lms[13]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[14]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[14]  (
+            .O (y_lms[14]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+    GTP_OUTBUF /* \y_lms_obuf[15]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \y_lms_obuf[15]  (
+            .O (y_lms[15]),
+            .I (1'b0));
+	// ../../../src/lms/lms_top.v:22
+
+
+endmodule
+

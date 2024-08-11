@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/fft_top/fft_pango/sim/behav
+T_opt
+!s110 1715952968
+V=O[_b_o=Z:blm1X>oX0320
+04 11 4 work tb_fft_test fast 0
+04 7 4 usim GTP_GRS fast 0
+=1-84a938bfc9a0-66475d46-d0-490c
+o-quiet -auto_acc_if_foreign -work work -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vasyn_fifo
+Z2 !s110 1715952965
+!i10b 1
+!s100 UAzc>cSTePFoOgheJSKKM0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWcR^Xb8E@@J00S8fT3B<c2
+R0
+Z4 w1712022812
+Z5 8C:/Users/86151/Desktop/auido_fft_fir/fft_top/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v
+Z6 FC:/Users/86151/Desktop/auido_fft_fir/fft_top/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v
+!i122 78
+L0 3 136
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1715952965.000000
+Z10 !s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v|
+Z11 !s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v|-work|work|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdual_port_sync
+R2
+!i10b 1
+!s100 1eD]50<RdBOEVSo8lHfiz2
+R3
+IOf0LYQ]@ozH[X>SAReZ3h1
+R0
+R4
+R5
+R6
+!i122 78
+L0 143 30
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+vfft_ctrl
+!s110 1715952964
+!i10b 1
+!s100 [1XWiF?Z3Dkn^:1FC6Zz61
+R3
+I^6]]Nzgdfo[22gZi;]GZT0
+R0
+w1715952939
+8C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v
+FC:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v
+!i122 76
+L0 3 99
+R7
+R8
+r1
+!s85 0
+31
+!s108 1715952964.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v|-work|work|
+!i113 0
+R12
+R1
+vfft_test
+R2
+!i10b 1
+!s100 =gUMQ:]RS`Tk@:^`M]4Xn1
+R3
+IXRmi1HI]7n0Zbz2eTc7db0
+R0
+w1715952439
+8C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v
+FC:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v
+!i122 77
+L0 3 89
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v|-work|work|
+!i113 0
+R12
+R1
+vtb_fft_test
+R2
+!i10b 1
+!s100 3S]g;`Y0zBIZ@e`h:Xd;L2
+R3
+Ic6iUbKlE:on81RXWVHWjY1
+R0
+w1715779267
+8C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_fft_test.v
+FC:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_fft_test.v
+!i122 79
+L0 4 81
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_fft_test.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_fft_test.v|-work|work|
+!i113 0
+R12
+R1

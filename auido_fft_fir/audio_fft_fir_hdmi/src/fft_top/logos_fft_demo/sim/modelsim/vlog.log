@@ -1,0 +1,24 @@
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+D:\altera\13.1\modelsim_ase\win32aloem\vlog.exe -reportprogress 300 -incr -sv D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v -f ./ipsxe_fft_onboard_top_filelist.f -l vlog.log 
+-- Compiling module GTP_APM_E1
+-- Compiling module GTP_DRM18K_E1
+-- Compiling module GTP_DRM18K
+-- Compiling module GTP_DRM9K
+-- Compiling module GTP_GRS
+-- Compiling module ipsxe_fft_onboard_top
+-- Compiling module ipsxe_fft_frame_gen
+-- Compiling module ipsxe_fft_frame_chk
+-- Compiling module ipsxe_fft_sync_arstn
+-- Compiling module ipsxe_fft_exp_rom
+-- Compiling module ipsxe_fft_onboard_top_tb
+-- Compiling module fft_demo_00
+-- Compiling module ipsxe_fft_drm_sdpram_18k
+-- Compiling module ipsxe_fft_drm_sdpram_36k
+-- Compiling module ipml_sdpram_v1_7_drm
+-- Compiling package drm_init_param_v_unit
+-- Compiling module ipsxe_fft_distram_sreg
+-- Compiling module ipsxe_fft_distributed_shiftregister_v1_3
+-- Compiling module ipsxe_fft_distributed_sdpram_v1_2
+-- Compiling module ipsxe_fft_distram_sdpram
+** Error: ../../sim_lib/modelsim/ipsxe_fft_core_v1_1_simvpAll.vp(37): The appropriate key has not been specified
+** Error: ../../sim_lib/modelsim/ipsxe_fft_core_v1_1_simvpAll.vp(37): syntax error in protected region.

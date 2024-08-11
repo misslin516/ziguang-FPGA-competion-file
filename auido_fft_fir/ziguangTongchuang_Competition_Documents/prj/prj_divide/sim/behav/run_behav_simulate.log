@@ -1,0 +1,80 @@
+# Reading D:/modelsim106/setup/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap usim C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap adc C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrc C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrphy C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap hsst_e2 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap iolhr_dft C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ipal_e1 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap pciegen2 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 19:53:54 on Jul 24,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v -work work 
+# -- Compiling module divide
+# 
+# Top level modules:
+# 	divide
+# End time: 19:53:54 on Jul 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 19:53:54 on Jul 24,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide_tb.v -work work 
+# -- Compiling module divide_tb
+# 
+# Top level modules:
+# 	divide_tb
+# End time: 19:53:54 on Jul 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 divide_tb usim.GTP_GRS 
+# Start time: 19:53:54 on Jul 24,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/sim/behav/work.divide_tb
+# Loading work.divide_tb
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/sim/behav/work.divide
+# Loading work.divide
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/pango_sim_libraries/usim.GTP_GRS
+# Loading usim.GTP_GRS
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run
+# End time: 22:08:03 on Jul 24,2024, Elapsed time: 2:14:09
+# Errors: 0, Warnings: 0

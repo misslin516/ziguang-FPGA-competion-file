@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide/sim/behav
+vdivide
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SFaOaV9QOAnnzR[XTQ1Mc2
+IaZUD4=oWL@Lkigc7YCK[M0
+R0
+w1721437527
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v
+L0 2
+Z2 OL;L;10.6d;65
+Z3 !s108 1721822034.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vdivide_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 PCRd8Yz`A>jbZ^PKJlbom0
+ImzZWlP9WXIGdX84M5jE[:2
+R0
+w1721822012
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide_tb.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide_tb.v
+L0 3
+R2
+R3
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide_tb.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide_tb.v|-work|work|
+!i113 0
+R4
+R5

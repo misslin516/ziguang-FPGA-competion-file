@@ -1,0 +1,214 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/fifo_ambition/prj/sim/behav
+vfifo_ambition
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 lmPgLViL`iI6f>2INPlK50
+IOd0dgIndIO@A^<KN=miK_0
+R0
+Z2 w1718172510
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/fifo_ambition.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/fifo_ambition.v
+Z3 L0 20
+Z4 OL;L;10.6d;65
+Z5 !s108 1718186618.000000
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/fifo_ambition.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/fifo_ambition.v|-work|work|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vfifo_ambition_re
+Z8 !s110 1718186618
+!i10b 1
+!s100 OMUaOc6[3`ef;]aMUYH6R2
+IT6FEDfnGPJC6FogXnm9La2
+R1
+R0
+Z9 w1718176388
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/fifo_ambition_re.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/fifo_ambition_re.v
+Z10 L0 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/fifo_ambition_re.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/fifo_ambition_re.v|-work|work|
+!i113 0
+R6
+R7
+vfifo_ambition_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 5AK63?^4Aj=L6LYM0[A`W3
+IU>97^8ZPRG0c>=ieC;MJE3
+R0
+w1718186536
+8C:/Users/86151/Desktop/fifo_ambition/src/fifo_ambition.v
+FC:/Users/86151/Desktop/fifo_ambition/src/fifo_ambition.v
+L0 4
+R4
+!s108 1718186617.000000
+!s107 C:/Users/86151/Desktop/fifo_ambition/src/fifo_ambition.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/src/fifo_ambition.v|-work|work|
+!i113 0
+R6
+R7
+vipm_distributed_fifo_ctr_v1_0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 fzP70gA3UkOHUQ[U_10k71
+IUUIZjh<?<lH^TkIh<PZmz3
+R0
+w1657560122
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_ctr_v1_0.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_ctr_v1_0.v
+R10
+R4
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_ctr_v1_0.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_ctr_v1_0.v|-work|work|
+!i113 0
+R6
+R7
+vipm_distributed_fifo_v1_2_fifo_ambition
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 XT;_6J`GTf<2VMW`D^>@:3
+Iz_<dig>oVK]P`L6l2`_an1
+R0
+R2
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_v1_2_fifo_ambition.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_v1_2_fifo_ambition.v
+Z11 L0 21
+R4
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_v1_2_fifo_ambition.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_v1_2_fifo_ambition.v|-work|work|
+!i113 0
+R6
+R7
+vipm_distributed_sdpram_v1_2_fifo_ambition
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 IDInNQ8zd5F[zE>=HF>2E1
+IEW>DDo[SYRo<d;3Uh:]ND1
+R0
+R2
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_sdpram_v1_2_fifo_ambition.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_sdpram_v1_2_fifo_ambition.v
+L0 22
+R4
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_sdpram_v1_2_fifo_ambition.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_sdpram_v1_2_fifo_ambition.v|-work|work|
+!i113 0
+R6
+R7
+vipml_fifo_ctrl_v1_3
+R8
+!i10b 1
+!s100 P3gXkkID5`N:B5iWMh33i2
+IM0E4X2LFohK]LlOfJ[njU1
+R1
+R0
+w1657559934
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_ctrl_v1_3.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_ctrl_v1_3.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_ctrl_v1_3.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_ctrl_v1_3.v|-work|work|
+!i113 0
+R6
+R7
+vipml_fifo_v1_6_fifo_ambition_re
+R8
+!i10b 1
+!s100 B5`9GF]>C9oB]d]be=RA]0
+If80OQ<;4C:UVRFzLLEdN;1
+R1
+R0
+R9
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_v1_6_fifo_ambition_re.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_v1_6_fifo_ambition_re.v
+L0 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_v1_6_fifo_ambition_re.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_v1_6_fifo_ambition_re.v|-work|work|
+!i113 0
+R6
+R7
+vipml_sdpram_v1_6_fifo_ambition_re
+R8
+!i10b 1
+!s100 _J9fmU:[]D9_blRbiCgFW1
+I1GPJ5<A@h^1;McSX8NC_53
+R1
+R0
+R9
+8C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_sdpram_v1_6_fifo_ambition_re.v
+FC:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_sdpram_v1_6_fifo_ambition_re.v
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_sdpram_v1_6_fifo_ambition_re.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_sdpram_v1_6_fifo_ambition_re.v|-work|work|
+!i113 0
+R6
+R7
+vtb_fifo_ambition
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 zEaV_4=V=cA2Xcm6bK?b32
+INN1kMDITLNFJXQPK`_mWW3
+R0
+w1718162106
+8C:/Users/86151/Desktop/fifo_ambition/src/tb_fifo_ambition.v
+FC:/Users/86151/Desktop/fifo_ambition/src/tb_fifo_ambition.v
+L0 4
+R4
+R5
+!s107 C:/Users/86151/Desktop/fifo_ambition/src/tb_fifo_ambition.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/fifo_ambition/src/tb_fifo_ambition.v|-work|work|
+!i113 0
+R6
+R7

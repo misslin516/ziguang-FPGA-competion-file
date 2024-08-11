@@ -1,0 +1,113 @@
+# Reading D:/modelsim106/setup/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap usim C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap adc C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrc C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrphy C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap hsst_e2 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap iolhr_dft C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ipal_e1 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap pciegen2 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:51:33 on May 19,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/udp_top/crc32_d8.v -work work 
+# -- Compiling module crc32_d8
+# 
+# Top level modules:
+# 	crc32_d8
+# End time: 15:51:33 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:51:33 on May 19,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/udp_top/udp_rx.v -work work 
+# -- Compiling module udp_rx
+# 
+# Top level modules:
+# 	udp_rx
+# End time: 15:51:33 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:51:33 on May 19,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/udp_top/udp_top.v -work work 
+# -- Compiling module udp_top
+# 
+# Top level modules:
+# 	udp_top
+# End time: 15:51:33 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:51:33 on May 19,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/udp_top/udp_tx.v -work work 
+# -- Compiling module udp_tx
+# 
+# Top level modules:
+# 	udp_tx
+# End time: 15:51:33 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 15:51:33 on May 19,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/udp_top/tb_udp.v -work work 
+# -- Compiling module tb_udp
+# 
+# Top level modules:
+# 	tb_udp
+# End time: 15:51:33 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 tb_udp usim.GTP_GRS 
+# Start time: 15:51:33 on May 19,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/sim/behav/work.tb_udp
+# Loading work.tb_udp
+# Refreshing C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/sim/behav/work.udp_top
+# Loading work.udp_top
+# Refreshing C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/sim/behav/work.udp_rx
+# Loading work.udp_rx
+# Refreshing C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/sim/behav/work.udp_tx
+# Loading work.udp_tx
+# Refreshing C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_udp/sim/behav/work.crc32_d8
+# Loading work.crc32_d8
+# Loading usim.GTP_GRS
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint sim:/tb_udp/u_udp/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run
+# End time: 15:53:23 on May 19,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0

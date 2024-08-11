@@ -1,0 +1,301 @@
+# vsim +nowarn1 -l sim.log -lib work -c -sva -suppress 3486,3680,3781 ddr_test_top_tb 
+# Loading sv_std.std
+# Loading work.ddr_test_top_tb
+# Loading work.ddr_test_top_tb_v_unit
+# Loading work.test_ddr
+# Loading work.GTP_CLKBUFG
+# Loading work.ipsxb_rst_sync_v1_1
+# Loading work.ipsxb_uart_ctrl_top_32bit
+# Loading work.ipsxb_seu_rs232_intf
+# Loading work.ipsxb_clk_gen_32bit
+# Loading work.ipsxb_seu_uart_tx
+# Loading work.ipsxb_seu_uart_rx
+# Loading work.ipsxb_uart_ctrl_32bit
+# Loading work.ipsxb_cmd_parser_32bit
+# Loading work.ipsxb_ver_ctrl_32bit
+# Loading work.uart_rd_lock
+# Loading work.ddr_test
+# Loading work.ipsxb_ddrphy_pll_v1_0
+# Loading work.GTP_PLL_E3
+# Loading work.GTP_IOCLKBUF
+# Loading work.GTP_IOCLKDIV
+# Loading work.ipsxb_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_ctr_v1_0
+# Loading work.ddr_test_ddrphy_top
+# Loading work.GTP_DLL
+# Loading work.ipsxb_ddrphy_slice_top_v1_4
+# Loading work.GTP_OSERDES
+# Loading work.GTP_OUTBUFT
+# Loading work.GTP_OUTBUFTCO
+# Loading work.axi_bist_top_v1_0
+# Loading work.test_main_ctrl_v1_0
+# Loading work.prbs31_128bit_v1_0
+# Loading work.test_wr_ctrl_v1_0
+# Loading work.prbs15_64bit_v1_0
+# Loading work.test_rd_ctrl_v1_0
+# Loading work.GTP_GRS
+# Loading work.ddr3
+# Loading work.GTP_DDC_E1
+# Loading work.GTP_IOBUFCO
+# Loading work.GTP_IOBUF
+# Loading work.GTP_IODELAY
+# Loading work.GTP_ISERDES
+# ** Warning: (vsim-PLI-3003) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(176): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+# 
+#         Region: /ddr_test_top_tb
+# ** Warning: (vsim-PLI-3003) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(177): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+# 
+#         Region: /ddr_test_top_tb
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(369): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(370): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(372): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(378): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(314): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ipsxb_ddrphy_pll_1
+# ** Warning: (vsim-3722) ./../../ddr_test.v(314): [TFMPC] - Missing connection for port 'clkout1'.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(445): [TFMPC] - Too few port connections. Expected 51, found 49.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ipsxb_ddrc_top
+# ** Warning: (vsim-3722) ./../../ddr_test.v(445): [TFMPC] - Missing connection for port 'ddr_zqcs_req'.
+# 
+# ** Warning: (vsim-3722) ./../../ddr_test.v(445): [TFMPC] - Missing connection for port 'ddr_zqcs_ack'.
+# 
+# ** Warning: (vsim-8607) nofile(285): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(521): [TFMPC] - Too few port connections. Expected 57, found 56.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ddrphy_top
+# ** Warning: (vsim-3722) ./../../ddr_test.v(521): [TFMPC] - Missing connection for port 'dfi_error'.
+# 
+# ** Warning: (vsim-8607) nofile(41): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: Design size of 99 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# 60000.0 ps keyboard reset sequence finished!
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+add wave -position insertpoint sim:/ddr_test_top_tb/*
+restart
+# Loading sv_std.std
+# Loading work.ddr_test_top_tb
+# Loading work.ddr_test_top_tb_v_unit
+# Loading work.test_ddr
+# Loading work.GTP_CLKBUFG
+# Loading work.ipsxb_rst_sync_v1_1
+# Loading work.ipsxb_uart_ctrl_top_32bit
+# Loading work.ipsxb_seu_rs232_intf
+# Loading work.ipsxb_clk_gen_32bit
+# Loading work.ipsxb_seu_uart_tx
+# Loading work.ipsxb_seu_uart_rx
+# Loading work.ipsxb_uart_ctrl_32bit
+# Loading work.ipsxb_cmd_parser_32bit
+# Loading work.ipsxb_ver_ctrl_32bit
+# Loading work.uart_rd_lock
+# Loading work.ddr_test
+# Loading work.ipsxb_ddrphy_pll_v1_0
+# Loading work.GTP_PLL_E3
+# Loading work.GTP_IOCLKBUF
+# Loading work.GTP_IOCLKDIV
+# Loading work.ipsxb_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_ctr_v1_0
+# Loading work.ddr_test_ddrphy_top
+# Loading work.GTP_DLL
+# Loading work.ipsxb_ddrphy_slice_top_v1_4
+# Loading work.GTP_OSERDES
+# Loading work.GTP_OUTBUFT
+# Loading work.GTP_OUTBUFTCO
+# Loading work.axi_bist_top_v1_0
+# Loading work.test_main_ctrl_v1_0
+# Loading work.prbs31_128bit_v1_0
+# Loading work.test_wr_ctrl_v1_0
+# Loading work.prbs15_64bit_v1_0
+# Loading work.test_rd_ctrl_v1_0
+# Loading work.GTP_GRS
+# Loading work.ddr3
+# Loading work.GTP_DDC_E1
+# Loading work.GTP_IOBUFCO
+# Loading work.GTP_IOBUF
+# Loading work.GTP_IODELAY
+# Loading work.GTP_ISERDES
+# ** Warning: (vsim-PLI-3003) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(176): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+# 
+#         Region: /ddr_test_top_tb
+# ** Warning: (vsim-PLI-3003) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(177): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+# 
+#         Region: /ddr_test_top_tb
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(369): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(370): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(372): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(378): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(314): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ipsxb_ddrphy_pll_1
+# ** Warning: (vsim-3722) ./../../ddr_test.v(314): [TFMPC] - Missing connection for port 'clkout1'.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(445): [TFMPC] - Too few port connections. Expected 51, found 49.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ipsxb_ddrc_top
+# ** Warning: (vsim-3722) ./../../ddr_test.v(445): [TFMPC] - Missing connection for port 'ddr_zqcs_req'.
+# 
+# ** Warning: (vsim-3722) ./../../ddr_test.v(445): [TFMPC] - Missing connection for port 'ddr_zqcs_ack'.
+# 
+# ** Warning: (vsim-8607) nofile(285): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(521): [TFMPC] - Too few port connections. Expected 57, found 56.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ddrphy_top
+# ** Warning: (vsim-3722) ./../../ddr_test.v(521): [TFMPC] - Missing connection for port 'dfi_error'.
+# 
+# ** Warning: (vsim-8607) nofile(41): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: Design size of 99 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+add wave -position insertpoint  \
+sim:/ddr_test_top_tb/u_ddr/pll_lock
+add wave -position insertpoint  \
+sim:/ddr_test_top_tb/u_ddr/axi_awaddr \
+sim:/ddr_test_top_tb/u_ddr/axi_awuser_ap \
+sim:/ddr_test_top_tb/u_ddr/axi_awuser_id \
+sim:/ddr_test_top_tb/u_ddr/axi_awlen \
+sim:/ddr_test_top_tb/u_ddr/axi_awready \
+sim:/ddr_test_top_tb/u_ddr/axi_awvalid \
+sim:/ddr_test_top_tb/u_ddr/axi_wdata \
+sim:/ddr_test_top_tb/u_ddr/axi_wstrb \
+sim:/ddr_test_top_tb/u_ddr/axi_wready \
+sim:/ddr_test_top_tb/u_ddr/axi_araddr \
+sim:/ddr_test_top_tb/u_ddr/axi_aruser_ap \
+sim:/ddr_test_top_tb/u_ddr/axi_aruser_id \
+sim:/ddr_test_top_tb/u_ddr/axi_arlen \
+sim:/ddr_test_top_tb/u_ddr/axi_arready \
+sim:/ddr_test_top_tb/u_ddr/axi_arvalid \
+sim:/ddr_test_top_tb/u_ddr/axi_rdata \
+sim:/ddr_test_top_tb/u_ddr/axi_rvalid \
+sim:/ddr_test_top_tb/u_ddr/resetn
+run
+# 60000.0 ps keyboard reset sequence finished!
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+run
+# ** Error: (vsim-3601) Iteration limit reached at time 110 ns.
+# 
+restart
+# Loading sv_std.std
+# Loading work.ddr_test_top_tb
+# Loading work.ddr_test_top_tb_v_unit
+# Loading work.test_ddr
+# Loading work.GTP_CLKBUFG
+# Loading work.ipsxb_rst_sync_v1_1
+# Loading work.ipsxb_uart_ctrl_top_32bit
+# Loading work.ipsxb_seu_rs232_intf
+# Loading work.ipsxb_clk_gen_32bit
+# Loading work.ipsxb_seu_uart_tx
+# Loading work.ipsxb_seu_uart_rx
+# Loading work.ipsxb_uart_ctrl_32bit
+# Loading work.ipsxb_cmd_parser_32bit
+# Loading work.ipsxb_ver_ctrl_32bit
+# Loading work.uart_rd_lock
+# Loading work.ddr_test
+# Loading work.ipsxb_ddrphy_pll_v1_0
+# Loading work.GTP_PLL_E3
+# Loading work.GTP_IOCLKBUF
+# Loading work.GTP_IOCLKDIV
+# Loading work.ipsxb_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# Loading work.ipsxb_distributed_fifo_ctr_v1_0
+# Loading work.ddr_test_ddrphy_top
+# Loading work.GTP_DLL
+# Loading work.ipsxb_ddrphy_slice_top_v1_4
+# Loading work.GTP_OSERDES
+# Loading work.GTP_OUTBUFT
+# Loading work.GTP_OUTBUFTCO
+# Loading work.axi_bist_top_v1_0
+# Loading work.test_main_ctrl_v1_0
+# Loading work.prbs31_128bit_v1_0
+# Loading work.test_wr_ctrl_v1_0
+# Loading work.prbs15_64bit_v1_0
+# Loading work.test_rd_ctrl_v1_0
+# Loading work.GTP_GRS
+# Loading work.ddr3
+# Loading work.GTP_DDC_E1
+# Loading work.GTP_IOBUFCO
+# Loading work.GTP_IOBUF
+# Loading work.GTP_IODELAY
+# Loading work.GTP_ISERDES
+# ** Warning: (vsim-PLI-3003) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(176): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+# 
+#         Region: /ddr_test_top_tb
+# ** Warning: (vsim-PLI-3003) ./../../example_design/bench/ddr3_tb/ddr_test_top_tb.v(177): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+# 
+#         Region: /ddr_test_top_tb
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(369): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(370): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(372): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-8607) ./../../example_design/rtl/test_ddr.v(378): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(314): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ipsxb_ddrphy_pll_1
+# ** Warning: (vsim-3722) ./../../ddr_test.v(314): [TFMPC] - Missing connection for port 'clkout1'.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(445): [TFMPC] - Too few port connections. Expected 51, found 49.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ipsxb_ddrc_top
+# ** Warning: (vsim-3722) ./../../ddr_test.v(445): [TFMPC] - Missing connection for port 'ddr_zqcs_req'.
+# 
+# ** Warning: (vsim-3722) ./../../ddr_test.v(445): [TFMPC] - Missing connection for port 'ddr_zqcs_ack'.
+# 
+# ** Warning: (vsim-8607) nofile(285): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: (vsim-3017) ./../../ddr_test.v(521): [TFMPC] - Too few port connections. Expected 57, found 56.
+# 
+#         Region: /ddr_test_top_tb/u_ddr/I_ipsxb_ddr_top/u_ddrphy_top
+# ** Warning: (vsim-3722) ./../../ddr_test.v(521): [TFMPC] - Missing connection for port 'dfi_error'.
+# 
+# ** Warning: (vsim-8607) nofile(41): Non-positive replication multiplier inside concat. Replication will be ignored.
+# 
+# ** Warning: Design size of 99 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+run
+# 60000.0 ps keyboard reset sequence finished!

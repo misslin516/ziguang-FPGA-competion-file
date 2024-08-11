@@ -1,0 +1,447 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\fpga_competition\FPGA_competition\ziguangtongchuang_file\logos_fft_demo\sim\modelsim
+Xdrm_init_param_v_unit
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 gzNVL9ZiR0mf2>Azd2fV73
+I?HB?I:Mkgi^;_aT88AVni2
+V?HB?I:Mkgi^;_aT88AVni2
+!i103 1
+S1
+Z2 dD:\fpga_competition\FPGA_competition\ziguangtongchuang_file\logos_fft_demo\sim\modelsim
+Z3 w1710405626
+8../../rtl/drm_sdpram/rtl/drm_init_param.v
+F../../rtl/drm_sdpram/rtl/drm_init_param.v
+L0 4
+Z4 OV;L;10.1d;51
+Z5 !s108 1711950809.968000
+Z6 !s107 ../../sim_lib/modelsim/ipsxe_fft_core_v1_1_simvpAll.vp|../../rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v|../../rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v|../../rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v|../../rtl/distram_sreg/ipsxe_fft_distram_sreg.v|../../rtl/drm_sdpram/rtl/drm_init_param.v|../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v|../../rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v|../../rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v|../../fft_demo_00.v|../../example_design/bench/ipsxe_fft_onboard_top_tb.sv|../../ipsxe_fft_exp_rom.v|../../example_design/rtl/ipsxe_fft_sync_arstn.v|../../example_design/rtl/ipsxe_fft_frame_chk.v|../../example_design/rtl/ipsxe_fft_frame_gen.v|../../example_design/rtl/ipsxe_fft_onboard_top.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v|
+Z7 !s90 -reportprogress|300|-incr|-sv|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v|D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v|-f|./ipsxe_fft_onboard_top_filelist.f|-l|vlog.log|
+!s101 -O0
+Z8 o-sv -O0
+vfft_demo_00
+R1
+!i10b 1
+!s100 MiH4[eFBck[ih<zaT0W:33
+IZc>E@FA_n^lU5K84P4oJb3
+V]YaWVHPE4>[e6NXTU`U[33
+!s105 fft_demo_00_v_unit
+S1
+R2
+w1710141051
+8../../fft_demo_00.v
+F../../fft_demo_00.v
+L0 13
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vGTP_APM_E1
+R1
+!i10b 1
+!s100 i]iKeDmSY8IEo>j2<B59U2
+Ig4fa2T:FC`DTae13<_3XQ0
+V=?@UKY;a<eKgziTf[O^Xh0
+!s105 GTP_APM_E1_v_unit
+S1
+R2
+w1657559028
+8D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v
+FD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_APM_E1.v
+L0 26
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+n@g@t@p_@a@p@m_@e1
+vGTP_DRM18K
+R1
+!i10b 1
+!s100 >b^]lnfkUHBRTTQVYC;id3
+I0fS5Hb?WTj3>[GXg@CZg[3
+VVR24UYE[;glX]WE[i:>dO2
+!s105 GTP_DRM18K_v_unit
+S1
+R2
+Z9 w1657559030
+8D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v
+FD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K.v
+L0 28
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+n@g@t@p_@d@r@m18@k
+vGTP_DRM18K_E1
+R1
+!i10b 1
+!s100 ig3Fd^^zGm3k36UgP7FDh2
+IEB4SdCD<zkzV3gT9ANOkV0
+V[0;T5@LKo4o8R@:2lNzmd3
+!s105 GTP_DRM18K_E1_v_unit
+S1
+R2
+R9
+8D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v
+FD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM18K_E1.v
+L0 28
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+n@g@t@p_@d@r@m18@k_@e1
+vGTP_DRM9K
+R1
+!i10b 1
+!s100 ;OJU7jES?8E;k5bk?=jN71
+I49b2ZfBm3NfV42mg1QlW_2
+VD7Sd2?4kP_ahfMZC7]LIY3
+!s105 GTP_DRM9K_v_unit
+S1
+R2
+R9
+8D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v
+FD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_DRM9K.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+n@g@t@p_@d@r@m9@k
+vGTP_GRS
+R1
+!i10b 1
+!s100 ;JO8Z4=TM]k9lJk>KH8eo1
+I]4MhNk4]>^[6Re^6]J:^j2
+Vm@_cHT130onF>^[S;LhTh1
+!s105 GTP_GRS_v_unit
+S1
+R2
+w1657559032
+8D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v
+FD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/../../arch/vendor/pango/verilog/simulation/GTP_GRS.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+n@g@t@p_@g@r@s
+vipml_sdpram_v1_7_drm
+R1
+!i10b 1
+!s100 0e5:g?:agC=Q=KGT_DPaJ3
+I50WBcWad@^ez6J=JW[DgZ1
+V^0QgEOVZ;]9]J<a=_3o2G0
+!s105 ipml_sdpram_v1_7_drm_v_unit
+S1
+R2
+R3
+8../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v
+F../../rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v
+L0 18
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_distram_sdpram
+R1
+!i10b 1
+!s100 _dicPGHmkGUOFfaKXhTHP2
+IWJMQeQ25H7Tb:FkPP80>b0
+VNJ9mg`N__`@>VF=3h21DA0
+!s105 ipsxe_fft_distram_sdpram_v_unit
+S1
+R2
+Z10 w1693017429
+8../../rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v
+F../../rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v
+L0 20
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_distram_sreg
+R1
+!i10b 1
+!s100 8R?zX_9VL9IHODUQON`^11
+IT0nX?UVV92WNl_Nik:G_j2
+VJ81OWM8S76PZ:iYPc:Q851
+!s105 ipsxe_fft_distram_sreg_v_unit
+S1
+R2
+R10
+8../../rtl/distram_sreg/ipsxe_fft_distram_sreg.v
+F../../rtl/distram_sreg/ipsxe_fft_distram_sreg.v
+L0 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_distributed_sdpram_v1_2
+R1
+!i10b 1
+!s100 M<@6iUn5SeY_0ImU2YQUa0
+Izb6K9YC895J^_n8LOSN<e1
+ViO7VI=NP<f[YQ::>AVjBm2
+!s105 ipsxe_fft_distributed_sdpram_v1_2_v_unit
+S1
+R2
+R10
+8../../rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v
+F../../rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v
+L0 20
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_distributed_shiftregister_v1_3
+R1
+!i10b 1
+!s100 7D^HIMZgCXWnb]EdnIZnW1
+ID[_fR?Vb2dakF;VoUF2`L0
+VjG4dJH>Bi[6?51F<A3Ghh2
+!s105 ipsxe_fft_distributed_shiftregister_v1_3_v_unit
+S1
+R2
+R10
+8../../rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v
+F../../rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_drm_sdpram_18k
+R1
+!i10b 1
+!s100 ]@3k>bmUjFAYkF:;Vh6D60
+IQX1>Z5_mhAVnkDUILT4XG2
+VcN;1Tl0aUWd>`5NOamE4R0
+!s105 ipsxe_fft_drm_sdpram_18k_v_unit
+S1
+R2
+R10
+8../../rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v
+F../../rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v
+L0 18
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_drm_sdpram_36k
+R1
+!i10b 1
+!s100 D0hFic<b_h^i>TNiLDFVJ1
+I`bzGX6AG1n`n<7ITIWT<A3
+VI4@c0=aDeo`^L1m[ME=Dn0
+!s105 ipsxe_fft_drm_sdpram_36k_v_unit
+S1
+R2
+w1710406338
+8../../rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v
+F../../rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v
+L0 18
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_exp_rom
+R1
+!i10b 1
+!s100 :Cf7aSoD?VYPe7D86dd:S1
+I6Z[eS6i^KkZNmd;S2M7H=3
+VI728jKeVI>0Ob<8IVUDG21
+!s105 ipsxe_fft_exp_rom_v_unit
+S1
+R2
+w1710473721
+8../../ipsxe_fft_exp_rom.v
+F../../ipsxe_fft_exp_rom.v
+L0 14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_frame_chk
+R1
+!i10b 1
+!s100 glF9ANdf]Z_Sz5^;MjEeo3
+IOHTFHDZghShYHmj0>c`7Q2
+VCiUWCjQcoLJV:^J4jWR=J0
+!s105 ipsxe_fft_frame_chk_v_unit
+S1
+R2
+Z11 w1693017430
+8../../example_design/rtl/ipsxe_fft_frame_chk.v
+F../../example_design/rtl/ipsxe_fft_frame_chk.v
+L0 14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_frame_gen
+R1
+!i10b 1
+!s100 7_IJLz^cX0EIQ?<]5KnlM2
+I]^H5V2V<j`ZJAmOHRD:e[0
+VbQ[oeTfO]baK0FcM`nE`l2
+!s105 ipsxe_fft_frame_gen_v_unit
+S1
+R2
+R11
+8../../example_design/rtl/ipsxe_fft_frame_gen.v
+F../../example_design/rtl/ipsxe_fft_frame_gen.v
+L0 13
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_onboard_top
+R1
+!i10b 1
+!s100 kmKcHkF@::lF]ICM85REA3
+I?T]9k;8X;n@gb[2i[iOOR1
+V_UYS4[Qo]0[iZNYSM7kKC2
+!s105 ipsxe_fft_onboard_top_v_unit
+S1
+R2
+w1710466858
+8../../example_design/rtl/ipsxe_fft_onboard_top.v
+F../../example_design/rtl/ipsxe_fft_onboard_top.v
+L0 13
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_onboard_top_tb
+R1
+!i10b 1
+!s100 GP4nIC>A3^GBjN5jm7o]41
+I?gUIK66<=;MzVJzG6OO_S1
+V@i5DXlE[438Mo`97]P6BI1
+!s105 ipsxe_fft_onboard_top_tb_sv_unit
+S1
+R2
+w1710406738
+8../../example_design/bench/ipsxe_fft_onboard_top_tb.sv
+F../../example_design/bench/ipsxe_fft_onboard_top_tb.sv
+L0 14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8
+vipsxe_fft_sync_arstn
+R1
+!i10b 1
+!s100 c8=_Kbcb:;?>Xkhg@kRT>0
+IBFk_BPJdif<DR[Qe8goFZ1
+V0^Jbf?62U1U^5Z]PzNf360
+!s105 ipsxe_fft_sync_arstn_v_unit
+S1
+R2
+R11
+8../../example_design/rtl/ipsxe_fft_sync_arstn.v
+F../../example_design/rtl/ipsxe_fft_sync_arstn.v
+L0 12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!s101 -O0
+R8

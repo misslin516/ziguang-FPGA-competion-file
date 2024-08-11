@@ -1,0 +1,31 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Notes: 
+  Total_num: the numbers of add/sub in rtl
+  Module Name: the module name of the instantiated module calling directly the add/sub sub module
+  Location/Inst Name: if linefile info exists(no optimization), print the codes location of add/sub in rtl, else print the inst name
+  Count: the amount of lutcarry for add/sub
+  Number: the numbers of add/sub with the same lutcarry counts and linefile
+
+Detailed RTL Component Info :
+-----Add :
+               Total_Num :5
+-----Sub :
+               Total_Num :0
+-----AddSub :
+               Total_Num :0
+
+Add_Sub_AddSub: Initial Mapping Report :
+|--------------------------------|---------|---------|---------|-----------------------------------------------------|
+|Module Name                     |Type     |Count    |Number   |Location/Inst Name                                   |
+|--------------------------------|---------|---------|---------|-----------------------------------------------------|
+|voice_loop_test                 |Add      |19       |1        |../../voice_loop.v:101                               |
+|--------------------------------|---------|---------|---------|-----------------------------------------------------|
+|voice_loop_test                 |Add      |17       |1        |../../voice_loop.v:70                                |
+|--------------------------------|---------|---------|---------|-----------------------------------------------------|
+|ES7243E_reg_config              |Add      |6        |1        |../../ES7243E_reg_config.v:73                        |
+|--------------------------------|---------|---------|---------|-----------------------------------------------------|
+|u_i2c_com                       |Add      |7        |2        |../../i2c_com.v:46                                   |
+|--------------------------------|---------|---------|---------|-----------------------------------------------------|
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+

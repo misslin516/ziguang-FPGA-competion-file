@@ -1,0 +1,34 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_data_module/pango_sim_libraries
+vgje1m563t4DeoBmNwEm+UA==
+!s110 1716086856
+!i10b 0
+!s100 Nd[C^[IfFXMj_JzQ=IdaJ3
+IXO65M?QdVmcl8ISBJzB5X2
+VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+!i8a 416753232
+dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+w1716086856
+8./hssthp_bufds_source_codes/hssthp_bufds.vp
+F./hssthp_bufds_source_codes/hssthp_bufds.vp
+L0 23
+OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1716086856.000000
+!s107 ./hssthp_bufds_source_codes/hssthp_bufds.vp|
+!s90 -incr|-f|./filelist_hssthp_bufds_gtp.f|-work|hssthp_bufds|
+!i113 0
+o-work hssthp_bufds -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+n2ef1243

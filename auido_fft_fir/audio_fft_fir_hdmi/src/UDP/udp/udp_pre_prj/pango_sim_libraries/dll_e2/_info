@@ -1,0 +1,200 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_pre_prj/pango_sim_libraries
+vWoNFa3cRCJu+dDjjnZzIJLU3Kzs5VAMfVIfOQLqekFk=
+Z0 !s10a 1657559070
+Z1 !s110 1713768049
+!i10b 0
+!s100 gdDJ5HR2n<7e0NFl>@X=H1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IM?@cVG`QmV:GmYBPjdoRH2
+!i119 1
+!i8a 366390352
+Z3 dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z4 w1713768049
+8./dll_e2_source_codes/dll_e2_clk_mux_2to1.vp
+F./dll_e2_source_codes/dll_e2_clk_mux_2to1.vp
+!i122 0
+Z5 L0 23 1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1713768049.000000
+Z9 !s107 ./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm_hp.vp|./dll_e2_source_codes/dll_e2_clk_mux_2to1.vp|./dll_e2_source_codes/dll_e2_dll_clk_gate.vp|./dll_e2_source_codes/dll_e2_dll_dff.vp|./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm.vp|./dll_e2_source_codes/dll_e2_ddrphy_dll_fdiv.vp|./dll_e2_source_codes/dll_e2_dly_chain.vp|
+Z10 !s90 -incr|-f|./filelist_dll_e2_gtp.f|-work|dll_e2|
+!i113 0
+Z11 o-work dll_e2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+n273f541
+vPkJ+LEOVpiIcwJWSFMmJDhRB0KXJ6wDHy0xEBX4In4I=
+R0
+R1
+!i10b 0
+!s100 B_O2Y>[F`CC`@iSz:i;L^1
+R2
+I<KQ^K@@nl5JhhHGUk9H2C3
+!i119 1
+!i8a 1194347296
+R3
+R4
+8./dll_e2_source_codes/dll_e2_ddrphy_dll_fdiv.vp
+F./dll_e2_source_codes/dll_e2_ddrphy_dll_fdiv.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n8d756
+vnF2rbsQnVYYM1UcrYEVYdX3+5wu+vJmwPrtJniCVI7o=
+R0
+R1
+!i10b 0
+!s100 bWUPRPEoQEmmIT<R6e@i63
+R2
+IaUKReWl`@`5_24fR>BLCC2
+!i119 1
+!i8a 2075162736
+R3
+R4
+8./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm.vp
+F./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n5008c5d
+vxUoF5c4HggrKAoyT3M9TxVx/Bj6NLYUOGsJx9ooTyxA=
+R0
+R1
+!i10b 0
+!s100 hgN4FML4NIi3AW;RF;T7`1
+R2
+IcY8RVAVU4]3C=<f^OB46z1
+!i119 1
+!i8a 1780230640
+R3
+R4
+8./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm_hp.vp
+F./dll_e2_source_codes/dll_e2_ddrphy_dll_fsm_hp.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n8c685f0
+v3B6ewhLpCW+tdT8MZTJJClkqOBrkp+7UHJ/MW0WRlvM=
+R0
+R1
+!i10b 0
+!s100 GgFBF[o=18i`VfFDQIBi?1
+R2
+IXDT3FFIJGbSnafA`hogiE1
+!i119 1
+!i8a 1551053392
+R3
+R4
+8./dll_e2_source_codes/dll_e2_dll_clk_gate.vp
+F./dll_e2_source_codes/dll_e2_dll_clk_gate.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+ndb48565
+v4k903VNa8zrCW9GbsX1ZqQ==
+R0
+R1
+!i10b 0
+!s100 GMPAj^>fgfj0bLW_OklB>0
+R2
+IBehGUZXBf_@oHYV]kmFHL3
+!i119 1
+!i8a 1648662928
+R3
+R4
+8./dll_e2_source_codes/dll_e2_dll_dff.vp
+F./dll_e2_source_codes/dll_e2_dll_dff.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+nc35ba26
+vzP+tcqTn1G72oYWCvhFKbPQA5rm55OkXAeZYlMnrOgM=
+R0
+R1
+!i10b 0
+!s100 P_DIdU=jE?5dOb;Gc`YWl1
+R2
+IaZ4O00C<4@_kQ^ZUgcnHg1
+!i119 1
+!i8a 381177760
+R3
+R4
+8./dll_e2_source_codes/dll_e2_dly_chain.vp
+F./dll_e2_source_codes/dll_e2_dly_chain.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+ncdb0dee

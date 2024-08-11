@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../top_hdmi.gen/sources_1/ip/clk_wiz_0" \
+"../../../../top_hdmi.gen/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.v" \
+"../../../../top_hdmi.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v" \
+"../../../../../../src/hdmi_display/asyn_rst_syn.v" \
+"../../../../../../src/hdmi_display/dvi_encoder.v" \
+"../../../../../../src/hdmi_display/dvi_transmitter_top.v" \
+"../../../../../../src/hdmi_display/fifo_ctrl_hdmi.v" \
+"../../../../../../src/hdmi_display/hdmi_display.v" \
+"../../../../../../src/hdmi_display/serializer_10_to_1.v" \
+"../../../../../../src/hdmi_display/top_hdmi.v" \
+"../../../../../../src/hdmi_display/video_display.v" \
+"../../../../../../src/hdmi_display/video_driver.v" \
+"../../../../../../sim/tb_top_hdmi.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

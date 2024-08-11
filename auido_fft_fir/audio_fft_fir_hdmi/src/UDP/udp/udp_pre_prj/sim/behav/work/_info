@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_pre_prj/sim/behav
+T_opt
+Z1 !s110 1713774601
+VfFk1:9]K6Y6hhKfDU_Z`82
+04 6 4 work tb_udp fast 0
+04 7 4 usim GTP_GRS fast 0
+=1-84a938bfc9a0-66262009-2a6-3134
+o-quiet -auto_acc_if_foreign -work work -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vcrc32_d8
+R1
+!i10b 1
+!s100 756E@Wko>:hz]fe5jSYPR0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+InLQ6<k4KUJ1@B9d6f1N253
+R0
+w1686623416
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/arp/crc32_d8.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/arp/crc32_d8.v
+!i122 38
+L0 22 99
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1713774600.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/arp/crc32_d8.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/arp/crc32_d8.v|-work|work|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_udp
+R1
+!i10b 1
+!s100 `=kM`S<>;P>7=[h15b8kU2
+R3
+ITN:WND0RP3`Q_X:HXl<aY1
+R0
+w1713769363
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/tb_udp.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/tb_udp.v
+!i122 39
+L0 5 146
+R4
+R5
+r1
+!s85 0
+31
+!s108 1713774601.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/tb_udp.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/tb_udp.v|-work|work|
+!i113 0
+R7
+R2
+vudp_re
+Z8 !s110 1713774600
+!i10b 1
+!s100 ]m3mY1c5l<8PYDecO117^3
+R3
+I3MaWi[J3jDSmc4R8>GOeg1
+R0
+w1713767354
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_re.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_re.v
+!i122 35
+L0 2 101
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_re.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_re.v|-work|work|
+!i113 0
+R7
+R2
+vudp_rx_re
+R8
+!i10b 1
+!s100 h6J;eHAAFE;Mgn]AMJboJ2
+R3
+IhlnTk`Yg@68KAiYYTjV6h0
+R0
+w1713771280
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_rx_re.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_rx_re.v
+!i122 36
+L0 2 262
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_rx_re.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_rx_re.v|-work|work|
+!i113 0
+R7
+R2
+vudp_tx_re
+R8
+!i10b 1
+!s100 Hg=32:7noo`5^lb7HN0[o3
+R3
+I>H_ijKY@4e5GddiP:DbVW0
+R0
+w1713774413
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_tx_re.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_tx_re.v
+!i122 37
+L0 3 398
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_tx_re.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_tx_re.v|-work|work|
+!i113 0
+R7
+R2

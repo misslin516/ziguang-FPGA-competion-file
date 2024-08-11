@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v</data>
+            <data>Verilog</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:1s</data>
+            <data>0h:0m:1s</data>
+            <data>0h:0m:4s</data>
+            <data>125</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 5 5600H with Radeon Graphics</data>
+            <data>16</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v(line number: 21)] Analyzing module DelayUnit (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v(line number: 10)] Analyzing module LMS (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v(line number: 21)] Analyzing module LMS_tap (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v(line number: 21)] Analyzing module LMSx8 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v(line number: 6)] Analyzing module LMSX_selfdefine (library work)</data>
+        </row>
+        <row>
+            <data message="7">Verilog-4005: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v(line number: 65)] Syntax error near )</data>
+        </row>
+        <row>
+            <data message="7">Verilog-4005: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v(line number: 74)] Syntax error near =</data>
+        </row>
+        <row>
+            <data message="7">Verilog-4070: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v(line number: 74)] Illegal reference to array variable sum_reg</data>
+        </row>
+        <row>
+            <data message="7">Verilog-4156: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v(line number: 74)] Cannot have packed dimensions for unpacked type sum_reg</data>
+        </row>
+        <row>
+            <data message="7">Verilog-4157: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v(line number: 74)] Single value range is not allowed in packed dimensions</data>
+        </row>
+        <row>
+            <data message="7">Parsing ERROR.</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;LMS&quot; is set as top module.</data>
+        </row>
+    </table>
+</tables>

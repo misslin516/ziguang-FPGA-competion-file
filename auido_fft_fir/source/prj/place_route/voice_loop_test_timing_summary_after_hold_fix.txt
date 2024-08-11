@@ -1,0 +1,120 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                   996.486       0.000              0             80
+ voice_loop_test|es1_dsclk
+                        voice_loop_test|es1_dsclk
+                                                   498.161       0.000              0             48
+ voice_loop_test|es0_dsclk
+                        voice_loop_test|es0_dsclk
+                                                   997.664       0.000              0            186
+ DebugCore_JCLK         DebugCore_JCLK              23.593       0.000              0           1332
+ DebugCore_CAPTURE      DebugCore_JCLK              20.224       0.000              0            109
+ DebugCore_JCLK         DebugCore_CAPTURE           47.109       0.000              0             16
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                     0.427       0.000              0             80
+ voice_loop_test|es1_dsclk
+                        voice_loop_test|es1_dsclk
+                                                     0.381       0.000              0             48
+ voice_loop_test|es0_dsclk
+                        voice_loop_test|es0_dsclk
+                                                     0.336       0.000              0            186
+ DebugCore_JCLK         DebugCore_JCLK               0.250       0.000              0           1332
+ DebugCore_CAPTURE      DebugCore_JCLK              24.568       0.000              0            109
+ DebugCore_JCLK         DebugCore_CAPTURE            0.293       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                   997.531       0.000              0             80
+ voice_loop_test|es1_dsclk
+                        voice_loop_test|es1_dsclk
+                                                   498.782       0.000              0             48
+ voice_loop_test|es0_dsclk
+                        voice_loop_test|es0_dsclk
+                                                   998.319       0.000              0            186
+ DebugCore_JCLK         DebugCore_JCLK              24.015       0.000              0           1332
+ DebugCore_CAPTURE      DebugCore_JCLK              21.817       0.000              0            109
+ DebugCore_JCLK         DebugCore_CAPTURE           48.059       0.000              0             16
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                     0.334       0.000              0             80
+ voice_loop_test|es1_dsclk
+                        voice_loop_test|es1_dsclk
+                                                     0.298       0.000              0             48
+ voice_loop_test|es0_dsclk
+                        voice_loop_test|es0_dsclk
+                                                     0.264       0.000              0            186
+ DebugCore_JCLK         DebugCore_JCLK               0.250       0.000              0           1332
+ DebugCore_CAPTURE      DebugCore_JCLK              24.966       0.000              0            109
+ DebugCore_JCLK         DebugCore_CAPTURE            0.538       0.000              0             16
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

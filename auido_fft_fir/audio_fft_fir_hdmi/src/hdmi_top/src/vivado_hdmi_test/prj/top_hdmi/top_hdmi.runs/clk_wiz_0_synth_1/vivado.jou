@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Apr  3 09:31:10 2024
+# Process ID: 16324
+# Current directory: C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/hdmi_top/src/vivado_hdmi_test/prj/top_hdmi/top_hdmi.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/hdmi_top/src/vivado_hdmi_test/prj/top_hdmi/top_hdmi.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/hdmi_top/src/vivado_hdmi_test/prj/top_hdmi/top_hdmi.runs/clk_wiz_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

@@ -1,0 +1,1 @@
+.rtl_screen -top_module {fir_guide} -include_path {<C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_fir>} -design_files {<C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/fir_guide.v|work><C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_cell.v|work><C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_man.v|work>}

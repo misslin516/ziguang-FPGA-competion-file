@@ -1,0 +1,1 @@
+.rtl_screen -top_module {divide} -include_path {<C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_divide>} -design_files {<C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v|work>}

@@ -1,0 +1,91 @@
+# do sim.tcl 
+# Modifying D:\altera\13.1\modelsim_ase\win32aloem/modelsim.ini
+# D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/ip/system_ip/ipsxb_hmic_s/ipsxb_hmic_eval/ipsxb_hmic_s/../../../../../arch/vendor/pango/verilog/simulation
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ddr_test_top_tb
+# -- Compiling module ddr3
+# -- Compiling module axi_bist_top_v1_0
+# -- Compiling module prbs15_64bit_v1_0
+# -- Compiling module prbs31_128bit_v1_0
+# -- Compiling module test_ddr
+# -- Compiling module test_main_ctrl_v1_0
+# -- Compiling module test_rd_ctrl_v1_0
+# -- Compiling module test_wr_ctrl_v1_0
+# -- Compiling module uart_rd_lock
+# -- Compiling module ipsxb_clk_gen_32bit
+# -- Compiling module ipsxb_cmd_parser_32bit
+# -- Compiling module ipsxb_seu_rs232_intf
+# -- Compiling module ipsxb_seu_uart_rx
+# -- Compiling module ipsxb_seu_uart_tx
+# -- Compiling module ipsxb_uart_ctrl_32bit
+# -- Compiling module ipsxb_uart_ctrl_top_32bit
+# -- Compiling module ipsxb_ver_ctrl_32bit
+# -- Compiling module ipsxb_rst_sync_v1_1
+# -- Compiling module ipsxb_ddrphy_slice_top_v1_4
+# -- Compiling module ipsxb_ddrphy_pll_v1_0
+# -- Compiling module ipsxb_distributed_fifo_v1_0
+# -- Compiling module ipsxb_distributed_fifo_ctr_v1_0
+# -- Compiling module ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# -- Compiling module ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# -- Compiling module GTP_DLL
+# -- Compiling module GTP_DDC_E1
+# -- Compiling module GTP_OSERDES
+# -- Compiling module GTP_OUTBUFT
+# -- Compiling module GTP_OUTBUFTCO
+# -- Compiling module GTP_GRS
+# -- Compiling module GTP_CLKBUFG
+# -- Compiling module GTP_PLL_E3
+# -- Compiling module GTP_IOCLKBUF
+# -- Compiling module GTP_IOCLKDIV
+# -- Compiling module GTP_IOBUFCO
+# -- Compiling module GTP_IOBUF
+# -- Compiling module GTP_IODELAY
+# -- Compiling module GTP_ISERDES
+# -- Compiling module ddr_test
+# -- Compiling module ddr_test_ddrphy_top
+# -- Compiling package ddr_test_top_tb_v_unit
+# -- Compiling package ddr_test_top_tb_v_unit
+# -- Compiling module axi_bist_top_v1_0
+# -- Compiling module prbs15_64bit_v1_0
+# -- Compiling module prbs31_128bit_v1_0
+# -- Compiling module test_ddr
+# -- Compiling module test_main_ctrl_v1_0
+# -- Compiling module test_rd_ctrl_v1_0
+# -- Compiling module test_wr_ctrl_v1_0
+# -- Compiling module uart_rd_lock
+# -- Compiling module ipsxb_clk_gen_32bit
+# -- Compiling module ipsxb_cmd_parser_32bit
+# -- Compiling module ipsxb_seu_rs232_intf
+# -- Compiling module ipsxb_seu_uart_rx
+# -- Compiling module ipsxb_seu_uart_tx
+# -- Compiling module ipsxb_uart_ctrl_32bit
+# -- Compiling module ipsxb_uart_ctrl_top_32bit
+# -- Compiling module ipsxb_ver_ctrl_32bit
+# -- Compiling module ipsxb_rst_sync_v1_1
+# -- Compiling module ipsxb_ddrphy_slice_top_v1_4
+# -- Compiling module ipsxb_ddrphy_pll_v1_0
+# -- Compiling module ipsxb_distributed_fifo_v1_0
+# -- Compiling module ipsxb_distributed_fifo_ctr_v1_0
+# -- Compiling module ipsxb_distributed_fifo_v1_0_distributed_fifo_v1_0
+# -- Compiling module ipsxb_distributed_sdpram_v1_0_distributed_fifo_v1_0
+# -- Compiling module GTP_DLL
+# -- Compiling module GTP_DDC_E1
+# -- Compiling module GTP_OSERDES
+# -- Compiling module GTP_OUTBUFT
+# -- Compiling module GTP_OUTBUFTCO
+# -- Compiling module GTP_GRS
+# -- Compiling module GTP_CLKBUFG
+# -- Compiling module GTP_PLL_E3
+# -- Compiling module GTP_IOCLKBUF
+# -- Compiling module GTP_IOCLKDIV
+# -- Compiling module GTP_IOBUFCO
+# -- Compiling module GTP_IOBUF
+# -- Compiling module GTP_IODELAY
+# -- Compiling module GTP_ISERDES
+# -- Compiling module ddr_test
+# -- Compiling module ddr_test_ddrphy_top
+# 
+# Top level modules:
+# 	ddr_test_top_tb

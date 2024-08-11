@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/key_filter.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/key_uart.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_data_gen.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_rx.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_top.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_tx.v</data>
+            <data>Verilog</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:4s</data>
+            <data>125</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 5 5600H with Radeon Graphics</data>
+            <data>16</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/key_filter.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/key_filter.v(line number: 1)] Analyzing module key_filter (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/key_uart.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/key_uart.v(line number: 4)] Analyzing module key_uart (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_data_gen.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_data_gen.v(line number: 23)] Analyzing module uart_data_gen (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_rx.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_rx.v(line number: 24)] Analyzing module uart_rx (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_top.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_top.v(line number: 24)] Analyzing module uart_top (library work)</data>
+        </row>
+        <row>
+            <data message="7">Verilog-4005: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_top.v(line number: 44)] Syntax error near wire</data>
+        </row>
+        <row>
+            <data message="7">Parsing ERROR.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_tx.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/uart/uart_tx.v(line number: 24)] Analyzing module uart_tx (library work)</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;key_uart&quot; is set as top module.</data>
+        </row>
+    </table>
+</tables>

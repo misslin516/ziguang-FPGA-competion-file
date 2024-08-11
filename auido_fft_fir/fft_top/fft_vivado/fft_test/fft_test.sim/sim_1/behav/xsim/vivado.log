@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Mar 28 14:34:00 2024
+# Process ID: 22756
+# Current directory: C:/Users/86151/Desktop/auido_fft_fir/fft_top/fft_vivado/fft_test/fft_test.sim/sim_1/behav/xsim
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24408 C:\Users\86151\Desktop\auido_fft_fir\fft_top\fft_vivado\fft_test\fft_test.sim\sim_1\behav\xsim\tb_fft_test_behav.wdb
+# Log file: C:/Users/86151/Desktop/auido_fft_fir/fft_top/fft_vivado/fft_test/fft_test.sim/sim_1/behav/xsim/vivado.log
+# Journal file: C:/Users/86151/Desktop/auido_fft_fir/fft_top/fft_vivado/fft_test/fft_test.sim/sim_1/behav/xsim\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_wave_database {C:\Users\86151\Desktop\auido_fft_fir\fft_top\fft_vivado\fft_test\fft_test.sim\sim_1\behav\xsim\tb_fft_test_behav.wdb}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xinlinx/Vivado/2021.1/data/ip'.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 28 14:38:46 2024...

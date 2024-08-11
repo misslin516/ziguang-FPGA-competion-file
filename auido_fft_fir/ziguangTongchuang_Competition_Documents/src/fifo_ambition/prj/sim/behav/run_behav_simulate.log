@@ -1,0 +1,160 @@
+# Reading D:/modelsim106/setup/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap usim C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap adc C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrc C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrphy C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap hsst_e2 C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap iolhr_dft C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ipal_e1 C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap pciegen2 C:/Users/86151/Desktop/fifo_ambition/prj/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:37 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/src/fifo_ambition.v -work work 
+# -- Compiling module fifo_ambition_top
+# 
+# Top level modules:
+# 	fifo_ambition_top
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_ctr_v1_0.v -work work 
+# -- Compiling module ipm_distributed_fifo_ctr_v1_0
+# 
+# Top level modules:
+# 	ipm_distributed_fifo_ctr_v1_0
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_fifo_v1_2_fifo_ambition.v -work work 
+# -- Compiling module ipm_distributed_fifo_v1_2_fifo_ambition
+# 
+# Top level modules:
+# 	ipm_distributed_fifo_v1_2_fifo_ambition
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/rtl/ipm_distributed_sdpram_v1_2_fifo_ambition.v -work work 
+# -- Compiling module ipm_distributed_sdpram_v1_2_fifo_ambition
+# 
+# Top level modules:
+# 	ipm_distributed_sdpram_v1_2_fifo_ambition
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition/fifo_ambition.v -work work 
+# -- Compiling module fifo_ambition
+# 
+# Top level modules:
+# 	fifo_ambition
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_ctrl_v1_3.v -work work 
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# 
+# Top level modules:
+# 	ipml_fifo_ctrl_v1_3
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_sdpram_v1_6_fifo_ambition_re.v -work work 
+# -- Compiling module ipml_sdpram_v1_6_fifo_ambition_re
+# 
+# Top level modules:
+# 	ipml_sdpram_v1_6_fifo_ambition_re
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/rtl/ipml_fifo_v1_6_fifo_ambition_re.v -work work 
+# -- Compiling module ipml_fifo_v1_6_fifo_ambition_re
+# 
+# Top level modules:
+# 	ipml_fifo_v1_6_fifo_ambition_re
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/prj/ipcore/fifo_ambition_re/fifo_ambition_re.v -work work 
+# -- Compiling module fifo_ambition_re
+# 
+# Top level modules:
+# 	fifo_ambition_re
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:03:38 on Jun 12,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/fifo_ambition/src/tb_fifo_ambition.v -work work 
+# -- Compiling module tb_fifo_ambition
+# 
+# Top level modules:
+# 	tb_fifo_ambition
+# End time: 18:03:38 on Jun 12,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 tb_fifo_ambition usim.GTP_GRS 
+# Start time: 18:03:38 on Jun 12,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/86151/Desktop/fifo_ambition/prj/sim/behav/work.tb_fifo_ambition
+# Loading work.tb_fifo_ambition
+# Refreshing C:/Users/86151/Desktop/fifo_ambition/prj/sim/behav/work.fifo_ambition_top
+# Loading work.fifo_ambition_top
+# Refreshing C:/Users/86151/Desktop/fifo_ambition/prj/sim/behav/work.fifo_ambition
+# Loading work.fifo_ambition
+# Refreshing C:/Users/86151/Desktop/fifo_ambition/prj/sim/behav/work.ipm_distributed_fifo_v1_2_fifo_ambition
+# Loading work.ipm_distributed_fifo_v1_2_fifo_ambition
+# Refreshing C:/Users/86151/Desktop/fifo_ambition/prj/sim/behav/work.ipm_distributed_sdpram_v1_2_fifo_ambition
+# Loading work.ipm_distributed_sdpram_v1_2_fifo_ambition
+# Refreshing C:/Users/86151/Desktop/fifo_ambition/prj/sim/behav/work.ipm_distributed_fifo_ctr_v1_0
+# Loading work.ipm_distributed_fifo_ctr_v1_0
+# Loading usim.GTP_GRS
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint sim:/tb_fifo_ambition/fifo_ambition_inst/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run
+# End time: 18:12:00 on Jun 12,2024, Elapsed time: 0:08:22
+# Errors: 0, Warnings: 0

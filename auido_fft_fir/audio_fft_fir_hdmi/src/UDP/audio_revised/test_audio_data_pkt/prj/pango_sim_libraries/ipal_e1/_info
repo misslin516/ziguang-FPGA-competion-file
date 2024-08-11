@@ -1,0 +1,167 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/audio_revised/test_audio_data_pkt/prj/pango_sim_libraries
+vFJmyf3iX7lI9ABlRa/Zjyg==
+Z0 !s110 1713703868
+!i10b 0
+!s100 InRgm^D;<^I[kDo1@74QL2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<ac^W7EFU9L9hWA<G6dhf1
+!i119 1
+!i8a 678335440
+Z2 dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z3 w1713703868
+8./ipal_e1_source_codes/ipal_e1_crc32x1.vp
+F./ipal_e1_source_codes/ipal_e1_crc32x1.vp
+!i122 0
+Z4 L0 23 1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1713703868.000000
+!s107 ./ipal_e1_source_codes/ipal_e1_rfifo.vp|./ipal_e1_source_codes/ipal_e1_secded.vp|./ipal_e1_source_codes/ipal_e1_rbcrc.vp|./ipal_e1_source_codes/ipal_e1_if_ispal.vp|./ipal_e1_source_codes/ipal_e1_crc32x32.vp|./ipal_e1_source_codes/ipal_e1_crc32x1.vp|
+Z8 !s90 -incr|-f|./filelist_ipal_e1_gtp.f|-work|ipal_e1|
+!i113 0
+Z9 o-work ipal_e1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+n2a39e81
+v2+r+UCBo6SIzPRFp7OTK1WXvJFHGHpPBlN/CX5bpO3Y=
+R0
+!i10b 0
+!s100 h>2WYV=W@f_G_>nVLcb:?2
+R1
+I6811KWRk7DIn?Biim6N9f1
+!i119 1
+!i8a 1445492128
+R2
+R3
+8./ipal_e1_source_codes/ipal_e1_crc32x32.vp
+F./ipal_e1_source_codes/ipal_e1_crc32x32.vp
+!i122 0
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ./ipal_e1_source_codes/ipal_e1_rfifo.vp|./ipal_e1_source_codes/ipal_e1_secded.vp|./ipal_e1_source_codes/ipal_e1_rbcrc.vp|./ipal_e1_source_codes/ipal_e1_if_ispal.vp|./ipal_e1_source_codes/ipal_e1_crc32x32.vp|./ipal_e1_source_codes/ipal_e1_crc32x1.vp|
+R8
+!i113 0
+R9
+R10
+na39e842
+vStMsNiAPMXHPgBMj6WYBoPg/3Gji8kuyffSwHHzJSN0=
+R0
+!i10b 0
+!s100 GiM`e0j5YPI:CYb524PL>1
+R1
+IhHFRo2b7VlX?@_A`Zj<3g2
+!i119 1
+!i8a 577251536
+R2
+R3
+8./ipal_e1_source_codes/ipal_e1_if_ispal.vp
+F./ipal_e1_source_codes/ipal_e1_if_ispal.vp
+!i122 0
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+na1fd50c
+vuHa+1IuOL9OnfsH4z6EUlQ==
+R0
+!i10b 0
+!s100 AAO?1`X;a4CeAPfN6nica1
+R1
+I0=BG1c2Oi^MPoBHg;X2FA1
+!i119 1
+!i8a 1483000832
+R2
+R3
+8./ipal_e1_source_codes/ipal_e1_rbcrc.vp
+F./ipal_e1_source_codes/ipal_e1_rbcrc.vp
+!i122 0
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+n700af73
+vrCeQPp6dznyf7WIU2gkpyg==
+R0
+!i10b 0
+!s100 GDKMmY>G@VM^zWd_o8ZNK3
+R1
+I>gJA[MEY436l>1gEK?b^B0
+!i119 1
+!i8a 1667533872
+R2
+R3
+8./ipal_e1_source_codes/ipal_e1_rfifo.vp
+F./ipal_e1_source_codes/ipal_e1_rfifo.vp
+!i122 0
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+n700ea3f
+vq8VqFNAaxkKZxvuo9rZTMg==
+R0
+!i10b 0
+!s100 e`hY1GaXMVzSF3f1dk:;`0
+R1
+IEZ3CL97B[UJfj8FJ<IGL31
+!i119 1
+!i8a 1299393712
+R2
+R3
+8./ipal_e1_source_codes/ipal_e1_secded.vp
+F./ipal_e1_source_codes/ipal_e1_secded.vp
+!i122 0
+R4
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+n19c5c4

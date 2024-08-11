@@ -1,0 +1,348 @@
+[Info] [2024-5-26 14:20:35] /***************************Start Configuration***************************/
+[Info] [2024-5-26 14:20:35] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-26 14:20:35] Version: 99559
+[Info] [2024-5-26 14:20:36] Current Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 14:20:36] PDS Dir Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 14:20:38] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-5-26 14:20:38] Client Local host name:Thecomputerofmartin
+[Debug] [2024-5-26 14:20:38] Client Local Address:10.136.129.96
+[Debug] [2024-5-26 14:20:38] Server Address:127.0.0.1, Port:65420
+[Info] [2024-5-26 14:20:38] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-5-26 14:20:38] Finish.
+[Info] [2024-5-26 14:20:38] Connect server succeeded
+[Debug] [2024-5-26 14:20:38] Send RPC:1
+[Debug] [2024-5-26 14:20:38] Send cmd [check version information:40005] OK
+[Debug] [2024-5-26 14:20:38] Send RPC:2
+[Debug] [2024-5-26 14:20:38] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-5-26 14:20:38] Begin to send initialize chain cmd...
+[Debug] [2024-5-26 14:20:38] Send RPC:3
+[Debug] [2024-5-26 14:20:38] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-26 14:20:38] End to send initialize chain cmd.
+[Debug] [2024-5-26 14:20:38] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-5-26 14:20:39] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2024-5-26 14:20:39] begin the exec of open cable cmd...
+[Debug] [2024-5-26 14:20:39] Begin to deal with chain from server...
+[Debug] [2024-5-26 14:20:39] Begin to set user chain...
+[Debug] [2024-5-26 14:20:39] End to set user chain.
+[Debug] [2024-5-26 14:20:39] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 14:20:39] End to update graphic item and tree item ...
+[Info] [2024-5-26 14:20:41] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp/generate_bitstream/udp_loop_noarp.sbit
+[Debug] [2024-5-26 14:20:41] begin to get device info from CFG file...
+[Debug] [2024-5-26 14:20:41] end to get device info from CFG file...
+[Debug] [2024-5-26 14:20:41] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 14:20:41] End to update graphic item and tree item ...
+[Debug] [2024-5-26 14:20:41] End to deal wiht chain from server.
+[Debug] [2024-5-26 14:20:41] end the exec of open cable cmd.
+[Debug] [2024-5-26 14:20:41] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2024-5-26 14:20:42] Begin to send programming cmd...
+[Debug] [2024-5-26 14:20:42] Send RPC:4
+[Debug] [2024-5-26 14:20:42] Begin to send program data.
+[Debug] [2024-5-26 14:20:42] End to send program data.
+[Debug] [2024-5-26 14:20:42] Send cmd [Program:20002] OK
+[Debug] [2024-5-26 14:20:43] The value of Progress is 6
+[Debug] [2024-5-26 14:20:43] The value of Progress is 10
+[Debug] [2024-5-26 14:20:43] The value of Progress is 15
+[Debug] [2024-5-26 14:20:43] The value of Progress is 20
+[Debug] [2024-5-26 14:20:43] The value of Progress is 25
+[Debug] [2024-5-26 14:20:43] The value of Progress is 30
+[Debug] [2024-5-26 14:20:43] The value of Progress is 35
+[Debug] [2024-5-26 14:20:43] The value of Progress is 40
+[Debug] [2024-5-26 14:20:43] The value of Progress is 45
+[Debug] [2024-5-26 14:20:43] The value of Progress is 50
+[Debug] [2024-5-26 14:20:43] The value of Progress is 55
+[Debug] [2024-5-26 14:20:43] The value of Progress is 60
+[Debug] [2024-5-26 14:20:44] The value of Progress is 65
+[Debug] [2024-5-26 14:20:44] The value of Progress is 70
+[Debug] [2024-5-26 14:20:44] The value of Progress is 75
+[Debug] [2024-5-26 14:20:44] The value of Progress is 80
+[Debug] [2024-5-26 14:20:44] The value of Progress is 85
+[Debug] [2024-5-26 14:20:44] The value of Progress is 90
+[Debug] [2024-5-26 14:20:44] The value of Progress is 95
+[Debug] [2024-5-26 14:20:44] The value of Progress is 100
+[Debug] [2024-5-26 14:20:44] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 14:20:44] End to send programming cmd.
+[Info] [2024-5-26 14:37:32] /***************************End Configration***************************/
+[Info] [2024-5-26 14:37:46] /***************************Start Configuration***************************/
+[Info] [2024-5-26 14:37:46] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-26 14:37:46] Version: 99559
+[Info] [2024-5-26 14:37:47] Current Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 14:37:47] PDS Dir Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 14:37:49] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-5-26 14:37:49] Client Local host name:Thecomputerofmartin
+[Debug] [2024-5-26 14:37:49] Client Local Address:10.136.129.96
+[Debug] [2024-5-26 14:37:49] Server Address:127.0.0.1, Port:65420
+[Info] [2024-5-26 14:37:50] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-5-26 14:37:50] Finish.
+[Info] [2024-5-26 14:37:50] Connect server succeeded
+[Debug] [2024-5-26 14:37:50] Send RPC:1
+[Debug] [2024-5-26 14:37:50] Send cmd [check version information:40005] OK
+[Debug] [2024-5-26 14:37:50] Send RPC:2
+[Debug] [2024-5-26 14:37:50] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-5-26 14:37:50] Begin to send initialize chain cmd...
+[Debug] [2024-5-26 14:37:50] Send RPC:3
+[Debug] [2024-5-26 14:37:50] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-26 14:37:50] End to send initialize chain cmd.
+[Debug] [2024-5-26 14:37:50] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-5-26 14:37:50] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2024-5-26 14:37:51] begin the exec of open cable cmd...
+[Debug] [2024-5-26 14:37:51] Begin to deal with chain from server...
+[Debug] [2024-5-26 14:37:51] Begin to set user chain...
+[Debug] [2024-5-26 14:37:51] End to set user chain.
+[Debug] [2024-5-26 14:37:51] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 14:37:51] End to update graphic item and tree item ...
+[Info] [2024-5-26 14:37:52] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp/generate_bitstream/udp_loop_noarp.sbit
+[Debug] [2024-5-26 14:37:52] begin to get device info from CFG file...
+[Debug] [2024-5-26 14:37:52] end to get device info from CFG file...
+[Debug] [2024-5-26 14:37:52] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 14:37:52] End to update graphic item and tree item ...
+[Debug] [2024-5-26 14:37:52] End to deal wiht chain from server.
+[Debug] [2024-5-26 14:37:52] end the exec of open cable cmd.
+[Debug] [2024-5-26 14:37:52] COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2024-5-26 14:37:53] Begin to send programming cmd...
+[Debug] [2024-5-26 14:37:53] Send RPC:4
+[Debug] [2024-5-26 14:37:53] Begin to send program data.
+[Debug] [2024-5-26 14:37:53] End to send program data.
+[Debug] [2024-5-26 14:37:53] Send cmd [Program:20002] OK
+[Debug] [2024-5-26 14:37:54] The value of Progress is 6
+[Debug] [2024-5-26 14:37:54] The value of Progress is 10
+[Debug] [2024-5-26 14:37:54] The value of Progress is 15
+[Debug] [2024-5-26 14:37:54] The value of Progress is 20
+[Debug] [2024-5-26 14:37:54] The value of Progress is 25
+[Debug] [2024-5-26 14:37:54] The value of Progress is 30
+[Debug] [2024-5-26 14:37:54] The value of Progress is 35
+[Debug] [2024-5-26 14:37:54] The value of Progress is 40
+[Debug] [2024-5-26 14:37:54] The value of Progress is 45
+[Debug] [2024-5-26 14:37:54] The value of Progress is 50
+[Debug] [2024-5-26 14:37:54] The value of Progress is 55
+[Debug] [2024-5-26 14:37:55] The value of Progress is 60
+[Debug] [2024-5-26 14:37:55] The value of Progress is 65
+[Debug] [2024-5-26 14:37:55] The value of Progress is 70
+[Debug] [2024-5-26 14:37:55] The value of Progress is 75
+[Debug] [2024-5-26 14:37:55] The value of Progress is 80
+[Debug] [2024-5-26 14:37:55] The value of Progress is 85
+[Debug] [2024-5-26 14:37:55] The value of Progress is 90
+[Debug] [2024-5-26 14:37:55] The value of Progress is 95
+[Debug] [2024-5-26 14:37:55] The value of Progress is 100
+[Debug] [2024-5-26 14:37:55] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 14:37:55] End to send programming cmd.
+[Info] [2024-5-26 14:37:56] /***************************End Configration***************************/
+[Info] [2024-5-26 16:22:46] /***************************Start Configuration***************************/
+[Info] [2024-5-26 16:22:46] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-26 16:22:46] Version: 99559
+[Info] [2024-5-26 16:22:47] Current Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 16:22:47] PDS Dir Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 16:22:58] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-5-26 16:22:58] Client Local host name:Thecomputerofmartin
+[Debug] [2024-5-26 16:22:58] Client Local Address:169.254.51.120
+[Debug] [2024-5-26 16:22:58] Client Local Address:10.136.129.96
+[Debug] [2024-5-26 16:22:58] Server Address:127.0.0.1, Port:65420
+[Info] [2024-5-26 16:22:59] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-5-26 16:22:59] Finish.
+[Info] [2024-5-26 16:22:59] Connect server succeeded
+[Debug] [2024-5-26 16:22:59] Send RPC:1
+[Debug] [2024-5-26 16:22:59] Send cmd [check version information:40005] OK
+[Debug] [2024-5-26 16:22:59] Send RPC:2
+[Debug] [2024-5-26 16:22:59] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-5-26 16:22:59] Begin to send initialize chain cmd...
+[Debug] [2024-5-26 16:22:59] Send RPC:3
+[Debug] [2024-5-26 16:22:59] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-26 16:22:59] End to send initialize chain cmd.
+[Debug] [2024-5-26 16:22:59] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-5-26 16:22:59] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2024-5-26 16:23:00] begin the exec of open cable cmd...
+[Debug] [2024-5-26 16:23:00] Begin to deal with chain from server...
+[Debug] [2024-5-26 16:23:00] Begin to set user chain...
+[Debug] [2024-5-26 16:23:00] End to set user chain.
+[Debug] [2024-5-26 16:23:00] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 16:23:00] End to update graphic item and tree item ...
+[Info] [2024-5-26 16:23:01] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp/generate_bitstream/udp_loop_noarp.sbit
+[Debug] [2024-5-26 16:23:01] begin to get device info from CFG file...
+[Debug] [2024-5-26 16:23:01] end to get device info from CFG file...
+[Debug] [2024-5-26 16:23:01] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 16:23:01] End to update graphic item and tree item ...
+[Debug] [2024-5-26 16:23:01] End to deal wiht chain from server.
+[Debug] [2024-5-26 16:23:01] end the exec of open cable cmd.
+[Debug] [2024-5-26 16:23:01] COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2024-5-26 16:23:04] Begin to send programming cmd...
+[Debug] [2024-5-26 16:23:04] Send RPC:4
+[Debug] [2024-5-26 16:23:04] Begin to send program data.
+[Debug] [2024-5-26 16:23:04] End to send program data.
+[Debug] [2024-5-26 16:23:04] Send cmd [Program:20002] OK
+[Debug] [2024-5-26 16:23:04] The value of Progress is 6
+[Debug] [2024-5-26 16:23:04] The value of Progress is 10
+[Debug] [2024-5-26 16:23:04] The value of Progress is 15
+[Debug] [2024-5-26 16:23:04] The value of Progress is 20
+[Debug] [2024-5-26 16:23:05] The value of Progress is 25
+[Debug] [2024-5-26 16:23:05] The value of Progress is 30
+[Debug] [2024-5-26 16:23:05] The value of Progress is 35
+[Debug] [2024-5-26 16:23:05] The value of Progress is 40
+[Debug] [2024-5-26 16:23:05] The value of Progress is 45
+[Debug] [2024-5-26 16:23:05] The value of Progress is 50
+[Debug] [2024-5-26 16:23:05] The value of Progress is 55
+[Debug] [2024-5-26 16:23:05] The value of Progress is 60
+[Debug] [2024-5-26 16:23:05] The value of Progress is 65
+[Debug] [2024-5-26 16:23:05] The value of Progress is 70
+[Debug] [2024-5-26 16:23:05] The value of Progress is 75
+[Debug] [2024-5-26 16:23:05] The value of Progress is 80
+[Debug] [2024-5-26 16:23:06] The value of Progress is 85
+[Debug] [2024-5-26 16:23:06] The value of Progress is 90
+[Debug] [2024-5-26 16:23:06] The value of Progress is 95
+[Debug] [2024-5-26 16:23:06] The value of Progress is 100
+[Debug] [2024-5-26 16:23:06] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 16:23:06] End to send programming cmd.
+[Debug] [2024-5-26 17:02:26] Begin to send initialize chain cmd...
+[Debug] [2024-5-26 17:02:26] Send RPC:5
+[Debug] [2024-5-26 17:02:26] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-26 17:02:26] End to send initialize chain cmd.
+[Debug] [2024-5-26 17:02:26] begin the exec of open cable cmd...
+[Debug] [2024-5-26 17:02:26] Begin to deal with chain from server...
+[Debug] [2024-5-26 17:02:26] Begin to set user chain...
+[Debug] [2024-5-26 17:02:26] End to set user chain.
+[Debug] [2024-5-26 17:02:26] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 17:02:26] End to update graphic item and tree item ...
+[Info] [2024-5-26 17:02:28] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp/generate_bitstream/udp_loop_noarp.sbit
+[Debug] [2024-5-26 17:02:28] begin to get device info from CFG file...
+[Debug] [2024-5-26 17:02:28] end to get device info from CFG file...
+[Debug] [2024-5-26 17:02:28] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 17:02:28] End to update graphic item and tree item ...
+[Debug] [2024-5-26 17:02:28] End to deal wiht chain from server.
+[Debug] [2024-5-26 17:02:28] end the exec of open cable cmd.
+[Debug] [2024-5-26 17:02:28] COMMAND[Open config cable] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 17:02:29] Begin to send programming cmd...
+[Debug] [2024-5-26 17:02:29] Send RPC:6
+[Debug] [2024-5-26 17:02:29] Begin to send program data.
+[Debug] [2024-5-26 17:02:29] End to send program data.
+[Debug] [2024-5-26 17:02:29] Send cmd [Program:20002] OK
+[Debug] [2024-5-26 17:02:29] The value of Progress is 6
+[Debug] [2024-5-26 17:02:29] The value of Progress is 10
+[Debug] [2024-5-26 17:02:29] The value of Progress is 15
+[Debug] [2024-5-26 17:02:29] The value of Progress is 20
+[Debug] [2024-5-26 17:02:29] The value of Progress is 25
+[Debug] [2024-5-26 17:02:29] The value of Progress is 30
+[Debug] [2024-5-26 17:02:29] The value of Progress is 35
+[Debug] [2024-5-26 17:02:30] The value of Progress is 40
+[Debug] [2024-5-26 17:02:30] The value of Progress is 45
+[Debug] [2024-5-26 17:02:30] The value of Progress is 50
+[Debug] [2024-5-26 17:02:30] The value of Progress is 55
+[Debug] [2024-5-26 17:02:30] The value of Progress is 60
+[Debug] [2024-5-26 17:02:30] The value of Progress is 65
+[Debug] [2024-5-26 17:02:30] The value of Progress is 70
+[Debug] [2024-5-26 17:02:30] The value of Progress is 75
+[Debug] [2024-5-26 17:02:30] The value of Progress is 80
+[Debug] [2024-5-26 17:02:30] The value of Progress is 85
+[Debug] [2024-5-26 17:02:30] The value of Progress is 90
+[Debug] [2024-5-26 17:02:31] The value of Progress is 95
+[Debug] [2024-5-26 17:02:31] The value of Progress is 100
+[Debug] [2024-5-26 17:02:31] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 17:02:31] End to send programming cmd.
+[Info] [2024-5-26 17:02:47] /***************************End Configration***************************/
+[Info] [2024-5-26 19:10:33] /***************************Start Configuration***************************/
+[Info] [2024-5-26 19:10:33] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-26 19:10:33] Version: 99559
+[Info] [2024-5-26 19:10:34] Current Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 19:10:34] PDS Dir Path: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp
+[Info] [2024-5-26 19:10:36] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-5-26 19:10:36] Client Local host name:Thecomputerofmartin
+[Debug] [2024-5-26 19:10:36] Client Local Address:192.168.1.10
+[Debug] [2024-5-26 19:10:36] Client Local Address:10.136.129.96
+[Debug] [2024-5-26 19:10:36] Server Address:127.0.0.1, Port:65420
+[Info] [2024-5-26 19:10:36] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-5-26 19:10:36] Finish.
+[Info] [2024-5-26 19:10:36] Connect server succeeded
+[Debug] [2024-5-26 19:10:36] Send RPC:1
+[Debug] [2024-5-26 19:10:36] Send cmd [check version information:40005] OK
+[Debug] [2024-5-26 19:10:36] Send RPC:2
+[Debug] [2024-5-26 19:10:36] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-5-26 19:10:36] Begin to send initialize chain cmd...
+[Debug] [2024-5-26 19:10:36] Send RPC:3
+[Debug] [2024-5-26 19:10:36] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-26 19:10:36] End to send initialize chain cmd.
+[Debug] [2024-5-26 19:10:36] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-5-26 19:10:37] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2024-5-26 19:10:37] begin the exec of open cable cmd...
+[Debug] [2024-5-26 19:10:37] Begin to deal with chain from server...
+[Debug] [2024-5-26 19:10:37] Begin to set user chain...
+[Debug] [2024-5-26 19:10:37] End to set user chain.
+[Debug] [2024-5-26 19:10:37] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 19:10:37] End to update graphic item and tree item ...
+[Info] [2024-5-26 19:10:39] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp/generate_bitstream/udp_loop_noarp.sbit
+[Debug] [2024-5-26 19:10:39] begin to get device info from CFG file...
+[Debug] [2024-5-26 19:10:39] end to get device info from CFG file...
+[Debug] [2024-5-26 19:10:39] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 19:10:39] End to update graphic item and tree item ...
+[Debug] [2024-5-26 19:10:39] End to deal wiht chain from server.
+[Debug] [2024-5-26 19:10:39] end the exec of open cable cmd.
+[Debug] [2024-5-26 19:10:39] COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2024-5-26 19:10:40] Begin to send programming cmd...
+[Debug] [2024-5-26 19:10:40] Send RPC:4
+[Debug] [2024-5-26 19:10:40] Begin to send program data.
+[Debug] [2024-5-26 19:10:40] End to send program data.
+[Debug] [2024-5-26 19:10:40] Send cmd [Program:20002] OK
+[Debug] [2024-5-26 19:10:40] The value of Progress is 6
+[Debug] [2024-5-26 19:10:40] The value of Progress is 10
+[Debug] [2024-5-26 19:10:40] The value of Progress is 15
+[Debug] [2024-5-26 19:10:40] The value of Progress is 20
+[Debug] [2024-5-26 19:10:40] The value of Progress is 25
+[Debug] [2024-5-26 19:10:41] The value of Progress is 30
+[Debug] [2024-5-26 19:10:41] The value of Progress is 35
+[Debug] [2024-5-26 19:10:41] The value of Progress is 40
+[Debug] [2024-5-26 19:10:41] The value of Progress is 45
+[Debug] [2024-5-26 19:10:41] The value of Progress is 50
+[Debug] [2024-5-26 19:10:41] The value of Progress is 55
+[Debug] [2024-5-26 19:10:41] The value of Progress is 60
+[Debug] [2024-5-26 19:10:41] The value of Progress is 65
+[Debug] [2024-5-26 19:10:41] The value of Progress is 70
+[Debug] [2024-5-26 19:10:41] The value of Progress is 75
+[Debug] [2024-5-26 19:10:41] The value of Progress is 80
+[Debug] [2024-5-26 19:10:41] The value of Progress is 85
+[Debug] [2024-5-26 19:10:42] The value of Progress is 90
+[Debug] [2024-5-26 19:10:42] The value of Progress is 95
+[Debug] [2024-5-26 19:10:42] The value of Progress is 100
+[Debug] [2024-5-26 19:10:42] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 19:10:42] End to send programming cmd.
+[Debug] [2024-5-26 21:36:31] Begin to send initialize chain cmd...
+[Debug] [2024-5-26 21:36:31] Send RPC:5
+[Debug] [2024-5-26 21:36:31] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-26 21:36:31] End to send initialize chain cmd.
+[Debug] [2024-5-26 21:36:31] begin the exec of open cable cmd...
+[Debug] [2024-5-26 21:36:31] Begin to deal with chain from server...
+[Debug] [2024-5-26 21:36:31] Begin to set user chain...
+[Debug] [2024-5-26 21:36:31] End to set user chain.
+[Debug] [2024-5-26 21:36:31] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 21:36:31] End to update graphic item and tree item ...
+[Info] [2024-5-26 21:36:33] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_udp_loop_noarp/generate_bitstream/udp_loop_noarp.sbit
+[Debug] [2024-5-26 21:36:33] begin to get device info from CFG file...
+[Debug] [2024-5-26 21:36:33] end to get device info from CFG file...
+[Debug] [2024-5-26 21:36:33] Begin to update graphic item and tree item ...
+[Debug] [2024-5-26 21:36:33] End to update graphic item and tree item ...
+[Debug] [2024-5-26 21:36:33] End to deal wiht chain from server.
+[Debug] [2024-5-26 21:36:33] end the exec of open cable cmd.
+[Debug] [2024-5-26 21:36:33] COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2024-5-26 21:36:35] Begin to send programming cmd...
+[Debug] [2024-5-26 21:36:35] Send RPC:6
+[Debug] [2024-5-26 21:36:35] Begin to send program data.
+[Debug] [2024-5-26 21:36:35] End to send program data.
+[Debug] [2024-5-26 21:36:35] Send cmd [Program:20002] OK
+[Debug] [2024-5-26 21:36:35] The value of Progress is 6
+[Debug] [2024-5-26 21:36:35] The value of Progress is 10
+[Debug] [2024-5-26 21:36:35] The value of Progress is 15
+[Debug] [2024-5-26 21:36:35] The value of Progress is 20
+[Debug] [2024-5-26 21:36:35] The value of Progress is 25
+[Debug] [2024-5-26 21:36:35] The value of Progress is 30
+[Debug] [2024-5-26 21:36:35] The value of Progress is 35
+[Debug] [2024-5-26 21:36:36] The value of Progress is 40
+[Debug] [2024-5-26 21:36:36] The value of Progress is 45
+[Debug] [2024-5-26 21:36:36] The value of Progress is 50
+[Debug] [2024-5-26 21:36:36] The value of Progress is 55
+[Debug] [2024-5-26 21:36:36] The value of Progress is 60
+[Debug] [2024-5-26 21:36:36] The value of Progress is 65
+[Debug] [2024-5-26 21:36:36] The value of Progress is 70
+[Debug] [2024-5-26 21:36:36] The value of Progress is 75
+[Debug] [2024-5-26 21:36:36] The value of Progress is 80
+[Debug] [2024-5-26 21:36:36] The value of Progress is 85
+[Debug] [2024-5-26 21:36:36] The value of Progress is 90
+[Debug] [2024-5-26 21:36:37] The value of Progress is 95
+[Debug] [2024-5-26 21:36:37] The value of Progress is 100
+[Debug] [2024-5-26 21:36:37] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-26 21:36:37] End to send programming cmd.
+[Info] [2024-5-26 21:38:55] /***************************End Configration***************************/

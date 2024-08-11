@@ -1,0 +1,52 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/xinlinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 8a6639e03a07493c997bad464e04b42f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_hdmi_behav xil_defaultlib.tb_top_hdmi xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=22.5,...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.fifo_ctrl_hdmi
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_gray
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_gray__2
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.SRL16E_default
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(RAM_MODE="SDP...
+Compiling module unisims_ver.RAMB18E1(RAM_MODE="SDP",READ_WID...
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_single
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_single_...
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_sync_rs...
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_sync_rs...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.video_driver
+Compiling module xil_defaultlib.video_display
+Compiling module xil_defaultlib.asyn_rst_syn
+Compiling module xil_defaultlib.dvi_encoder
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.serializer_10_to_1
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="TMDS_33")
+Compiling module xil_defaultlib.dvi_transmitter_top
+Compiling module xil_defaultlib.hdmi_display
+Compiling module xil_defaultlib.top_hdmi
+Compiling module xil_defaultlib.tb_top_hdmi
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_hdmi_behav

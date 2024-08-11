@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_auido_recognization/sim/behav
+vauido_recognization
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YTCX?1b1ao;ZZ3H90SK`K2
+ICNCg8C<M8T7c4_Ej3N3N10
+!s105 auido_recognization_sv_unit
+S1
+R0
+w1721523224
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv
+L0 5
+Z2 OL;L;10.6d;65
+Z3 !s108 1721523580.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vauido_recognization_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z;FD=`mP6J5f92DlMPX;X1
+I5A:4M`V52HAc4@k7LZ`Uz2
+R0
+w1721476200
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization_tb.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization_tb.v
+L0 3
+R2
+R3
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization_tb.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization_tb.v|-work|work|
+!i113 0
+R4
+R5
+vcordic_newton
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 X8Va?f;9PR<TV97=eZlAG3
+IJJ6T_lb2@`kbPT2NM4Vhc1
+R0
+w1715513771
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v
+L0 23
+R2
+R3
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v|-work|work|
+!i113 0
+R4
+R5
+vdivide
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SFaOaV9QOAnnzR[XTQ1Mc2
+IaZUD4=oWL@Lkigc7YCK[M0
+R0
+w1721437527
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v
+L0 2
+R2
+!s108 1721523579.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v|-work|work|
+!i113 0
+R4
+R5

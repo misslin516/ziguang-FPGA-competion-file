@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_fir/sim/behav
+vfir_guide
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mg1>BKW?Taf>SBH]d^?;c2
+ILfoII]]GS[adMcZ4N3g`f0
+R0
+w1715949265
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/fir_guide.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/fir_guide.v
+L0 6
+Z2 OL;L;10.6d;65
+Z3 !s108 1715949293.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/fir_guide.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/fir_guide.v|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vmult_cell
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Y8dX77ieTGzMJ=U<6>z6e3
+IEjUa>Xn`L7A^i2@IVIDM?3
+R0
+Z6 w1602606380
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_cell.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_cell.v
+L0 1
+R2
+R3
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_cell.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_cell.v|-work|work|
+!i113 0
+R4
+R5
+vmult_man
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2BzU@lSaODfIB7cYQzRa=1
+ICkjbS`4F:eC@`1IR:G^mi1
+R0
+R6
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_man.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_man.v
+L0 1
+R2
+R3
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_man.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/mult_man.v|-work|work|
+!i113 0
+R4
+R5
+vtb_fir_guide
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 4kN]0oOa@_V?37Pd45kFJ3
+I`CR:<0V;1o?YPJ[CcN21c3
+R0
+w1715948657
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/tb_fir_guide.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/tb_fir_guide.v
+L0 4
+R2
+R3
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/tb_fir_guide.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fir_paral/tb_fir_guide.v|-work|work|
+!i113 0
+R4
+R5

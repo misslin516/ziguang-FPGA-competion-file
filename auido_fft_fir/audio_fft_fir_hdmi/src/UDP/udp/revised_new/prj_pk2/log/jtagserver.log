@@ -1,0 +1,24 @@
+[Info] [2024-5-5 20:54:48] /***************************Start jtagserver***************************/
+[Info] [2024-5-5 20:54:48] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-5 20:54:48] Version: 99559
+[Debug] [2024-5-5 20:54:49] Add a new user_thread, socket descriptor is 1196 user_thread id is 0000000000003134
+[Debug] [2024-5-5 20:54:49] After adding, map size is : 1
+[Debug] [2024-5-5 20:54:49] Add a new user_thread, socket descriptor is 1120 user_thread id is 0000000000003134
+[Debug] [2024-5-5 20:54:49] After adding, map size is : 2
+[Debug] [2024-5-5 20:54:49] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-5-5 20:54:49] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2024-5-5 20:54:49] Remove the header data from the client, index : 0
+[Debug] [2024-5-5 20:54:49] _total_bytes_size : 146
+[Debug] [2024-5-5 20:54:49] Remove the header data from the client, index : 0
+[Debug] [2024-5-5 20:54:49] _total_bytes_size : 96
+[Debug] [2024-5-5 20:54:49] cmd id :40011cmd name : get_cable_paras
+[Debug] [2024-5-5 20:54:50] cmd operation get_cable_paras releases locker
+[Debug] [2024-5-5 20:54:50] Remove the header data from the client, index : 0
+[Debug] [2024-5-5 20:54:50] _total_bytes_size : 101
+[Debug] [2024-5-5 20:54:50] cmd id :20001cmd name : Open config cable
+[Debug] [2024-5-5 20:54:50] the idcode from the scanning is: 0x10521899
+[Debug] [2024-5-5 20:54:50] the idcode from the scanning is: 0x0
+[Debug] [2024-5-5 20:54:50] the idcode from the scanning is: 0x0
+[Debug] [2024-5-5 20:54:50] the idcode from the scanning is: 0x0
+[Debug] [2024-5-5 20:54:50] the idcode from the scanning is: 0x0
+[Debug] [2024-5-5 20:54:51] cmd operation Open config cable releases locker

@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/sim/behav
+vDelayUnit
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SkBbTUC;4>3TfHBA6=<;e0
+IQ_1fP>ik3kdORz9::BOa80
+R0
+w1715585785
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v
+Z2 L0 21
+Z3 OL;L;10.6d;65
+Z4 !s108 1716360482.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v|-work|work|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@delay@unit
+vLMS
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 RbImjQJHl>iUl^0Y`Rm9>1
+IjUoL0`7kiNDl?N^]4N6OS1
+R0
+w1716359556
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v
+L0 10
+R3
+R4
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v|-work|work|
+!i113 0
+R5
+R6
+n@l@m@s
+vLMS_sim
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 HY:f5ajYG9N?Wj`Rc72D42
+Im@PD7S3`C`2IA2gSKiTSd2
+R0
+w1716360463
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v
+L0 24
+R3
+R4
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v|-work|work|
+!i113 0
+R5
+R6
+n@l@m@s_sim
+vLMS_tap
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 DIaPF@;312U`cm_hOlznU0
+IF9D=m537PLgjblBDg6>4z2
+R0
+w1715585762
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v
+R2
+R3
+R4
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v|-work|work|
+!i113 0
+R5
+R6
+n@l@m@s_tap
+vLMSx8
+!s110 1716360482
+!i10b 1
+!s100 R@1noY6KbSF6[Cmn8>Pmo3
+I9fUY=2kJTfBAL7g;O;fY21
+R1
+R0
+w1715585769
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v|-work|work|
+!i113 0
+R5
+R6
+n@l@m@sx8
+vLMSX_selfdefine
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7b[I[d;J12XDjfPV3kXmI0
+IT5H1i_ImW=5HOH6Go1=830
+R0
+w1716360341
+8C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v
+FC:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v
+L0 6
+R3
+R4
+!s107 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v|-work|work|
+!i113 0
+R5
+R6
+n@l@m@s@x_selfdefine

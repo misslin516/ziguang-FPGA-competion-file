@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "D:/xinlinx/Vivado/2021.1/data/xilinx_vip/include" --include "../../../../top_hdmi.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../top_hdmi.gen/sources_1/bd/design_1/ipshared/f42d/hdl" \
+"c:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/hdmi_top/src/vivado_hdmi_test/prj/top_hdmi/top_hdmi.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

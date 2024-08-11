@@ -1,0 +1,1 @@
+.rtl_screen -top_module {data_module_fft} -include_path {<C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_newton_prj>} -design_files {<C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_newton.v|work><C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/data_module_fft.v|work>}

@@ -1,0 +1,10 @@
+Project.type=inserter
+Project.device.designInputFile=C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj/synthesize/audio_udp_top_syn.adf
+Project.device.ScanChain=1
+Project.device.UserJtag=0
+Project.device.deviceFamily=Logos
+Project.device.deviceModel=PGL50H
+Project.device.devicePackage=FBG484
+Project.device.deviceSpeedGrade=-6
+Project.Architecture=0 
+Project.unit.dimension=0

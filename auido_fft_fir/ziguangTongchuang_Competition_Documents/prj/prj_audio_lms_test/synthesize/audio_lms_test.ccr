@@ -1,0 +1,82 @@
+##### Written on 2024/05/27 09:14:34 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	audio_lms_test
+
+Constraint File(s) : 
+	C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 9 critical warning(s), 0 warning(s), out of 246 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:es1_sdout} {PAP_IO_LOC} {AB5}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 25)] | Port es1_sdout has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:es1_dlrc} {PAP_IO_LOC} {Y5}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 61)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:key} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 76)] | Port key has been placed at location K18, whose type is share pin.
+
+define_attribute {p:lin_test} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 81)] | Port lin_test has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:eth_rst_n_0} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 167)] | Port eth_rst_n_0 has been placed at location B20, whose type is share pin.
+
+define_attribute {p:eth_rgmii_tx_ctl_0} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 174)] | Port eth_rgmii_tx_ctl_0 has been placed at location B18, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_0[1]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 195)] | Port eth_rgmii_txd_0[1] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_0[2]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 202)] | Port eth_rgmii_txd_0[2] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_0[3]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_lms_test/source/src/audio_lms_test.fdc(line number: 209)] | Port eth_rgmii_txd_0[3] has been placed at location A18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

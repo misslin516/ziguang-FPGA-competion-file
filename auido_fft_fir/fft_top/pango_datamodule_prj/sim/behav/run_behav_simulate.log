@@ -1,0 +1,109 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap usim C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap adc C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap ddrc C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap ddrphy C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap hsst_e2 C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap iolhr_dft C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap ipal_e1 C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap pciegen2 C:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:46:07 on May 18,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_jpl.v -work work 
+# -- Compiling module cordic_jpl
+# 
+# Top level modules:
+# 	cordic_jpl
+# End time: 09:46:07 on May 18,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:46:08 on May 18,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/cordic_newton.v -work work 
+# -- Compiling module cordic_newton
+# 
+# Top level modules:
+# 	cordic_newton
+# End time: 09:46:08 on May 18,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:46:08 on May 18,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/data_module_fft.v -work work 
+# -- Compiling module data_module_fft
+# 
+# Top level modules:
+# 	data_module_fft
+# End time: 09:46:08 on May 18,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 09:46:08 on May 18,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_data_module_fft.v -work work 
+# -- Compiling module tb_data_module_fft
+# 
+# Top level modules:
+# 	tb_data_module_fft
+# End time: 09:46:08 on May 18,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -voptargs="+acc" -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 tb_data_module_fft usim.GTP_GRS 
+# Start time: 09:46:08 on May 18,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_data_module_fft(fast)
+# Loading work.data_module_fft(fast)
+# Loading work.cordic_newton(fast)
+# Loading usim.GTP_GRS(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: martin  Hostname: THECOMPUTEROFMA  ProcessID: 12192
+#           Attempting to use alternate WLF file "./wlftjwwrtg".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjwwrtg
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+# ** Note: (vsim-12# End time: 10:39:26 on May 18,2024, Elapsed time: 1:15:19
+# Errors: 0, Warnings: 0
+** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_data_module_fft(fast)
+# Loading work.data_module_fft(fast)
+# Loading work.cordic_newton(fast)
+# Loading usim.GTP_GRS(fast)
+add wave -position insertpoint sim:/tb_data_module_fft/data_module_fft_inst/*
+run -continue
+run
+# End time: 10:39:30 on May 18,2024, Elapsed time: 0:53:22
+# Errors: 0, Warnings: 0

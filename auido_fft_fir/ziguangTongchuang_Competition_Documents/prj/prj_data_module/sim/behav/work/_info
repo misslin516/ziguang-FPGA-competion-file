@@ -1,0 +1,91 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_data_module/sim/behav
+vcordic_jpl
+!s110 1716087293
+!i10b 1
+!s100 ?o=B[BWVk7X1h^MY[G3JW0
+IKC]T9HK8cCNA545[h<DTA1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1716084830
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_jpl.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_jpl.v
+L0 20
+Z2 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z3 !s108 1716087293.000000
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_jpl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_jpl.v|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vcordic_newton
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 X8Va?f;9PR<TV97=eZlAG3
+InAUFlFaEj8G05QUBTM^iE0
+R0
+w1715513771
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v
+L0 23
+R2
+R3
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v|-work|work|
+!i113 0
+R4
+R5
+vdata_module_fft
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 N_OzKEOX<N8m0^1@_3A=63
+IgjI5nUD4ki3X8Y3LLOZo>1
+R0
+w1716087198
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/data_module_fft.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/data_module_fft.v
+L0 11
+R2
+R3
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/data_module_fft.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/data_module_fft.v|-work|work|
+!i113 0
+R4
+R5
+vtb_data_module_fft
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 AH]=0I^;>Y??iO^[z[eJ[0
+I1B@f9nU<S@=OlzeVN0jYh0
+R0
+w1711936650
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/tb_data_module_fft.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/tb_data_module_fft.v
+L0 5
+R2
+R3
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/tb_data_module_fft.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/fft_top/tb_data_module_fft.v|-work|work|
+!i113 0
+R4
+R5

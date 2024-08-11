@@ -1,0 +1,1 @@
+.rtl_screen -top_module {fft_test} -include_path {<C:/Users/86151/Desktop/auido_fft_fir/fft_top/fft_pango>} -design_files {<C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v|work><C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v|work><C:/Users/86151/Desktop/auido_fft_fir/fft_top/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v|work>}

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fft_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fft_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="24,240.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="27,424.001 ns"></ZoomEndTime>
+      <Cursor1Time time="25,850.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="207"></NameColumnWidth>
+      <ValueColumnWidth column_width="99"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group340" type="group">
+      <obj_property name="label">top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_fft_test/audio_clk" type="logic">
+         <obj_property name="ElementShortName">audio_clk</obj_property>
+         <obj_property name="ObjectShortName">audio_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/audio_valid" type="logic">
+         <obj_property name="ElementShortName">audio_valid</obj_property>
+         <obj_property name="ObjectShortName">audio_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/audio_data" type="array">
+         <obj_property name="ElementShortName">audio_data[23:0]</obj_property>
+         <obj_property name="ObjectShortName">audio_data[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/clk_50m" type="logic">
+         <obj_property name="ElementShortName">clk_50m</obj_property>
+         <obj_property name="ObjectShortName">clk_50m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_ready" type="logic">
+         <obj_property name="ElementShortName">fft_ready</obj_property>
+         <obj_property name="ObjectShortName">fft_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_rst_n" type="logic">
+         <obj_property name="ElementShortName">fft_rst_n</obj_property>
+         <obj_property name="ObjectShortName">fft_rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_valid" type="logic">
+         <obj_property name="ElementShortName">fft_valid</obj_property>
+         <obj_property name="ObjectShortName">fft_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_sop" type="logic">
+         <obj_property name="ElementShortName">fft_sop</obj_property>
+         <obj_property name="ObjectShortName">fft_sop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_eop" type="logic">
+         <obj_property name="ElementShortName">fft_eop</obj_property>
+         <obj_property name="ObjectShortName">fft_eop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/cnt" type="array">
+         <obj_property name="ElementShortName">cnt[8:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/audio_valid_reg" type="logic">
+         <obj_property name="ElementShortName">audio_valid_reg</obj_property>
+         <obj_property name="ObjectShortName">audio_valid_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group355" type="group">
+      <obj_property name="label">ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/clk_50m" type="logic">
+         <obj_property name="ElementShortName">clk_50m</obj_property>
+         <obj_property name="ObjectShortName">clk_50m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fifo_rd_empty" type="logic">
+         <obj_property name="ElementShortName">fifo_rd_empty</obj_property>
+         <obj_property name="ObjectShortName">fifo_rd_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fifo_rdreq" type="logic">
+         <obj_property name="ElementShortName">fifo_rdreq</obj_property>
+         <obj_property name="ObjectShortName">fifo_rdreq</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fft_ready" type="logic">
+         <obj_property name="ElementShortName">fft_ready</obj_property>
+         <obj_property name="ObjectShortName">fft_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fft_rst_n" type="logic">
+         <obj_property name="ElementShortName">fft_rst_n</obj_property>
+         <obj_property name="ObjectShortName">fft_rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fft_valid" type="logic">
+         <obj_property name="ElementShortName">fft_valid</obj_property>
+         <obj_property name="ObjectShortName">fft_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fft_sop" type="logic">
+         <obj_property name="ElementShortName">fft_sop</obj_property>
+         <obj_property name="ObjectShortName">fft_sop</obj_property>
+         <obj_property name="CustomSignalColor">#800080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fft_eop" type="logic">
+         <obj_property name="ElementShortName">fft_eop</obj_property>
+         <obj_property name="ObjectShortName">fft_eop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/state" type="logic">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/delay_cnt" type="array">
+         <obj_property name="ElementShortName">delay_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">delay_cnt[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/fft_cnt" type="array">
+         <obj_property name="ElementShortName">fft_cnt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">fft_cnt[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/u_fft_ctrl/FFT_point" type="array">
+         <obj_property name="ElementShortName">FFT_point[9:0]</obj_property>
+         <obj_property name="ObjectShortName">FFT_point[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group428" type="group">
+      <obj_property name="label">fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/clk_write" type="logic">
+         <obj_property name="ElementShortName">clk_write</obj_property>
+         <obj_property name="ObjectShortName">clk_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/clk_read" type="logic">
+         <obj_property name="ElementShortName">clk_read</obj_property>
+         <obj_property name="ObjectShortName">clk_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/write" type="logic">
+         <obj_property name="ElementShortName">write</obj_property>
+         <obj_property name="ObjectShortName">write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/read" type="logic">
+         <obj_property name="ElementShortName">read</obj_property>
+         <obj_property name="ObjectShortName">read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/data_write" type="array">
+         <obj_property name="ElementShortName">data_write[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_write[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/data_read" type="array">
+         <obj_property name="ElementShortName">data_read[23:0]</obj_property>
+         <obj_property name="ObjectShortName">data_read[23:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/data_count_w" type="array">
+         <obj_property name="ElementShortName">data_count_w[8:0]</obj_property>
+         <obj_property name="ObjectShortName">data_count_w[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/data_count_r" type="array">
+         <obj_property name="ElementShortName">data_count_r[8:0]</obj_property>
+         <obj_property name="ObjectShortName">data_count_r[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/w_ptr_q" type="array">
+         <obj_property name="ElementShortName">w_ptr_q[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_ptr_q[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_ptr_sync" type="array">
+         <obj_property name="ElementShortName">r_ptr_sync[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ptr_sync[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_grey_sync" type="array">
+         <obj_property name="ElementShortName">r_grey_sync[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_grey_sync[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/i" type="array">
+         <obj_property name="ElementShortName">i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/w_grey" type="array">
+         <obj_property name="ElementShortName">w_grey[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_grey[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/w_grey_nxt" type="array">
+         <obj_property name="ElementShortName">w_grey_nxt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_grey_nxt[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/we" type="logic">
+         <obj_property name="ElementShortName">we</obj_property>
+         <obj_property name="ObjectShortName">we</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_ptr_q" type="array">
+         <obj_property name="ElementShortName">r_ptr_q[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ptr_q[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/w_ptr_sync" type="array">
+         <obj_property name="ElementShortName">w_ptr_sync[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_ptr_sync[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/w_grey_sync" type="array">
+         <obj_property name="ElementShortName">w_grey_sync[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_grey_sync[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_grey" type="array">
+         <obj_property name="ElementShortName">r_grey[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_grey[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_grey_nxt" type="array">
+         <obj_property name="ElementShortName">r_grey_nxt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_grey_nxt[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_ptr_d" type="array">
+         <obj_property name="ElementShortName">r_ptr_d[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_ptr_d[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/r_grey_sync_temp" type="array">
+         <obj_property name="ElementShortName">r_grey_sync_temp[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_grey_sync_temp[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/w_grey_sync_temp" type="array">
+         <obj_property name="ElementShortName">w_grey_sync_temp[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_grey_sync_temp[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/FIFO_DEPTH_WIDTH" type="array">
+         <obj_property name="ElementShortName">FIFO_DEPTH_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_DEPTH_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fft_test/fft_test_inst/asyn_fifo_inst/FIFO_DEPTH" type="array">
+         <obj_property name="ElementShortName">FIFO_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_fir/pango_sim_libraries
+vNPZmU2PZv9wLDQsaLlFJOA==
+Z0 !s110 1715932893
+!i10b 0
+!s100 aR8Y0Ki92Y]=RSR^4E8GG2
+IVSTX[A2a0EcUmoi9=A?o13
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+!i8a 530978416
+Z2 dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z3 w1715932893
+8./oserdes_e1_source_codes/int_oserdes_e1.vp
+F./oserdes_e1_source_codes/int_oserdes_e1.vp
+Z4 L0 23
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1715932893.000000
+!s107 ./oserdes_e1_source_codes/int_oserdes_e1.vp|./oserdes_e1_source_codes/int_oserdes_e1_7km.vp|
+Z7 !s90 -incr|-f|./filelist_oserdes_e1_gtp.f|-work|oserdes_e1|
+!i113 0
+Z8 o-work oserdes_e1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+nd0afb41
+vYVjbEsSPnNRgSOqtbEB4DO+z6nIY6hCxAZTQwWWwhdA=
+R0
+!i10b 0
+!s100 Uz3d<30Ghh4GE7<M`GXP41
+IO6PUhU0M`AU0DA75TS3Vf3
+R1
+!i119 1
+!i8a 483843984
+R2
+R3
+8./oserdes_e1_source_codes/int_oserdes_e1_7km.vp
+F./oserdes_e1_source_codes/int_oserdes_e1_7km.vp
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ./oserdes_e1_source_codes/int_oserdes_e1.vp|./oserdes_e1_source_codes/int_oserdes_e1_7km.vp|
+R7
+!i113 0
+R8
+R9
+nb4c28ed

@@ -1,0 +1,112 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                        PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                                                   996.826       0.000              0             47
+ udp_audio_test|es1_dsclk
+                        udp_audio_test|es1_dsclk
+                                                   498.809       0.000              0             48
+ udp_audio_test|eth_rxc udp_audio_test|eth_rxc     993.125       0.000              0            650
+ udp_audio_test|es0_dsclk
+                        udp_audio_test|es0_dsclk
+                                                   997.484       0.000              0            271
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                        PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                                                     0.339       0.000              0             47
+ udp_audio_test|es1_dsclk
+                        udp_audio_test|es1_dsclk
+                                                     0.367       0.000              0             48
+ udp_audio_test|eth_rxc udp_audio_test|eth_rxc       0.341       0.000              0            650
+ udp_audio_test|es0_dsclk
+                        udp_audio_test|es0_dsclk
+                                                     0.341       0.000              0            271
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                        PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                                                   997.785       0.000              0             47
+ udp_audio_test|es1_dsclk
+                        udp_audio_test|es1_dsclk
+                                                   499.154       0.000              0             48
+ udp_audio_test|eth_rxc udp_audio_test|eth_rxc     995.152       0.000              0            650
+ udp_audio_test|es0_dsclk
+                        udp_audio_test|es0_dsclk
+                                                   998.171       0.000              0            271
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                        PLL|voice_loop_test_inst/u_pll/u_pll_e3/CLKOUT1
+                                                     0.264       0.000              0             47
+ udp_audio_test|es1_dsclk
+                        udp_audio_test|es1_dsclk
+                                                     0.287       0.000              0             48
+ udp_audio_test|eth_rxc udp_audio_test|eth_rxc       0.265       0.000              0            650
+ udp_audio_test|es0_dsclk
+                        udp_audio_test|es0_dsclk
+                                                     0.265       0.000              0            271
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

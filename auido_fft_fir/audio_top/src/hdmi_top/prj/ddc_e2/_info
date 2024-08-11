@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/prj
+v72N7HPbAtghZbV4bfAeyM9K1rYqQHfvvWF265vBOEgo=
+Z0 !s110 1715327637
+!i10b 0
+!s100 ==`O<2elFTk_fO8_L<z130
+IaAW2MToPDA11K;NcJD@Gj0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+!i8a 1016209840
+Z2 dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z3 w1715327637
+8./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp
+F./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp
+Z4 L0 23
+Z5 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z6 !s108 1715327637.000000
+!s107 ./ddc_e2_source_codes/ddc_e2_dly_chain.vp|./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp|
+Z7 !s90 -incr|-f|./filelist_ddc_e2_gtp.f|-work|ddc_e2|
+!i113 0
+Z8 o-work ddc_e2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+n1bf28ed
+vjBsKGel8f7NeS5dtMo/1XAGQM11KBSWbodGZPd7CXWs=
+R0
+!i10b 0
+!s100 PaeM=@K4fCT1nWiA5=Fm41
+I7Y2oFIz273^k7>GfIBNYE1
+R1
+!i119 1
+!i8a 413093472
+R2
+R3
+8./ddc_e2_source_codes/ddc_e2_dly_chain.vp
+F./ddc_e2_source_codes/ddc_e2_dly_chain.vp
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ./ddc_e2_source_codes/ddc_e2_dly_chain.vp|./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp|
+R7
+!i113 0
+R8
+R9
+ncdb165e

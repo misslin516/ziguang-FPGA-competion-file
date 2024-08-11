@@ -1,0 +1,61 @@
+library verilog;
+use verilog.vl_types.all;
+entity test_wr_ctrl_v1_0 is
+    generic(
+        DATA_PATTERN0   : vl_logic_vector(0 to 7) := (Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1);
+        DATA_PATTERN1   : vl_logic_vector(0 to 7) := (Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0);
+        DATA_PATTERN2   : vl_logic_vector(0 to 7) := (Hi0, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1);
+        DATA_PATTERN3   : vl_logic_vector(0 to 7) := (Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        DATA_PATTERN4   : vl_logic_vector(0 to 7) := (Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1);
+        DATA_PATTERN5   : vl_logic_vector(0 to 7) := (Hi1, Hi0, Hi1, Hi0, Hi1, Hi0, Hi1, Hi0);
+        DATA_PATTERN6   : vl_logic_vector(0 to 7) := (Hi0, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1, Hi1);
+        DATA_PATTERN7   : vl_logic_vector(0 to 7) := (Hi1, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0, Hi0);
+        DATA_MASK_EN    : integer := 0;
+        CTRL_ADDR_WIDTH : integer := 28;
+        MEM_DQ_WIDTH    : integer := 16;
+        MEM_SPACE_AW    : integer := 18
+    );
+    port(
+        clk             : in     vl_logic;
+        rst_n           : in     vl_logic;
+        init_start      : in     vl_logic;
+        write_en        : in     vl_logic;
+        insert_err      : in     vl_logic;
+        write_done_p    : out    vl_logic;
+        init_done       : out    vl_logic;
+        pattern_en      : in     vl_logic;
+        random_data_en  : in     vl_logic;
+        stress_test     : in     vl_logic;
+        write_to_read   : in     vl_logic;
+        read_repeat_en  : in     vl_logic;
+        data_order      : in     vl_logic;
+        dq_inversion    : in     vl_logic_vector(7 downto 0);
+        random_rw_addr  : in     vl_logic_vector;
+        random_axi_id   : in     vl_logic_vector(3 downto 0);
+        random_axi_len  : in     vl_logic_vector(3 downto 0);
+        random_axi_ap   : in     vl_logic;
+        axi_awaddr      : out    vl_logic_vector;
+        axi_awuser_ap   : out    vl_logic;
+        axi_awuser_id   : out    vl_logic_vector(3 downto 0);
+        axi_awlen       : out    vl_logic_vector(3 downto 0);
+        axi_awready     : in     vl_logic;
+        axi_awvalid     : out    vl_logic;
+        axi_wdata       : out    vl_logic_vector;
+        axi_wstrb       : out    vl_logic_vector;
+        axi_wready      : in     vl_logic;
+        test_wr_state   : out    vl_logic_vector(2 downto 0)
+    );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of DATA_PATTERN0 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN1 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN2 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN3 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN4 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN5 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN6 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_PATTERN7 : constant is 1;
+    attribute mti_svvh_generic_type of DATA_MASK_EN : constant is 1;
+    attribute mti_svvh_generic_type of CTRL_ADDR_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of MEM_DQ_WIDTH : constant is 1;
+    attribute mti_svvh_generic_type of MEM_SPACE_AW : constant is 1;
+end test_wr_ctrl_v1_0;

@@ -1,0 +1,127 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap usim C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap adc C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap ddrc C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap ddrphy C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap hsst_e2 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap iolhr_dft C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap ipal_e1 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+# vmap pciegen2 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:18 on May 01,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/audio_data_pkt.v -work work 
+# -- Compiling module audio_data_pkt
+# 
+# Top level modules:
+# 	audio_data_pkt
+# End time: 16:48:18 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:18 on May 01,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_ctr_v1_0.v -work work 
+# -- Compiling module ipm_distributed_fifo_ctr_v1_0
+# 
+# Top level modules:
+# 	ipm_distributed_fifo_ctr_v1_0
+# End time: 16:48:18 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:18 on May 01,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_v1_2_fifo_audo_data_pkt.v -work work 
+# -- Compiling module ipm_distributed_fifo_v1_2_fifo_audo_data_pkt
+# 
+# Top level modules:
+# 	ipm_distributed_fifo_v1_2_fifo_audo_data_pkt
+# End time: 16:48:18 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:18 on May 01,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt.v -work work 
+# -- Compiling module ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt
+# 
+# Top level modules:
+# 	ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt
+# End time: 16:48:18 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:18 on May 01,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/ipcore/fifo_audo_data_pkt/fifo_audo_data_pkt.v -work work 
+# -- Compiling module fifo_audo_data_pkt
+# 
+# Top level modules:
+# 	fifo_audo_data_pkt
+# End time: 16:48:18 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 16:48:18 on May 01,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_audio_data_pkt_test/sim/tb_audio_data_pkt.v -work work 
+# -- Compiling module tb_audio_data_pkt
+# 
+# Top level modules:
+# 	tb_audio_data_pkt
+# End time: 16:48:18 on May 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -voptargs="+acc" -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 tb_audio_data_pkt usim.GTP_GRS 
+# Start time: 16:48:18 on May 01,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_audio_data_pkt(fast)
+# Loading work.audio_data_pkt(fast)
+# Loading work.fifo_audo_data_pkt(fast)
+# Loading work.ipm_distributed_fifo_v1_2_fifo_audo_data_pkt(fast)
+# Loading work.ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt(fast)
+# Loading work.ipm_distributed_fifo_ctr_v1_0(fast)
+# Loading usim.GTP_GRS(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint sim:/tb_audio_data_pkt/audio_data_pkt_inst/*
+add wave -position insertpoint sim:/tb_audio_data_pkt/*
+add wave -position insertpoint sim:/tb_audio_data_pkt/audio_data_pkt_inst/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_audio_data_pkt(fast)
+# Loading work.audio_data_pkt(fast)
+# Loading work.fifo_audo_data_pkt(fast)
+# Loading work.ipm_distributed_fifo_v1_2_fifo_audo_data_pkt(fast)
+# Loading work.ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt(fast)
+# Loading work.ipm_distributed_fifo_ctr_v1_0(fast)
+# Loading usim.GTP_GRS(fast)
+run
+# End time: 22:03:59 on May 01,2024, Elapsed time: 5:15:41
+# Errors: 0, Warnings: 0

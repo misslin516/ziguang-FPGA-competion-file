@@ -1,0 +1,109 @@
+[Info] [2024-5-8 10:00:35] /***************************Start Configuration***************************/
+[Info] [2024-5-8 10:00:35] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-8 10:00:35] Version: 99559
+[Info] [2024-5-8 10:00:36] Current Path: C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_fir
+[Info] [2024-5-8 10:00:36] PDS Dir Path: C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_fir
+[Info] [2024-5-8 10:01:53] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-5-8 10:01:53] Client Local host name:Thecomputerofmartin
+[Debug] [2024-5-8 10:01:53] Client Local Address:10.136.129.96
+[Debug] [2024-5-8 10:01:53] Server Address:127.0.0.1, Port:65420
+[Info] [2024-5-8 10:01:53] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-5-8 10:01:53] Finish.
+[Info] [2024-5-8 10:01:53] Connect server succeeded
+[Debug] [2024-5-8 10:01:53] Send RPC:1
+[Debug] [2024-5-8 10:01:53] Send cmd [check version information:40005] OK
+[Debug] [2024-5-8 10:01:54] Send RPC:2
+[Debug] [2024-5-8 10:01:54] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-5-8 10:01:54] Begin to send initialize chain cmd...
+[Debug] [2024-5-8 10:01:54] Send RPC:3
+[Debug] [2024-5-8 10:01:54] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-8 10:01:54] End to send initialize chain cmd.
+[Debug] [2024-5-8 10:01:54] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2024-5-8 10:01:54] COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2024-5-8 10:01:55] begin the exec of open cable cmd...
+[Debug] [2024-5-8 10:01:55] Begin to deal with chain from server...
+[Debug] [2024-5-8 10:01:55] Begin to set user chain...
+[Debug] [2024-5-8 10:01:55] End to set user chain.
+[Debug] [2024-5-8 10:01:55] Begin to update graphic item and tree item ...
+[Debug] [2024-5-8 10:01:55] End to update graphic item and tree item ...
+[Info] [2024-5-8 10:01:56] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_fir/generate_bitstream/audio_fir.sbit
+[Debug] [2024-5-8 10:01:56] begin to get device info from CFG file...
+[Debug] [2024-5-8 10:01:56] end to get device info from CFG file...
+[Debug] [2024-5-8 10:01:56] Begin to update graphic item and tree item ...
+[Debug] [2024-5-8 10:01:56] End to update graphic item and tree item ...
+[Debug] [2024-5-8 10:01:56] End to deal wiht chain from server.
+[Debug] [2024-5-8 10:01:56] end the exec of open cable cmd.
+[Debug] [2024-5-8 10:01:56] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2024-5-8 10:01:58] Begin to send programming cmd...
+[Debug] [2024-5-8 10:01:58] Send RPC:4
+[Debug] [2024-5-8 10:01:58] Begin to send program data.
+[Debug] [2024-5-8 10:01:58] End to send program data.
+[Debug] [2024-5-8 10:01:58] Send cmd [Program:20002] OK
+[Debug] [2024-5-8 10:01:58] The value of Progress is 6
+[Debug] [2024-5-8 10:01:58] The value of Progress is 10
+[Debug] [2024-5-8 10:01:58] The value of Progress is 15
+[Debug] [2024-5-8 10:01:58] The value of Progress is 20
+[Debug] [2024-5-8 10:01:58] The value of Progress is 25
+[Debug] [2024-5-8 10:01:58] The value of Progress is 30
+[Debug] [2024-5-8 10:01:58] The value of Progress is 35
+[Debug] [2024-5-8 10:01:59] The value of Progress is 40
+[Debug] [2024-5-8 10:01:59] The value of Progress is 45
+[Debug] [2024-5-8 10:01:59] The value of Progress is 50
+[Debug] [2024-5-8 10:01:59] The value of Progress is 55
+[Debug] [2024-5-8 10:01:59] The value of Progress is 60
+[Debug] [2024-5-8 10:01:59] The value of Progress is 65
+[Debug] [2024-5-8 10:01:59] The value of Progress is 70
+[Debug] [2024-5-8 10:01:59] The value of Progress is 75
+[Debug] [2024-5-8 10:01:59] The value of Progress is 80
+[Debug] [2024-5-8 10:01:59] The value of Progress is 85
+[Debug] [2024-5-8 10:01:59] The value of Progress is 90
+[Debug] [2024-5-8 10:01:59] The value of Progress is 95
+[Debug] [2024-5-8 10:02:00] The value of Progress is 100
+[Debug] [2024-5-8 10:02:00] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-8 10:02:00] End to send programming cmd.
+[Debug] [2024-5-8 10:07:44] Begin to send initialize chain cmd...
+[Debug] [2024-5-8 10:07:44] Send RPC:5
+[Debug] [2024-5-8 10:07:44] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-8 10:07:44] End to send initialize chain cmd.
+[Debug] [2024-5-8 10:07:45] begin the exec of open cable cmd...
+[Debug] [2024-5-8 10:07:45] Begin to deal with chain from server...
+[Debug] [2024-5-8 10:07:45] Begin to set user chain...
+[Debug] [2024-5-8 10:07:45] End to set user chain.
+[Debug] [2024-5-8 10:07:45] Begin to update graphic item and tree item ...
+[Debug] [2024-5-8 10:07:45] End to update graphic item and tree item ...
+[Info] [2024-5-8 10:07:47] set OpenLastPath: C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_fir/generate_bitstream/audio_fir.sbit
+[Debug] [2024-5-8 10:07:47] begin to get device info from CFG file...
+[Debug] [2024-5-8 10:07:47] end to get device info from CFG file...
+[Debug] [2024-5-8 10:07:47] Begin to update graphic item and tree item ...
+[Debug] [2024-5-8 10:07:47] End to update graphic item and tree item ...
+[Debug] [2024-5-8 10:07:47] End to deal wiht chain from server.
+[Debug] [2024-5-8 10:07:47] end the exec of open cable cmd.
+[Debug] [2024-5-8 10:07:47] COMMAND[Open config cable] execute successfully, takes 2.3 secs.
+[Debug] [2024-5-8 10:07:48] Begin to send programming cmd...
+[Debug] [2024-5-8 10:07:48] Send RPC:6
+[Debug] [2024-5-8 10:07:48] Begin to send program data.
+[Debug] [2024-5-8 10:07:48] End to send program data.
+[Debug] [2024-5-8 10:07:48] Send cmd [Program:20002] OK
+[Debug] [2024-5-8 10:07:48] The value of Progress is 6
+[Debug] [2024-5-8 10:07:48] The value of Progress is 10
+[Debug] [2024-5-8 10:07:48] The value of Progress is 15
+[Debug] [2024-5-8 10:07:49] The value of Progress is 20
+[Debug] [2024-5-8 10:07:49] The value of Progress is 25
+[Debug] [2024-5-8 10:07:49] The value of Progress is 30
+[Debug] [2024-5-8 10:07:49] The value of Progress is 35
+[Debug] [2024-5-8 10:07:49] The value of Progress is 40
+[Debug] [2024-5-8 10:07:49] The value of Progress is 45
+[Debug] [2024-5-8 10:07:49] The value of Progress is 50
+[Debug] [2024-5-8 10:07:49] The value of Progress is 55
+[Debug] [2024-5-8 10:07:49] The value of Progress is 60
+[Debug] [2024-5-8 10:07:49] The value of Progress is 65
+[Debug] [2024-5-8 10:07:49] The value of Progress is 70
+[Debug] [2024-5-8 10:07:50] The value of Progress is 75
+[Debug] [2024-5-8 10:07:50] The value of Progress is 80
+[Debug] [2024-5-8 10:07:50] The value of Progress is 85
+[Debug] [2024-5-8 10:07:50] The value of Progress is 90
+[Debug] [2024-5-8 10:07:50] The value of Progress is 95
+[Debug] [2024-5-8 10:07:50] The value of Progress is 100
+[Debug] [2024-5-8 10:07:50] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-5-8 10:07:50] End to send programming cmd.
+[Info] [2024-5-8 20:38:24] /***************************End Configration***************************/

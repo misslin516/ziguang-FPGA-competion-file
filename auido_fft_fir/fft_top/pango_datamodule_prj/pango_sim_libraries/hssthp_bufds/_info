@@ -1,0 +1,37 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/fft_top/pango_datamodule_prj/pango_sim_libraries
+vzrwLg4OsPuKu/GGtTOOmFw==
+!s110 1711933897
+!i10b 0
+!s100 H^ABgXzFVB<D>J^0Bm]o90
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+ImK;R8_jU4Z:Q;^QHg6^9Y2
+!i119 1
+!i8a 1050038304
+dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+w1711933897
+8./hssthp_bufds_source_codes/hssthp_bufds.vp
+F./hssthp_bufds_source_codes/hssthp_bufds.vp
+!i122 0
+L0 23 1
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1711933897.000000
+!s107 ./hssthp_bufds_source_codes/hssthp_bufds.vp|
+!s90 -incr|-f|./filelist_hssthp_bufds_gtp.f|-work|hssthp_bufds|
+!i113 0
+o-work hssthp_bufds -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+n2ef1243

@@ -1,0 +1,77 @@
+Clock Regions-Block Scope:
++--------------------------------------------------------------------------+
+| (X0,Y*): (Xmin,Xmax,Ymin,Ymax)     | (X1,Y*): (Xmin,Xmax,Ymin,Ymax)     
++--------------------------------------------------------------------------+
+| (X0,Y2): (0,79,61,91)              | (X1,Y2): (80,165,61,91)            
+| (X0,Y1): (0,79,31,60)              | (X1,Y1): (80,165,31,60)            
+| (X0,Y0): (0,79,0,30)               | (X1,Y0): (80,165,0,30)             
++--------------------------------------------------------------------------+
+
+Clock Regions-Clock Primitives:
++--------------------------------------------------------------------------------------------------------------------------------------+
+| Clock Region Name     | CLK PAD     | PLL PAD     | RCKB     | IOCKGATE     | IOCKDIV     | CLMA     | CLMS     | DRM     | APM     
++--------------------------------------------------------------------------------------------------------------------------------------+
+| (X0,Y0)               | 2           | 2           | 4        | 4            | 4           | 1120     | 714      | 24      | 10      
+| (X0,Y1)               | 8           | 8           | 4        | 2            | 2           | 1040     | 680      | 21      | 10      
+| (X0,Y2)               | 0           | 0           | 4        | 4            | 4           | 817      | 561      | 19      | 7       
+| (X1,Y0)               | 6           | 6           | 4        | 4            | 4           | 1189     | 783      | 24      | 20      
+| (X1,Y1)               | 8           | 8           | 4        | 2            | 2           | 1230     | 810      | 24      | 20      
+| (X1,Y2)               | 8           | 8           | 4        | 4            | 4           | 1054     | 702      | 22      | 17      
++--------------------------------------------------------------------------------------------------------------------------------------+
+
+Global Clock Buffer Constraint Details:
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Source  Name                                  | Source Pin     | Source-Buffer Net           | Buffer Input Pin     | Buffer  Name              | Buffer Output Pin     | Buffer-Load Net     | Clock Region Of Buffer Site     | Buffer Site     | IO Load Clock Region     | Non-IO Load Clock Region     | Clock Loads     | Non-Clock Loads     
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| sys_clk_ibuf/opit_1                           | INCK           | _N7                         | CLK                  | clkbufg_3/gopclkbufg      | CLKOUT                | ntclkbufg_0         |  ---                            |  ---            |  ---                     |  ---                         | 2801            | 0                   
+| voice_loop_test_inst/pll1/u_pll_e3/goppll     | CLKOUT0        | clk_12M                     | CLK                  | clkbufg_4/gopclkbufg      | CLKOUT                | ntclkbufg_1         |  ---                            |  ---            |  ---                     |  ---                         | 802             | 0                   
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT1        | hdmi_test1_inst/cfg_clk     | CLK                  | clkbufg_6/gopclkbufg      | CLKOUT                | ntclkbufg_3         |  ---                            |  ---            |  ---                     |  ---                         | 117             | 0                   
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT0        | nt_pix_clk                  | CLK                  | clkbufg_8/gopclkbufg      | CLKOUT                | ntclkbufg_5         |  ---                            |  ---            |  ---                     |  ---                         | 53              | 0                   
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | TCK_USER       | u_CORES/drck_o              | CLK                  | clkbufg_5/gopclkbufg      | CLKOUT                | ntclkbufg_2         |  ---                            |  ---            |  ---                     |  ---                         | 279             | 0                   
+| es0_dsclk_ibuf/opit_1                         | INCK           | _N8                         | CLK                  | clkbufg_7/gopclkbufg      | CLKOUT                | ntclkbufg_4         |  ---                            |  ---            |  ---                     |  ---                         | 74              | 0                   
+| es1_dsclk_ibuf/opit_1                         | OUT            | nt_es1_dsclk                | CLK                  | clkbufg_10/gopclkbufg     | CLKOUT                | ntclkbufg_7         |  ---                            |  ---            |  ---                     |  ---                         | 18              | 0                   
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | CAPDR          | u_CORES/capt_o              | CLK                  | clkbufg_9/gopclkbufg      | CLKOUT                | ntclkbufg_6         |  ---                            |  ---            |  ---                     |  ---                         | 11              | 0                   
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Global Clock Source Constraint Details:
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Source Name                                   | Source Pin     | Source-Load Net             | Clock Region Of Source Site     | Source Site         | Clock Buffer Loads     | Non-Clock Buffer Loads     
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| sys_clk_ibuf/opit_1                           | INCK           | _N7                         | (X1,Y1)                         | IOL_327_210         | 1                      | 0                          
+| voice_loop_test_inst/pll1/u_pll_e3/goppll     | CLKOUT0        | clk_12M                     | (X0,Y0)                         | PLL_158_75          | 1                      | 2                          
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT1        | hdmi_test1_inst/cfg_clk     | (X0,Y0)                         | PLL_158_55          | 1                      | 0                          
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT0        | nt_pix_clk                  | (X0,Y0)                         | PLL_158_55          | 1                      | 1                          
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | TCK_USER       | u_CORES/drck_o              | (X1,Y0)                         | SCANCHAIN_325_0     | 1                      | 0                          
+| es0_dsclk_ibuf/opit_1                         | INCK           | _N8                         | (X0,Y0)                         | IOL_159_6           | 1                      | 0                          
+| es1_dsclk_ibuf/opit_1                         | OUT            | nt_es1_dsclk                | (X0,Y0)                         | IOL_39_6            | 1                      | 0                          
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | CAPDR          | u_CORES/capt_o              | (X1,Y0)                         | SCANCHAIN_325_0     | 1                      | 0                          
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Device Cell Placement Summary for Global Clock Buffer:
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Source  Name                                  | Source  Pin     | Source-Buffer Net           | Buffer Input Pin     | Buffer  Name              | Buffer Output Pin     | Buffer-Load Net     | Buffer Site     | IO Load Clock Region     | Non-IO Load Clock Region     | Clock Loads     | Non-Clock Loads     
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| sys_clk_ibuf/opit_1                           | INCK            | _N7                         | CLK                  | clkbufg_3/gopclkbufg      | CLKOUT                | ntclkbufg_0         | USCM_84_108     |  ---                     | (76,147,17,68)               | 2801            | 0                   
+| voice_loop_test_inst/pll1/u_pll_e3/goppll     | CLKOUT0         | clk_12M                     | CLK                  | clkbufg_4/gopclkbufg      | CLKOUT                | ntclkbufg_1         | USCM_84_109     |  ---                     | (83,138,3,88)                | 802             | 0                   
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | TCK_USER        | u_CORES/drck_o              | CLK                  | clkbufg_5/gopclkbufg      | CLKOUT                | ntclkbufg_2         | USCM_84_113     |  ---                     | (104,136,3,88)               | 279             | 0                   
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT1         | hdmi_test1_inst/cfg_clk     | CLK                  | clkbufg_6/gopclkbufg      | CLKOUT                | ntclkbufg_3         | USCM_84_110     |  ---                     | (83,122,5,16)                | 117             | 0                   
+| es0_dsclk_ibuf/opit_1                         | INCK            | _N8                         | CLK                  | clkbufg_7/gopclkbufg      | CLKOUT                | ntclkbufg_4         | USCM_84_112     |  ---                     | (100,110,29,36)              | 74              | 0                   
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT0         | nt_pix_clk                  | CLK                  | clkbufg_8/gopclkbufg      | CLKOUT                | ntclkbufg_5         | USCM_84_111     |  ---                     | (132,141,26,35)              | 53              | 0                   
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | CAPDR           | u_CORES/capt_o              | CLK                  | clkbufg_9/gopclkbufg      | CLKOUT                | ntclkbufg_6         | USCM_84_115     |  ---                     | (120,123,40,46)              | 11              | 0                   
+| es1_dsclk_ibuf/opit_1                         | OUT             | nt_es1_dsclk                | CLK                  | clkbufg_10/gopclkbufg     | CLKOUT                | ntclkbufg_7         | USCM_84_114     |  ---                     | (100,105,31,36)              | 18              | 0                   
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Device Cell Placement Summary for Global Clock Source:
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Source Name                                   | Source  Pin     | Source-Load Net             | Source Site         | Clock Buffer Loads     | Non-Clock Buffer Loads     
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| sys_clk_ibuf/opit_1                           | INCK            | _N7                         | IOL_327_210         | 1                      | 2                          
+| voice_loop_test_inst/pll1/u_pll_e3/goppll     | CLKOUT0         | clk_12M                     | PLL_158_75          | 1                      | 2                          
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | TCK_USER        | u_CORES/drck_o              | SCANCHAIN_325_0     | 1                      | 0                          
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT1         | hdmi_test1_inst/cfg_clk     | PLL_158_55          | 1                      | 0                          
+| es0_dsclk_ibuf/opit_1                         | INCK            | _N8                         | IOL_159_6           | 1                      | 0                          
+| hdmi_test1_inst/pll_inst/u_pll_e3/goppll      | CLKOUT0         | nt_pix_clk                  | PLL_158_55          | 1                      | 1                          
+| u_CORES/u_GTP_SCANCHAIN_PG/scanchain          | CAPDR           | u_CORES/capt_o              | SCANCHAIN_325_0     | 1                      | 0                          
+| es1_dsclk_ibuf/opit_1                         | OUT             | nt_es1_dsclk                | IOL_39_6            | 1                      | 0                          
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+

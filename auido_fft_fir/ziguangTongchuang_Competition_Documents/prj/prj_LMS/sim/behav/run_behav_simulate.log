@@ -1,0 +1,124 @@
+# Reading D:/modelsim106/setup/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap usim C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap adc C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrc C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ddrphy C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap hsst_e2 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap iolhr_dft C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap ipal_e1 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap pciegen2 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/pango_sim_libraries/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:48:02 on May 22,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/DelayUnit.v -work work 
+# -- Compiling module DelayUnit
+# 
+# Top level modules:
+# 	DelayUnit
+# End time: 14:48:02 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:48:02 on May 22,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS.v -work work 
+# -- Compiling module LMS
+# 
+# Top level modules:
+# 	LMS
+# End time: 14:48:02 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:48:02 on May 22,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_tap.v -work work 
+# -- Compiling module LMS_tap
+# 
+# Top level modules:
+# 	LMS_tap
+# End time: 14:48:02 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:48:02 on May 22,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSx8.v -work work 
+# -- Compiling module LMSx8
+# 
+# Top level modules:
+# 	LMSx8
+# End time: 14:48:02 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:48:02 on May 22,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMSX_selfdefine.v -work work 
+# -- Compiling module LMSX_selfdefine
+# 
+# Top level modules:
+# 	LMSX_selfdefine
+# End time: 14:48:02 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 14:48:02 on May 22,2024
+# vlog -reportprogress 300 C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v -work work 
+# -- Compiling module LMS_sim
+# 
+# Top level modules:
+# 	LMS_sim
+# End time: 14:48:02 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 LMS_sim usim.GTP_GRS 
+# Start time: 14:48:02 on May 22,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/sim/behav/work.LMS_sim
+# Loading work.LMS_sim
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/sim/behav/work.LMS
+# Loading work.LMS
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/sim/behav/work.DelayUnit
+# Loading work.DelayUnit
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/sim/behav/work.LMSX_selfdefine
+# Loading work.LMSX_selfdefine
+# Loading usim.GTP_GRS
+# Refreshing C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_LMS/sim/behav/work.LMS_tap
+# Loading work.LMS_tap
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run
+# ** Note: $stop    : C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v(78)
+#    Time: 10 us  Iteration: 0  Instance: /LMS_sim
+# Break in Module LMS_sim at C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/lms/LMS_sim.v line 78
+# End time: 15:30:03 on May 22,2024, Elapsed time: 0:42:01
+# Errors: 0, Warnings: 0

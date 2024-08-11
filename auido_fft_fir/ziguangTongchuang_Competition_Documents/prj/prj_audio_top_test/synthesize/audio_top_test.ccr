@@ -1,0 +1,630 @@
+##### Written on 2024/07/10 14:58:51 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	audio_top_test
+
+Constraint File(s) : 
+	C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 27 critical warning(s), 119 warning(s), out of 665 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:b_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 238)] PAP_IO_DIRECTION is already defined in p:b_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_LOC} {P19}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 239)] PAP_IO_LOC is already defined in p:b_out[7], new value P19 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 240)] PAP_IO_VCCIO is already defined in p:b_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 241)] PAP_IO_STANDARD is already defined in p:b_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 242)] PAP_IO_DRIVE is already defined in p:b_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 243)] PAP_IO_NONE is already defined in p:b_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 244)] PAP_IO_SLEW is already defined in p:b_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 245)] PAP_IO_DIRECTION is already defined in p:b_out[6], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_LOC} {R19}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 246)] PAP_IO_LOC is already defined in p:b_out[6], new value R19 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 247)] PAP_IO_VCCIO is already defined in p:b_out[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 248)] PAP_IO_STANDARD is already defined in p:b_out[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 249)] PAP_IO_DRIVE is already defined in p:b_out[6], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 250)] PAP_IO_NONE is already defined in p:b_out[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 251)] PAP_IO_SLEW is already defined in p:b_out[6], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 252)] PAP_IO_DIRECTION is already defined in p:b_out[5], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 253)] PAP_IO_LOC is already defined in p:b_out[5], new value R22 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 254)] PAP_IO_VCCIO is already defined in p:b_out[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 255)] PAP_IO_STANDARD is already defined in p:b_out[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 256)] PAP_IO_DRIVE is already defined in p:b_out[5], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 257)] PAP_IO_NONE is already defined in p:b_out[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 258)] PAP_IO_SLEW is already defined in p:b_out[5], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 259)] PAP_IO_DIRECTION is already defined in p:b_out[4], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 260)] PAP_IO_LOC is already defined in p:b_out[4], new value R20 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 261)] PAP_IO_VCCIO is already defined in p:b_out[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 262)] PAP_IO_STANDARD is already defined in p:b_out[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 263)] PAP_IO_DRIVE is already defined in p:b_out[4], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 264)] PAP_IO_NONE is already defined in p:b_out[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 265)] PAP_IO_SLEW is already defined in p:b_out[4], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 266)] PAP_IO_DIRECTION is already defined in p:b_out[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_LOC} {T22}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 267)] PAP_IO_LOC is already defined in p:b_out[3], new value T22 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 268)] PAP_IO_VCCIO is already defined in p:b_out[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 269)] PAP_IO_STANDARD is already defined in p:b_out[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 270)] PAP_IO_DRIVE is already defined in p:b_out[3], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 271)] PAP_IO_NONE is already defined in p:b_out[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 272)] PAP_IO_SLEW is already defined in p:b_out[3], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 280)] PAP_IO_DIRECTION is already defined in p:b_out[1], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_LOC} {V22}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 281)] PAP_IO_LOC is already defined in p:b_out[1], new value V22 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 282)] PAP_IO_VCCIO is already defined in p:b_out[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 283)] PAP_IO_STANDARD is already defined in p:b_out[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 284)] PAP_IO_DRIVE is already defined in p:b_out[1], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 285)] PAP_IO_NONE is already defined in p:b_out[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 286)] PAP_IO_SLEW is already defined in p:b_out[1], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 287)] PAP_IO_DIRECTION is already defined in p:b_out[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_LOC} {V21}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 288)] PAP_IO_LOC is already defined in p:b_out[0], new value V21 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 289)] PAP_IO_VCCIO is already defined in p:b_out[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 290)] PAP_IO_STANDARD is already defined in p:b_out[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 291)] PAP_IO_DRIVE is already defined in p:b_out[0], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 292)] PAP_IO_NONE is already defined in p:b_out[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 293)] PAP_IO_SLEW is already defined in p:b_out[0], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 294)] PAP_IO_DIRECTION is already defined in p:g_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 295)] PAP_IO_LOC is already defined in p:g_out[7], new value L17 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 296)] PAP_IO_VCCIO is already defined in p:g_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 297)] PAP_IO_STANDARD is already defined in p:g_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 298)] PAP_IO_DRIVE is already defined in p:g_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 299)] PAP_IO_NONE is already defined in p:g_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 300)] PAP_IO_SLEW is already defined in p:g_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 301)] PAP_IO_DIRECTION is already defined in p:g_out[6], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 302)] PAP_IO_LOC is already defined in p:g_out[6], new value K20 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 303)] PAP_IO_VCCIO is already defined in p:g_out[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 304)] PAP_IO_STANDARD is already defined in p:g_out[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 305)] PAP_IO_DRIVE is already defined in p:g_out[6], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 306)] PAP_IO_NONE is already defined in p:g_out[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 307)] PAP_IO_SLEW is already defined in p:g_out[6], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 308)] PAP_IO_DIRECTION is already defined in p:g_out[5], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 309)] PAP_IO_LOC is already defined in p:g_out[5], new value L19 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 310)] PAP_IO_VCCIO is already defined in p:g_out[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 311)] PAP_IO_STANDARD is already defined in p:g_out[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 312)] PAP_IO_DRIVE is already defined in p:g_out[5], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 313)] PAP_IO_NONE is already defined in p:g_out[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 314)] PAP_IO_SLEW is already defined in p:g_out[5], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 315)] PAP_IO_DIRECTION is already defined in p:g_out[4], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_LOC} {N15}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 316)] PAP_IO_LOC is already defined in p:g_out[4], new value N15 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 317)] PAP_IO_VCCIO is already defined in p:g_out[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 318)] PAP_IO_STANDARD is already defined in p:g_out[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 319)] PAP_IO_DRIVE is already defined in p:g_out[4], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 320)] PAP_IO_NONE is already defined in p:g_out[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 321)] PAP_IO_SLEW is already defined in p:g_out[4], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 322)] PAP_IO_DIRECTION is already defined in p:g_out[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_LOC} {M16}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 323)] PAP_IO_LOC is already defined in p:g_out[3], new value M16 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 324)] PAP_IO_VCCIO is already defined in p:g_out[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 325)] PAP_IO_STANDARD is already defined in p:g_out[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 326)] PAP_IO_DRIVE is already defined in p:g_out[3], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 327)] PAP_IO_NONE is already defined in p:g_out[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 328)] PAP_IO_SLEW is already defined in p:g_out[3], new value FAST will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 399)] PAP_IO_DIRECTION is already defined in p:r_out[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 400)] PAP_IO_LOC is already defined in p:r_out[0], new value K17 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 401)] PAP_IO_VCCIO is already defined in p:r_out[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 402)] PAP_IO_STANDARD is already defined in p:r_out[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 403)] PAP_IO_DRIVE is already defined in p:r_out[0], new value 8 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 404)] PAP_IO_NONE is already defined in p:r_out[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 405)] PAP_IO_SLEW is already defined in p:r_out[0], new value FAST will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 406)] PAP_IO_DIRECTION is already defined in p:iic_tx_sda, new value INOUT will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_LOC} {P18}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 407)] PAP_IO_LOC is already defined in p:iic_tx_sda, new value P18 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 408)] PAP_IO_VCCIO is already defined in p:iic_tx_sda, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 409)] PAP_IO_STANDARD is already defined in p:iic_tx_sda, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 410)] PAP_IO_DRIVE is already defined in p:iic_tx_sda, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 412)] PAP_IO_SLEW is already defined in p:iic_tx_sda, new value FAST will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 413)] PAP_IO_DIRECTION is already defined in p:de_out, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_LOC} {Y22}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 414)] PAP_IO_LOC is already defined in p:de_out, new value Y22 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 415)] PAP_IO_VCCIO is already defined in p:de_out, new value 3.3 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 416)] PAP_IO_STANDARD is already defined in p:de_out, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 417)] PAP_IO_DRIVE is already defined in p:de_out, new value 8 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 418)] PAP_IO_NONE is already defined in p:de_out, new value TRUE will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 419)] PAP_IO_SLEW is already defined in p:de_out, new value FAST will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 420)] PAP_IO_DIRECTION is already defined in p:hs_out, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_LOC} {Y21}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 421)] PAP_IO_LOC is already defined in p:hs_out, new value Y21 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 422)] PAP_IO_VCCIO is already defined in p:hs_out, new value 3.3 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 423)] PAP_IO_STANDARD is already defined in p:hs_out, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 424)] PAP_IO_DRIVE is already defined in p:hs_out, new value 8 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 425)] PAP_IO_NONE is already defined in p:hs_out, new value TRUE will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 426)] PAP_IO_SLEW is already defined in p:hs_out, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 427)] PAP_IO_DIRECTION is already defined in p:iic_tx_scl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_LOC} {P17}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 428)] PAP_IO_LOC is already defined in p:iic_tx_scl, new value P17 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 429)] PAP_IO_VCCIO is already defined in p:iic_tx_scl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 430)] PAP_IO_STANDARD is already defined in p:iic_tx_scl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 431)] PAP_IO_DRIVE is already defined in p:iic_tx_scl, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 433)] PAP_IO_SLEW is already defined in p:iic_tx_scl, new value FAST will overwrite the current value.
+
+define_attribute {p:es1_sdout} {PAP_IO_LOC} {AB5}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 31)] | Port es1_sdout has been placed at location AB5, whose type is share pin.
+
+define_attribute {p:es1_dlrc} {PAP_IO_LOC} {Y5}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 54)] | Port es1_dlrc has been placed at location Y5, whose type is share pin.
+
+define_attribute {p:lin_test} {PAP_IO_LOC} {Y13}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 70)] | Port lin_test has been placed at location Y13, whose type is share pin.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 253)] | Port b_out[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 260)] | Port b_out[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 295)] | Port g_out[7] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 302)] | Port g_out[6] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 309)] | Port g_out[5] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 400)] | Port r_out[0] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 214)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 235)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:b_out[2]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 274)] | Port b_out[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 344)] | Port g_out[0] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 351)] | Port r_out[7] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:r_out[6]} {PAP_IO_LOC} {H22}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 358)] | Port r_out[6] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:r_out[5]} {PAP_IO_LOC} {H21}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 365)] | Port r_out[5] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:pix_clk} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 447)] | Port pix_clk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:eth_rst_n_0} {PAP_IO_LOC} {B20}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 497)] | Port eth_rst_n_0 has been placed at location B20, whose type is share pin.
+
+define_attribute {p:eth_rgmii_tx_ctl_0} {PAP_IO_LOC} {B18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 504)] | Port eth_rgmii_tx_ctl_0 has been placed at location B18, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_0[1]} {PAP_IO_LOC} {D17}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 525)] | Port eth_rgmii_txd_0[1] has been placed at location D17, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_0[2]} {PAP_IO_LOC} {C18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 532)] | Port eth_rgmii_txd_0[2] has been placed at location C18, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_0[3]} {PAP_IO_LOC} {A18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 539)] | Port eth_rgmii_txd_0[3] has been placed at location A18, whose type is share pin.
+
+define_attribute {p:eth_rgmii_rxd_1[3]} {PAP_IO_LOC} {F18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 576)] | Port eth_rgmii_rxd_1[3] has been placed at location F18, whose type is share pin.
+
+define_attribute {p:eth_rst_n_1} {PAP_IO_LOC} {F19}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 582)] | Port eth_rst_n_1 has been placed at location F19, whose type is share pin.
+
+define_attribute {p:eth_rgmii_tx_ctl_1} {PAP_IO_LOC} {F22}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 589)] | Port eth_rgmii_tx_ctl_1 has been placed at location F22, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_1[1]} {PAP_IO_LOC} {E20}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 610)] | Port eth_rgmii_txd_1[1] has been placed at location E20, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_1[2]} {PAP_IO_LOC} {E22}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 617)] | Port eth_rgmii_txd_1[2] has been placed at location E22, whose type is share pin.
+
+define_attribute {p:eth_rgmii_txd_1[3]} {PAP_IO_LOC} {F21}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 624)] | Port eth_rgmii_txd_1[3] has been placed at location F21, whose type is share pin.
+
+define_attribute {p:key} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_audio_top_test/source/src/audio_top_test.fdc(line number: 634)] | Port key has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

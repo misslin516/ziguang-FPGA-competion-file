@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+C:/Users/86151/Desktop/auido_fft_fir/fft_top/fft_vivado/fft_test/fft_test.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_fft_test.v,1711614700,verilog,,,,tb_fft_test,,,,,,,,
+C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v,1711605998,verilog,,C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v,,fft_ctrl,,,,,,,,
+C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_test.v,1711614549,verilog,,C:/Users/86151/Desktop/auido_fft_fir/fft_top/sim/tb_fft_test.v,,fft_test,,,,,,,,
+C:/Users/86151/Desktop/auido_fft_fir/fifo/FPGA_Asynchronous_FIFO-main/src/asyn_fifo.v,1711605859,verilog,,C:/Users/86151/Desktop/auido_fft_fir/fft_top/src/fft_ctrl.v,,asyn_fifo;dual_port_sync,,,,,,,,

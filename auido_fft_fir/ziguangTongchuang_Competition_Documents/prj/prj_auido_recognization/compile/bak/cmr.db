@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv</data>
+            <data>Verilog</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:2s</data>
+            <data>0h:0m:5s</data>
+            <data>148</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 5 5600H with Radeon Graphics</data>
+            <data>14</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v(line number: 2)] Analyzing module divide (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 23)] Analyzing module cordic_newton (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 3)] Analyzing module auido_recognization (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2006: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 23)] Ansi_parameter force parameter in body to localparam</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2006: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 24)] Ansi_parameter force parameter in body to localparam</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2006: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 25)] Ansi_parameter force parameter in body to localparam</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2006: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 26)] Ansi_parameter force parameter in body to localparam</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;auido_recognization&quot; is set as top module.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 3)] Elaborating module auido_recognization</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization} parameter value:
+    Dlength = 32'b00000000000000000000000011000000
+    feature_user1 = 64'b1111111111111111000000000000001000000000000000101111111111111101
+    feature_user2 = 64'b1111111111111110000000000000001000000000000000101111111111111100
+    feature_user3 = 64'b1111111111111111111111111111111000000000000000011111111111111011
+    feature_user4 = 64'b1111111111111111000000000000001000000000000000011111111111111010</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 326)] Elaborating instance cordic_newton_inst0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 23)] Elaborating module cordic_newton</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.cordic_newton_inst0} parameter value:
+    d_width = 32'b00000000000000000000000000101000
+    q_width = 32'b00000000000000000000000000010011
+    r_width = 32'b00000000000000000000000000010100</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2039: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 93)] Repeat multiplier in concatenation evaluates to 0</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2039: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 98)] Repeat multiplier in concatenation evaluates to 0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 346)] Elaborating instance cordic_newton_inst1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 23)] Elaborating module cordic_newton</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.cordic_newton_inst1} parameter value:
+    d_width = 32'b00000000000000000000000000101000
+    q_width = 32'b00000000000000000000000000010011
+    r_width = 32'b00000000000000000000000000010100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 366)] Elaborating instance cordic_newton_inst2</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 23)] Elaborating module cordic_newton</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.cordic_newton_inst2} parameter value:
+    d_width = 32'b00000000000000000000000000101000
+    q_width = 32'b00000000000000000000000000010011
+    r_width = 32'b00000000000000000000000000010100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 386)] Elaborating instance cordic_newton_inst3</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 23)] Elaborating module cordic_newton</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.cordic_newton_inst3} parameter value:
+    d_width = 32'b00000000000000000000000000101000
+    q_width = 32'b00000000000000000000000000010011
+    r_width = 32'b00000000000000000000000000010100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 405)] Elaborating instance cordic_newton_inst4</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/fft_top/cordic_newton.v(line number: 23)] Elaborating module cordic_newton</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.cordic_newton_inst4} parameter value:
+    d_width = 32'b00000000000000000000000000101000
+    q_width = 32'b00000000000000000000000000010011
+    r_width = 32'b00000000000000000000000000010100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 423)] Elaborating instance divide_inst0</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v(line number: 2)] Elaborating module divide</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.divide_inst0} parameter value:
+    I_W = 32'b00000000000000000000000000110010
+    D_W = 32'b00000000000000000000000000100110
+    O_W = 32'b00000000000000000000000000001100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 440)] Elaborating instance divide_inst1</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v(line number: 2)] Elaborating module divide</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.divide_inst1} parameter value:
+    I_W = 32'b00000000000000000000000000110010
+    D_W = 32'b00000000000000000000000000100110
+    O_W = 32'b00000000000000000000000000001100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 457)] Elaborating instance divide_inst2</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v(line number: 2)] Elaborating module divide</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.divide_inst2} parameter value:
+    I_W = 32'b00000000000000000000000000110010
+    D_W = 32'b00000000000000000000000000100110
+    O_W = 32'b00000000000000000000000000001100</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0004: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/auido_recognization.sv(line number: 474)] Elaborating instance divide_inst3</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/src/audio_recognization/divide.v(line number: 2)] Elaborating module divide</data>
+        </row>
+        <row>
+            <data message="4">Module instance {auido_recognization.divide_inst3} parameter value:
+    I_W = 32'b00000000000000000000000000110010
+    D_W = 32'b00000000000000000000000000100110
+    O_W = 32'b00000000000000000000000000001100</data>
+        </row>
+        <row>
+            <data message="4">Removed inst sumofsquare4[0][40:0] that is redundant to sumofsquare3[0][40:0].</data>
+        </row>
+        <row>
+            <data message="4">Removed inst sumofsquare3[0][40:0] that is redundant to sumofsquare1[0][40:0].</data>
+        </row>
+        <row>
+            <data message="4">Removed inst sumofsquare_norm3[0][40:0] that is redundant to sumofsquare_norm1[0][40:0].</data>
+        </row>
+        <row>
+            <data message="4">Removed inst sumofsquare_norm4[0][40:0] that is redundant to sumofsquare_norm1[0][40:0].</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1044 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N33[1] (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1463 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1472 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1481 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1490 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1499 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1508 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1517 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N1526 (bmsWIDEMUX).</data>
+        </row>
+    </table>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL50H-6FBG484</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>auido_recognization</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>SystemVerilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>C:/Users/86151/Desktop/auido_fft_fir/ziguangTongchuang_Competition_Documents/prj/prj_auido_recognization	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>auto</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/fft_top/asyn_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module asyn_fifo
+INFO: [VRFC 10-311] analyzing module dual_port_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/fft_top/fifo_test/tb_fifo_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fifo_test
+WARNING: [VRFC 10-3380] identifier 'DATA_WIDTH' is used before its declaration [C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/fft_top/fifo_test/tb_fifo_test.v:14]
+WARNING: [VRFC 10-3380] identifier 'DATA_WIDTH' is used before its declaration [C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/fft_top/fifo_test/tb_fifo_test.v:15]
+WARNING: [VRFC 10-3380] identifier 'FIFO_DEPTH_WIDTH' is used before its declaration [C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/fft_top/fifo_test/tb_fifo_test.v:18]
+WARNING: [VRFC 10-3380] identifier 'FIFO_DEPTH_WIDTH' is used before its declaration [C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/fft_top/fifo_test/tb_fifo_test.v:19]

@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/sim/behav
+vfifo1
+Z1 !s110 1711525727
+!i10b 1
+!s100 CCbi_@jX9RNb0?GZcL92;3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILFZRln?1>kPnQebGV<SH]3
+R0
+Z3 w1711519094
+8C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.v
+FC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.v
+!i122 16
+L0 18 163
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1711525727.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.v|-work|work|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vfifo_test
+Z9 !s110 1711525726
+!i10b 1
+!s100 Vmo672VaLaZ;>iSD;@34`1
+R2
+INo87H@n3XdMgN9daKjX?51
+R0
+w1711519707
+8C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v
+FC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v
+!i122 12
+L0 3 82
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1711525726.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v|-work|work|
+!i113 0
+R7
+R8
+vipml_fifo_ctrl_v1_3
+R9
+!i10b 1
+!s100 E^>D]>RZech1SjNdWf8ac3
+R2
+IWG^1ojMHg<ieE?KI?=IKN2
+R0
+w1657559934
+8C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v
+FC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v
+!i122 13
+L0 21 361
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v|-work|work|
+!i113 0
+R7
+R8
+vipml_fifo_v1_6_fifo1
+R1
+!i10b 1
+!s100 7nBoMYX]kY@`zFAn]^hce2
+R2
+ISScHQefC]>QgRf2o?]n1k0
+R0
+R3
+8C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_v1_6_fifo1.v
+FC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_v1_6_fifo1.v
+!i122 15
+L0 25 116
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_v1_6_fifo1.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_fifo_v1_6_fifo1.v|-work|work|
+!i113 0
+R7
+R8
+vipml_sdpram_v1_6_fifo1
+R9
+!i10b 1
+!s100 C=I;IPQ1PL@noGklf1<z@1
+R2
+ID5nz9Q3`9C9GFBzWL=Y@h1
+R0
+R3
+8C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_sdpram_v1_6_fifo1.v
+FC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_sdpram_v1_6_fifo1.v
+!i122 14
+L0 20 1099
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_sdpram_v1_6_fifo1.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/rtl/ipml_sdpram_v1_6_fifo1.v|-work|work|
+!i113 0
+R7
+R8
+vtb_fifo_test
+R1
+!i10b 1
+!s100 BC9C5nc2CK<UL@8;DU;0W3
+R2
+I9V6U=Z0?@bUNMOR01h0eQ3
+R0
+w1711524081
+8C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/sim/tb_fifo_test.v
+FC:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/sim/tb_fifo_test.v
+!i122 17
+L0 3 53
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/sim/tb_fifo_test.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/sim/tb_fifo_test.v|-work|work|
+!i113 0
+R7
+R8

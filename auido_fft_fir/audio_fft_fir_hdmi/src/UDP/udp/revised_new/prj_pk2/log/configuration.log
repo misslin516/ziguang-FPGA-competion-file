@@ -1,0 +1,34 @@
+[Info] [2024-5-5 20:54:44] /***************************Start Configuration***************************/
+[Info] [2024-5-5 20:54:44] Path: D:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/bin
+[Info] [2024-5-5 20:54:44] Version: 99559
+[Info] [2024-5-5 20:54:45] Current Path: C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2
+[Info] [2024-5-5 20:54:45] PDS Dir Path: C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2
+[Info] [2024-5-5 20:54:48] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-5-5 20:54:48] Client Local host name:Thecomputerofmartin
+[Debug] [2024-5-5 20:54:48] Client Local Address:169.254.51.120
+[Debug] [2024-5-5 20:54:48] Client Local Address:10.136.129.96
+[Debug] [2024-5-5 20:54:48] Server Address:127.0.0.1, Port:65420
+[Info] [2024-5-5 20:54:49] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-5-5 20:54:49] Finish.
+[Info] [2024-5-5 20:54:49] Connect server succeeded
+[Debug] [2024-5-5 20:54:49] Send RPC:1
+[Debug] [2024-5-5 20:54:49] Send cmd [check version information:40005] OK
+[Debug] [2024-5-5 20:54:49] Send RPC:2
+[Debug] [2024-5-5 20:54:49] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-5-5 20:54:49] Begin to send initialize chain cmd...
+[Debug] [2024-5-5 20:54:49] Send RPC:3
+[Debug] [2024-5-5 20:54:49] Send cmd [Open config cable:20001] OK
+[Debug] [2024-5-5 20:54:49] End to send initialize chain cmd.
+[Debug] [2024-5-5 20:54:49] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2024-5-5 20:54:50] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2024-5-5 20:54:51] begin the exec of open cable cmd...
+[Debug] [2024-5-5 20:54:51] Begin to deal with chain from server...
+[Debug] [2024-5-5 20:54:51] Begin to set user chain...
+[Debug] [2024-5-5 20:54:51] End to set user chain.
+[Debug] [2024-5-5 20:54:51] Begin to update graphic item and tree item ...
+[Debug] [2024-5-5 20:54:51] End to update graphic item and tree item ...
+[Debug] [2024-5-5 20:54:54] selected file name is empty and ignore.
+[Debug] [2024-5-5 20:54:54] End to deal wiht chain from server.
+[Debug] [2024-5-5 20:54:54] end the exec of open cable cmd.
+[Debug] [2024-5-5 20:54:54] COMMAND[Open config cable] execute successfully, takes 4.9 secs.
+[Info] [2024-5-5 20:54:55] /***************************End Configration***************************/

@@ -1,0 +1,65 @@
+
+Inputs and Outputs :
++--------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                      
++--------------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v             
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.idf      
+| Output     | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/snr.db           
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/synplify.log     
++--------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test} -selected_syn_tool_opt 1 -top_module fifo_test
+
+Inputs and Outputs :
++--------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                      
++--------------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v             
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.idf      
+| Output     | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/snr.db           
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/synplify.log     
++--------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test} -selected_syn_tool_opt 1 -top_module fifo_test
+
+Inputs and Outputs :
++--------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                      
++--------------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v             
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.idf      
+| Output     | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/snr.db           
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/synplify.log     
++--------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test} -selected_syn_tool_opt 1 -top_module fifo_test
+
+Inputs and Outputs :
++--------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                      
++--------------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v             
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.idf      
+| Output     | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/snr.db           
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/synplify.log     
++--------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test} -selected_syn_tool_opt 1 -top_module fifo_test
+
+Inputs and Outputs :
++--------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                      
++--------------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/src/fifo_test.v             
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/ipcore/fifo1/fifo1.idf      
+| Output     | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/snr.db           
+|            | C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test/synthesize/synplify.log     
++--------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -include_path {C:/Users/86151/Desktop/auido_fft_fir/pango_fifo_test/prj/fifo_test} -selected_syn_tool_opt 1 -top_module fifo_test

@@ -1,0 +1,250 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/sim/behav
+vdpram
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H51Qe4Ldinm7R1BemPJ_`1
+IUn_ABJln<_o`cNNbbmGLd0
+R0
+w1715606868
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/dpram.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/dpram.v
+L0 5
+Z2 OL;L;10.6d;65
+Z3 !s108 1716099349.000000
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/dpram.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/dpram.v|-work|work|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vhdmi_test1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 kh2JienJ6kBDmHY]`83kk2
+IUA9ohYbAg3O[TJc6eD2^o0
+R0
+w1716097775
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/hdmi_test1.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/hdmi_test1.v
+L0 9
+R2
+R3
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/hdmi_test1.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/hdmi_test1.v|-work|work|
+!i113 0
+R4
+R5
+viic_dri
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 =W?z_J?8@z>X:C?G;5AhE1
+IQk632RMEYD5G>ECh_HKFJ3
+R0
+w1676639665
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/iic_dri.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/iic_dri.v
+L0 23
+R2
+R3
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/iic_dri.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/iic_dri.v|-work|work|
+!i113 0
+R4
+R5
+vipm_distributed_sdpram_v1_2_ram2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]o2A39BQW:f<n7R_JLF7]1
+IlhQmPJ2nO5gNJfnmKU7UJ1
+R0
+Z6 w1716088480
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/rtl/ipm_distributed_sdpram_v1_2_ram2.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/rtl/ipm_distributed_sdpram_v1_2_ram2.v
+Z7 L0 22
+R2
+Z8 !s108 1716099350.000000
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/rtl/ipm_distributed_sdpram_v1_2_ram2.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/rtl/ipm_distributed_sdpram_v1_2_ram2.v|-work|work|
+!i113 0
+R4
+R5
+vms7200_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 iKo1Z0cH:JJ?U>SS=@1Qn2
+Io?7_5RcV=;oUfOzEJoNfU2
+R0
+Z9 w1676639664
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7200_ctl.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7200_ctl.v
+R7
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7200_ctl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7200_ctl.v|-work|work|
+!i113 0
+R4
+R5
+vms7210_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3i5eYm:V@LE2=JU1[>K:V0
+I?jYcEZz[b>iUNon4:?<4F0
+R0
+R9
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7210_ctl.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7210_ctl.v
+R7
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7210_ctl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms7210_ctl.v|-work|work|
+!i113 0
+R4
+R5
+vms72xx_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VaoO?Dfmz0Znod8@VXMSf1
+I[Q[F[T<i6D6[zXdzBXINQ3
+R0
+R9
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms72xx_ctl.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms72xx_ctl.v
+R7
+R2
+R3
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms72xx_ctl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/ms72xx_ctl.v|-work|work|
+!i113 0
+R4
+R5
+vpattern_vg_revised
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 d@:3;6E8PoSXkN^[L7g;=0
+In9GHzi4;cEUg<<4<zB[2L3
+R0
+w1716098828
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/pattern_vg_revised.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/pattern_vg_revised.v
+L0 21
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/pattern_vg_revised.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/pattern_vg_revised.v|-work|work|
+!i113 0
+R4
+R5
+vpll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 nd<bbdL<JIf9czYnJd8VQ2
+I1URa6oEQoWTAQ0HHKIXEa2
+R0
+w1716088577
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/pll/pll.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/pll/pll.v
+Z10 L0 20
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/pll/pll.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/pll/pll.v|-work|work|
+!i113 0
+R4
+R5
+vram2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jT5AXbo@YEf298Hd20:h20
+IOAT<V?0BcF1z4gRVh<YfO0
+R0
+R6
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/ram2.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/ram2.v
+R10
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/ram2.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/prj/prj_hdmi/ipcore/ram2/ram2.v|-work|work|
+!i113 0
+R4
+R5
+vsync_vg_revised1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;Kd8H9kzGBdW0b79;?3Qb0
+I:eFe8n_CZGb4zDcATozmU1
+R0
+w1715604070
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/sync_vg_revised1.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/sync_vg_revised1.v
+L0 33
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/sync_vg_revised1.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/sync_vg_revised1.v|-work|work|
+!i113 0
+R4
+R5
+vtb_hdmi_test1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?AC?S2j8l04^`[2Ig[OPc3
+IQjLf;f^74fmG4zY:ma^ok1
+R0
+w1716098813
+8C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/tb_hdmi_test1.v
+FC:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/tb_hdmi_test1.v
+L0 6
+R2
+R8
+!s107 C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/tb_hdmi_test1.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/ziguangTongchuang_Competition_Documents/src/hdmi_top/tb_hdmi_test1.v|-work|work|
+!i113 0
+R4
+R5

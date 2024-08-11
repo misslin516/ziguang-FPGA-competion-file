@@ -1,0 +1,18 @@
+
+Inputs and Outputs :
++------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                              
++------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/86151/Desktop/auido_fft_fir/source/prj/synthesize/voice_loop_test_syn.adf     
+|            | C:/Users/86151/Desktop/auido_fft_fir/source/prj/synthesize/voice_loop_test_syn.fic     
+| Output     | C:/Users/86151/Desktop/auido_fft_fir/source/prj/device_map/voice_loop_test_dmr.prt     
+|            | C:/Users/86151/Desktop/auido_fft_fir/source/prj/device_map/dmr.db                      
+|            | C:/Users/86151/Desktop/auido_fft_fir/source/prj/device_map/voice_loop_test.dmr         
++------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: dev_map 
+Peak memory: 202 MB
+Total CPU  time to dev_map completion : 0h:0m:2s
+Process Total CPU  time to dev_map completion : 0h:0m:2s
+Total real time to dev_map completion : 0h:0m:4s

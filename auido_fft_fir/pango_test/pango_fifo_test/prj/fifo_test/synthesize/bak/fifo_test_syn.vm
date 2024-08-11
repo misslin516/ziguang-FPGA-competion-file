@@ -1,0 +1,1218 @@
+//
+// Generated (version 2022.1<build 99559>) at Wed Mar 27 14:10:12 2024
+//
+
+module ipml_fifo_ctrl_v1_3
+(
+    input N138,
+    input w_en,
+    input wclk,
+    input wrst,
+    output [7:0] waddr,
+    output _N135_3,
+    output _N152,
+    output _N153,
+    output wfull
+);
+    wire N0_1;
+    wire [8:0] N2;
+    wire _N117;
+    wire _N118;
+    wire _N119;
+    wire _N120;
+    wire _N121;
+    wire _N122;
+    wire _N123;
+    wire _N124;
+    wire _N145;
+    wire [8:0] wbin;
+
+    GTP_DFF_C /* \ASYN_CTRL.asyn_wfull  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.asyn_wfull  (
+            .Q (wfull),
+            .C (wrst),
+            .CLK (wclk),
+            .D (N138));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:201
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[0]  (
+            .Q (waddr[0]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[0]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[1]  (
+            .Q (waddr[1]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[1]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[2]  (
+            .Q (waddr[2]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[2]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[3]  (
+            .Q (waddr[3]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[3]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[4]  (
+            .Q (waddr[4]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[4]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[5]  (
+            .Q (waddr[5]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[5]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[6]  (
+            .Q (waddr[6]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[6]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[7]  (
+            .Q (waddr[7]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[7]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_DFF_CE /* \ASYN_CTRL.wbin[8]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \ASYN_CTRL.wbin[8]  (
+            .Q (wbin[8]),
+            .C (wrst),
+            .CE (N0_1),
+            .CLK (wclk),
+            .D (N2[8]));
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:106
+
+    GTP_INV N0_1_vname (
+            .Z (N0_1),
+            .I (wfull));
+    // defparam N0_1_vname.orig_name = N0_1;
+
+    GTP_LUT5CARRY /* N2_1 */ #(
+            .INIT(32'b01100110011001100000000000000000), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("FALSE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_1 (
+            .COUT (_N117),
+            .Z (N2[0]),
+            .CIN (),
+            .I0 (w_en),
+            .I1 (waddr[0]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b1),
+            .ID ());
+	// LUT = I1^I0 ;
+	// CARRY = (1'b0) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_2 */ #(
+            .INIT(32'b01111000011110001000000010000000), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("FALSE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_2 (
+            .COUT (_N118),
+            .Z (N2[1]),
+            .CIN (_N117),
+            .I0 (w_en),
+            .I1 (waddr[0]),
+            .I2 (waddr[1]),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = (I0&I1&~I2)|(~I1&I2)|(~I0&I2) ;
+	// CARRY = (I0&I1&I2) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_3 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_3 (
+            .COUT (_N119),
+            .Z (N2[2]),
+            .CIN (_N118),
+            .I0 (),
+            .I1 (waddr[2]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_4 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_4 (
+            .COUT (_N120),
+            .Z (N2[3]),
+            .CIN (_N119),
+            .I0 (),
+            .I1 (waddr[3]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_5 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_5 (
+            .COUT (_N121),
+            .Z (N2[4]),
+            .CIN (_N120),
+            .I0 (),
+            .I1 (waddr[4]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_6 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_6 (
+            .COUT (_N122),
+            .Z (N2[5]),
+            .CIN (_N121),
+            .I0 (),
+            .I1 (waddr[5]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_7 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_7 (
+            .COUT (_N123),
+            .Z (N2[6]),
+            .CIN (_N122),
+            .I0 (),
+            .I1 (waddr[6]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_8 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_8 (
+            .COUT (_N124),
+            .Z (N2[7]),
+            .CIN (_N123),
+            .I0 (),
+            .I1 (waddr[7]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5CARRY /* N2_9 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N2_9 (
+            .COUT (),
+            .Z (N2[8]),
+            .CIN (_N124),
+            .I0 (),
+            .I1 (wbin[8]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../ipcore/fifo1/rtl/ipml_fifo_ctrl_v1_3.v:96
+
+    GTP_LUT5 /* N138_24 */ #(
+            .INIT(32'b11111111111111111111111011111111))
+        N138_24 (
+            .Z (_N145),
+            .I0 (waddr[7]),
+            .I1 (waddr[6]),
+            .I2 (waddr[1]),
+            .I3 (wbin[8]),
+            .I4 (waddr[0]));
+	// LUT = (~I3)|(I0)|(I1)|(I2)|(I4) ;
+
+    GTP_LUT5 /* N138_25 */ #(
+            .INIT(32'b11111111111111111111111111111110))
+        N138_25 (
+            .Z (_N135_3),
+            .I0 (waddr[5]),
+            .I1 (waddr[4]),
+            .I2 (waddr[3]),
+            .I3 (waddr[2]),
+            .I4 (_N145));
+	// LUT = (I0)|(I1)|(I2)|(I3)|(I4) ;
+
+    GTP_LUT4 /* N138_30 */ #(
+            .INIT(16'b1111111111111110))
+        N138_30 (
+            .Z (_N152),
+            .I0 (N2[4]),
+            .I1 (N2[3]),
+            .I2 (N2[2]),
+            .I3 (N2[5]));
+	// LUT = (I0)|(I1)|(I2)|(I3) ;
+
+    GTP_LUT5 /* N138_31 */ #(
+            .INIT(32'b11111111111111101111111111111111))
+        N138_31 (
+            .Z (_N153),
+            .I0 (N2[7]),
+            .I1 (N2[6]),
+            .I2 (N2[1]),
+            .I3 (N2[0]),
+            .I4 (N2[8]));
+	// LUT = (~I4)|(I0)|(I1)|(I2)|(I3) ;
+
+
+endmodule
+
+
+module ipml_sdpram_v1_6_fifo1
+(
+    input [7:0] wr_addr,
+    input [30:0] wr_data,
+    input rd_clk,
+    input wr_clk,
+    input wr_en,
+    input wr_rst,
+    output [30:0] rd_data
+);
+    wire [17:0] qb_data_bus;
+
+    GTP_DRM9K /* \ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K  */ #(
+            .GRS_EN("FALSE"), 
+            .DATA_WIDTH_A(36), 
+            .DATA_WIDTH_B(36), 
+            .DOA_REG(0), 
+            .DOB_REG(0), 
+            .DOA_REG_CLKINV(0), 
+            .DOB_REG_CLKINV(0), 
+            .RST_TYPE("ASYNC"), 
+            .RAM_MODE("SIMPLE_DUAL_PORT"), 
+            .WRITE_MODE_A("NORMAL_WRITE"), 
+            .WRITE_MODE_B("NORMAL_WRITE"), 
+            .SIM_DEVICE("LOGOS"), 
+            .INIT_00(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_01(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_02(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_03(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_04(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_05(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_06(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_07(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_08(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_09(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0A(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0B(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0C(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0D(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0E(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_0F(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_10(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_11(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_12(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_13(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_14(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_15(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_16(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_17(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_18(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_19(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1A(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1B(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1C(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1D(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1E(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_1F(288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000), 
+            .INIT_FILE("NONE"), 
+            .BLOCK_X(0), 
+            .BLOCK_Y(0), 
+            .RAM_DATA_WIDTH(36), 
+            .RAM_ADDR_WIDTH(8), 
+            .INIT_FORMAT("BIN"))
+        \ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K  (
+            .DOA ({rd_data[17], rd_data[16], rd_data[15], rd_data[14], rd_data[13], rd_data[12], rd_data[11], rd_data[10], rd_data[9], rd_data[8], rd_data[7], rd_data[6], rd_data[5], rd_data[4], rd_data[3], rd_data[2], rd_data[1], rd_data[0]}),
+            .DOB ({qb_data_bus[17], qb_data_bus[16], qb_data_bus[15], qb_data_bus[14], qb_data_bus[13], rd_data[30], rd_data[29], rd_data[28], rd_data[27], rd_data[26], rd_data[25], rd_data[24], rd_data[23], rd_data[22], rd_data[21], rd_data[20], rd_data[19], rd_data[18]}),
+            .ADDRA ({wr_addr[7], wr_addr[6], wr_addr[5], wr_addr[4], wr_addr[3], wr_addr[2], wr_addr[1], wr_addr[0], 1'b0, 1'b1, 1'b1, 1'b1, 1'b1}),
+            .ADDRB ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b1, 1'b1, 1'b1, 1'b1}),
+            .DIA ({wr_data[17], wr_data[16], wr_data[15], wr_data[14], wr_data[13], wr_data[12], wr_data[11], wr_data[10], wr_data[9], wr_data[8], wr_data[7], wr_data[6], wr_data[5], wr_data[4], wr_data[3], wr_data[2], wr_data[1], wr_data[0]}),
+            .DIB ({1'b0, 1'b0, 1'b0, 1'b0, 1'b0, wr_data[30], wr_data[29], wr_data[28], wr_data[27], wr_data[26], wr_data[25], wr_data[24], wr_data[23], wr_data[22], wr_data[21], wr_data[20], wr_data[19], wr_data[18]}),
+            .ADDRA_HOLD (1'b0),
+            .ADDRB_HOLD (1'b0),
+            .CEA (1'b1),
+            .CEB (1'b0),
+            .CLKA (wr_clk),
+            .CLKB (rd_clk),
+            .ORCEA (1'b0),
+            .ORCEB (1'b0),
+            .RSTA (wr_rst),
+            .RSTB (1'b1),
+            .WEA (wr_en),
+            .WEB (1'b0));
+	// ../ipcore/fifo1/rtl/ipml_sdpram_v1_6_fifo1.v:852
+
+
+endmodule
+
+
+module ipml_fifo_v1_6_fifo1
+(
+    input [30:0] wr_data,
+    input \U_ipml_fifo_ctrl/N138 ,
+    input rd_clk,
+    input wr_clk,
+    input wr_en,
+    input wr_rst,
+    output [30:0] rd_data,
+    output _N135_3,
+    output _N152,
+    output _N153,
+    output wr_full
+);
+    wire [7:0] wr_addr;
+
+    ipml_fifo_ctrl_v1_3 U_ipml_fifo_ctrl (
+            .waddr (wr_addr),
+            ._N135_3 (_N135_3),
+            ._N152 (_N152),
+            ._N153 (_N153),
+            .wfull (wr_full),
+            .N138 (\U_ipml_fifo_ctrl/N138 ),
+            .w_en (wr_en),
+            .wclk (wr_clk),
+            .wrst (wr_rst));
+	// ../ipcore/fifo1/rtl/ipml_fifo_v1_6_fifo1.v:121
+
+    ipml_sdpram_v1_6_fifo1 U_ipml_sdpram (
+            .rd_data (rd_data),
+            .wr_addr (wr_addr),
+            .wr_data (wr_data),
+            .rd_clk (rd_clk),
+            .wr_clk (wr_clk),
+            .wr_en (wr_en),
+            .wr_rst (wr_rst));
+	// ../ipcore/fifo1/rtl/ipml_fifo_v1_6_fifo1.v:93
+
+
+endmodule
+
+
+module fifo1
+(
+    input [30:0] wr_data,
+    input \U_ipml_fifo_fifo1/U_ipml_fifo_ctrl/N138 ,
+    input rd_clk,
+    input wr_clk,
+    input wr_en,
+    input wr_rst,
+    output [30:0] rd_data,
+    output _N135_3,
+    output _N152,
+    output _N153,
+    output wr_full
+);
+
+    ipml_fifo_v1_6_fifo1 U_ipml_fifo_fifo1 (
+            .rd_data (rd_data),
+            .wr_data (wr_data),
+            ._N135_3 (_N135_3),
+            ._N152 (_N152),
+            ._N153 (_N153),
+            .wr_full (wr_full),
+            .\U_ipml_fifo_ctrl/N138  (\U_ipml_fifo_fifo1/U_ipml_fifo_ctrl/N138 ),
+            .rd_clk (rd_clk),
+            .wr_clk (wr_clk),
+            .wr_en (wr_en),
+            .wr_rst (wr_rst));
+	// ../ipcore/fifo1/fifo1.v:156
+
+
+endmodule
+
+
+module fifo_test
+(
+    input [30:0] wr_data,
+    input sys_clk,
+    input sys_rstn,
+    input wr_en,
+    output [30:0] rd_data
+);
+	// SDC constraint : (object sys_clk) (id 1000) (clock fifo_test|sys_clk) (inferred)
+    wire N0;
+    wire [2:0] N3;
+    wire _N135_3;
+    wire _N136;
+    wire _N152;
+    wire _N153;
+    wire [2:0] cnt;
+    wire [30:0] nt_rd_data;
+    wire nt_sys_clk;
+    wire nt_sys_rstn;
+    wire [30:0] nt_wr_data;
+    wire nt_wr_en;
+    wire rd_clk;
+    wire \the_instance_name/U_ipml_fifo_fifo1/U_ipml_fifo_ctrl/N138 ;
+    wire wr_full;
+
+    GTP_GRS GRS_INST (
+            .GRS_N (1'b1));
+
+    GTP_INV N0_vname (
+            .Z (N0),
+            .I (nt_sys_rstn));
+    // defparam N0_vname.orig_name = N0;
+
+    GTP_LUT2 /* N3_sum1 */ #(
+            .INIT(4'b0110))
+        N3_sum1 (
+            .Z (N3[1]),
+            .I0 (cnt[1]),
+            .I1 (cnt[0]));
+	// LUT = (I0&~I1)|(~I0&I1) ;
+
+    GTP_LUT3 /* N3_sum2 */ #(
+            .INIT(8'b01101100))
+        N3_sum2 (
+            .Z (N3[2]),
+            .I0 (cnt[1]),
+            .I1 (cnt[2]),
+            .I2 (cnt[0]));
+	// LUT = (I1&~I2)|(~I0&I1)|(I0&~I1&I2) ;
+
+    GTP_LUT4 /* _N135_1_inv */ #(
+            .INIT(16'b0011000000110101))
+        _N135_1_inv (
+            .Z (\the_instance_name/U_ipml_fifo_fifo1/U_ipml_fifo_ctrl/N138 ),
+            .I0 (_N153),
+            .I1 (_N135_3),
+            .I2 (wr_full),
+            .I3 (_N152));
+	// LUT = (~I1&I2)|(~I0&~I2&~I3) ;
+
+    GTP_DFF_R /* \cnt[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \cnt[0]  (
+            .Q (cnt[0]),
+            .CLK (nt_sys_clk),
+            .D (N3[0]),
+            .R (N0));
+	// ../src/fifo_test.v:34
+
+    GTP_DFF_R /* \cnt[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \cnt[1]  (
+            .Q (cnt[1]),
+            .CLK (nt_sys_clk),
+            .D (N3[1]),
+            .R (N0));
+	// ../src/fifo_test.v:34
+
+    GTP_LUT1 /* \cnt[2:0]_inv  */ #(
+            .INIT(2'b01))
+        \cnt[2:0]_inv  (
+            .Z (N3[0]),
+            .I0 (cnt[0]));
+	// LUT = ~I0 ;
+
+    GTP_DFF_R /* \cnt[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \cnt[2]  (
+            .Q (cnt[2]),
+            .CLK (nt_sys_clk),
+            .D (N3[2]),
+            .R (N0));
+	// ../src/fifo_test.v:34
+
+    GTP_DFF_R /* rd_clk_reg */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        rd_clk_reg (
+            .Q (rd_clk),
+            .CLK (nt_sys_clk),
+            .D (_N136),
+            .R (N0));
+	// ../src/fifo_test.v:40
+
+    GTP_LUT4 /* rd_clk_reg_ce_mux */ #(
+            .INIT(16'b1001110011001100))
+        rd_clk_reg_ce_mux (
+            .Z (_N136),
+            .I0 (cnt[1]),
+            .I1 (rd_clk),
+            .I2 (cnt[2]),
+            .I3 (cnt[0]));
+	// LUT = (I1&~I3)|(I1&~I2)|(I0&I1)|(~I0&~I1&I2&I3) ;
+
+    GTP_OUTBUF /* \rd_data_obuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[0]  (
+            .O (rd_data[0]),
+            .I (nt_rd_data[0]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[1]  (
+            .O (rd_data[1]),
+            .I (nt_rd_data[1]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[2]  (
+            .O (rd_data[2]),
+            .I (nt_rd_data[2]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[3]  (
+            .O (rd_data[3]),
+            .I (nt_rd_data[3]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[4]  (
+            .O (rd_data[4]),
+            .I (nt_rd_data[4]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[5]  (
+            .O (rd_data[5]),
+            .I (nt_rd_data[5]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[6]  (
+            .O (rd_data[6]),
+            .I (nt_rd_data[6]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[7]  (
+            .O (rd_data[7]),
+            .I (nt_rd_data[7]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[8]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[8]  (
+            .O (rd_data[8]),
+            .I (nt_rd_data[8]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[9]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[9]  (
+            .O (rd_data[9]),
+            .I (nt_rd_data[9]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[10]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[10]  (
+            .O (rd_data[10]),
+            .I (nt_rd_data[10]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[11]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[11]  (
+            .O (rd_data[11]),
+            .I (nt_rd_data[11]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[12]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[12]  (
+            .O (rd_data[12]),
+            .I (nt_rd_data[12]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[13]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[13]  (
+            .O (rd_data[13]),
+            .I (nt_rd_data[13]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[14]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[14]  (
+            .O (rd_data[14]),
+            .I (nt_rd_data[14]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[15]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[15]  (
+            .O (rd_data[15]),
+            .I (nt_rd_data[15]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[16]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[16]  (
+            .O (rd_data[16]),
+            .I (nt_rd_data[16]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[17]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[17]  (
+            .O (rd_data[17]),
+            .I (nt_rd_data[17]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[18]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[18]  (
+            .O (rd_data[18]),
+            .I (nt_rd_data[18]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[19]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[19]  (
+            .O (rd_data[19]),
+            .I (nt_rd_data[19]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[20]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[20]  (
+            .O (rd_data[20]),
+            .I (nt_rd_data[20]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[21]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[21]  (
+            .O (rd_data[21]),
+            .I (nt_rd_data[21]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[22]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[22]  (
+            .O (rd_data[22]),
+            .I (nt_rd_data[22]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[23]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[23]  (
+            .O (rd_data[23]),
+            .I (nt_rd_data[23]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[24]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[24]  (
+            .O (rd_data[24]),
+            .I (nt_rd_data[24]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[25]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[25]  (
+            .O (rd_data[25]),
+            .I (nt_rd_data[25]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[26]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[26]  (
+            .O (rd_data[26]),
+            .I (nt_rd_data[26]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[27]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[27]  (
+            .O (rd_data[27]),
+            .I (nt_rd_data[27]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[28]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[28]  (
+            .O (rd_data[28]),
+            .I (nt_rd_data[28]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[29]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[29]  (
+            .O (rd_data[29]),
+            .I (nt_rd_data[29]));
+	// ../src/fifo_test.v:12
+
+    GTP_OUTBUF /* \rd_data_obuf[30]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \rd_data_obuf[30]  (
+            .O (rd_data[30]),
+            .I (nt_rd_data[30]));
+	// ../src/fifo_test.v:12
+
+    GTP_INBUF /* sys_clk_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        sys_clk_ibuf (
+            .O (nt_sys_clk),
+            .I (sys_clk));
+	// ../src/fifo_test.v:7
+
+    GTP_INBUF /* sys_rstn_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        sys_rstn_ibuf (
+            .O (nt_sys_rstn),
+            .I (sys_rstn));
+	// ../src/fifo_test.v:8
+
+    fifo1 the_instance_name (
+            .rd_data (nt_rd_data),
+            .wr_data (nt_wr_data),
+            ._N135_3 (_N135_3),
+            ._N152 (_N152),
+            ._N153 (_N153),
+            .wr_full (wr_full),
+            .\U_ipml_fifo_fifo1/U_ipml_fifo_ctrl/N138  (\the_instance_name/U_ipml_fifo_fifo1/U_ipml_fifo_ctrl/N138 ),
+            .rd_clk (rd_clk),
+            .wr_clk (nt_sys_clk),
+            .wr_en (nt_wr_en),
+            .wr_rst (nt_sys_rstn));
+	// ../src/fifo_test.v:69
+
+    GTP_INBUF /* \wr_data_ibuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[0]  (
+            .O (nt_wr_data[0]),
+            .I (wr_data[0]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[1]  (
+            .O (nt_wr_data[1]),
+            .I (wr_data[1]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[2]  (
+            .O (nt_wr_data[2]),
+            .I (wr_data[2]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[3]  (
+            .O (nt_wr_data[3]),
+            .I (wr_data[3]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[4]  (
+            .O (nt_wr_data[4]),
+            .I (wr_data[4]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[5]  (
+            .O (nt_wr_data[5]),
+            .I (wr_data[5]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[6]  (
+            .O (nt_wr_data[6]),
+            .I (wr_data[6]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[7]  (
+            .O (nt_wr_data[7]),
+            .I (wr_data[7]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[8]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[8]  (
+            .O (nt_wr_data[8]),
+            .I (wr_data[8]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[9]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[9]  (
+            .O (nt_wr_data[9]),
+            .I (wr_data[9]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[10]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[10]  (
+            .O (nt_wr_data[10]),
+            .I (wr_data[10]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[11]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[11]  (
+            .O (nt_wr_data[11]),
+            .I (wr_data[11]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[12]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[12]  (
+            .O (nt_wr_data[12]),
+            .I (wr_data[12]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[13]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[13]  (
+            .O (nt_wr_data[13]),
+            .I (wr_data[13]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[14]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[14]  (
+            .O (nt_wr_data[14]),
+            .I (wr_data[14]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[15]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[15]  (
+            .O (nt_wr_data[15]),
+            .I (wr_data[15]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[16]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[16]  (
+            .O (nt_wr_data[16]),
+            .I (wr_data[16]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[17]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[17]  (
+            .O (nt_wr_data[17]),
+            .I (wr_data[17]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[18]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[18]  (
+            .O (nt_wr_data[18]),
+            .I (wr_data[18]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[19]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[19]  (
+            .O (nt_wr_data[19]),
+            .I (wr_data[19]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[20]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[20]  (
+            .O (nt_wr_data[20]),
+            .I (wr_data[20]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[21]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[21]  (
+            .O (nt_wr_data[21]),
+            .I (wr_data[21]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[22]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[22]  (
+            .O (nt_wr_data[22]),
+            .I (wr_data[22]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[23]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[23]  (
+            .O (nt_wr_data[23]),
+            .I (wr_data[23]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[24]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[24]  (
+            .O (nt_wr_data[24]),
+            .I (wr_data[24]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[25]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[25]  (
+            .O (nt_wr_data[25]),
+            .I (wr_data[25]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[26]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[26]  (
+            .O (nt_wr_data[26]),
+            .I (wr_data[26]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[27]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[27]  (
+            .O (nt_wr_data[27]),
+            .I (wr_data[27]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[28]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[28]  (
+            .O (nt_wr_data[28]),
+            .I (wr_data[28]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[29]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[29]  (
+            .O (nt_wr_data[29]),
+            .I (wr_data[29]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* \wr_data_ibuf[30]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        \wr_data_ibuf[30]  (
+            .O (nt_wr_data[30]),
+            .I (wr_data[30]));
+	// ../src/fifo_test.v:10
+
+    GTP_INBUF /* wr_en_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        wr_en_ibuf (
+            .O (nt_wr_en),
+            .I (wr_en));
+	// ../src/fifo_test.v:9
+
+
+endmodule
+

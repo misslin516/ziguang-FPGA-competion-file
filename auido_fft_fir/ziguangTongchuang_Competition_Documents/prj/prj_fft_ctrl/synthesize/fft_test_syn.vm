@@ -1,0 +1,224 @@
+//
+// Generated (version 2022.1<build 99559>) at Sun May 19 10:22:29 2024
+//
+
+module fft_ctrl
+(
+    input N7,
+    input clk_50m,
+    output fft_rst_n
+);
+    wire N16;
+    wire N20;
+    wire [3:0] N79;
+    wire [4:0] delay_cnt;
+
+    GTP_LUT3 /* N16_mux2 */ #(
+            .INIT(8'b00110111))
+        N16_mux2 (
+            .Z (N16),
+            .I0 (delay_cnt[2]),
+            .I1 (delay_cnt[3]),
+            .I2 (delay_cnt[1]));
+	// LUT = (~I1)|(~I0&~I2) ;
+
+    GTP_LUT2 /* N18_sum1 */ #(
+            .INIT(4'b0110))
+        N18_sum1 (
+            .Z (N79[1]),
+            .I0 (delay_cnt[0]),
+            .I1 (delay_cnt[1]));
+	// LUT = (I0&~I1)|(~I0&I1) ;
+
+    GTP_LUT3 /* N18_sum2 */ #(
+            .INIT(8'b01111000))
+        N18_sum2 (
+            .Z (N79[2]),
+            .I0 (delay_cnt[1]),
+            .I1 (delay_cnt[0]),
+            .I2 (delay_cnt[2]));
+	// LUT = (~I1&I2)|(~I0&I2)|(I0&I1&~I2) ;
+
+    GTP_LUT4 /* N18_sum3 */ #(
+            .INIT(16'b0111100011110000))
+        N18_sum3 (
+            .Z (N79[3]),
+            .I0 (delay_cnt[1]),
+            .I1 (delay_cnt[0]),
+            .I2 (delay_cnt[3]),
+            .I3 (delay_cnt[2]));
+	// LUT = (I2&~I3)|(~I1&I2)|(~I0&I2)|(I0&I1&~I2&I3) ;
+
+    GTP_LUT3 /* N20_1 */ #(
+            .INIT(8'b11001000))
+        N20_1 (
+            .Z (N20),
+            .I0 (delay_cnt[2]),
+            .I1 (delay_cnt[3]),
+            .I2 (delay_cnt[1]));
+	// LUT = (I0&I1)|(I1&I2) ;
+
+    GTP_DFF_CE /* \delay_cnt[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \delay_cnt[0]  (
+            .Q (delay_cnt[0]),
+            .C (N7),
+            .CE (N16),
+            .CLK (clk_50m),
+            .D (N79[0]));
+	// ../../../src/fft_top/fft_ctrl.v:51
+
+    GTP_DFF_CE /* \delay_cnt[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \delay_cnt[1]  (
+            .Q (delay_cnt[1]),
+            .C (N7),
+            .CE (N16),
+            .CLK (clk_50m),
+            .D (N79[1]));
+	// ../../../src/fft_top/fft_ctrl.v:51
+
+    GTP_DFF_CE /* \delay_cnt[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \delay_cnt[2]  (
+            .Q (delay_cnt[2]),
+            .C (N7),
+            .CE (N16),
+            .CLK (clk_50m),
+            .D (N79[2]));
+	// ../../../src/fft_top/fft_ctrl.v:51
+
+    GTP_LUT1 /* \delay_cnt[3:0]_inv  */ #(
+            .INIT(2'b01))
+        \delay_cnt[3:0]_inv  (
+            .Z (N79[0]),
+            .I0 (delay_cnt[0]));
+	// LUT = ~I0 ;
+
+    GTP_DFF_CE /* \delay_cnt[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \delay_cnt[3]  (
+            .Q (delay_cnt[3]),
+            .C (N7),
+            .CE (N16),
+            .CLK (clk_50m),
+            .D (N79[3]));
+	// ../../../src/fft_top/fft_ctrl.v:51
+
+    GTP_DFF_C /* fft_rst_n */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        fft_rst_n_vname (
+            .Q (fft_rst_n),
+            .C (N7),
+            .CLK (clk_50m),
+            .D (N20));
+    // defparam fft_rst_n_vname.orig_name = fft_rst_n;
+	// ../../../src/fft_top/fft_ctrl.v:51
+
+
+endmodule
+
+
+module fft_test
+(
+    input [23:0] audio_data,
+    input audio_clk,
+    input audio_valid,
+    input clk_50m,
+    input rst_n,
+    output fft_eop,
+    output fft_ready,
+    output fft_rst_n,
+    output fft_sop,
+    output fft_valid
+);
+	// SDC constraint : (object audio_clk) (id 1002) (clock fft_test|audio_clk) (inferred)
+	// SDC constraint : (object clk_50m) (id 1000) (clock fft_test|clk_50m) (inferred)
+    wire N3;
+    wire nt_clk_50m;
+    wire nt_fft_rst_n;
+    wire nt_rst_n;
+
+    GTP_GRS GRS_INST (
+            .GRS_N (1'b1));
+
+    GTP_INV N3_vname (
+            .Z (N3),
+            .I (nt_rst_n));
+    // defparam N3_vname.orig_name = N3;
+
+    GTP_INBUF /* clk_50m_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        clk_50m_ibuf (
+            .O (nt_clk_50m),
+            .I (clk_50m));
+	// ../../../src/fft_top/fft_test.v:5
+
+    GTP_OUTBUF /* fft_eop_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        fft_eop_obuf (
+            .O (fft_eop),
+            .I (1'b0));
+	// ../../../src/fft_top/fft_test.v:16
+
+    GTP_OUTBUF /* fft_ready_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        fft_ready_obuf (
+            .O (fft_ready),
+            .I (1'b0));
+	// ../../../src/fft_top/fft_test.v:12
+
+    GTP_OUTBUF /* fft_rst_n_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        fft_rst_n_obuf (
+            .O (fft_rst_n),
+            .I (nt_fft_rst_n));
+	// ../../../src/fft_top/fft_test.v:13
+
+    GTP_OUTBUF /* fft_sop_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        fft_sop_obuf (
+            .O (fft_sop),
+            .I (1'b0));
+	// ../../../src/fft_top/fft_test.v:15
+
+    GTP_OUTBUF /* fft_valid_obuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        fft_valid_obuf (
+            .O (fft_valid),
+            .I (1'b0));
+	// ../../../src/fft_top/fft_test.v:14
+
+    GTP_INBUF /* rst_n_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        rst_n_ibuf (
+            .O (nt_rst_n),
+            .I (rst_n));
+	// ../../../src/fft_top/fft_test.v:6
+
+    fft_ctrl u_fft_ctrl (
+            .fft_rst_n (nt_fft_rst_n),
+            .N7 (N3),
+            .clk_50m (nt_clk_50m));
+	// ../../../src/fft_top/fft_test.v:67
+
+
+endmodule
+

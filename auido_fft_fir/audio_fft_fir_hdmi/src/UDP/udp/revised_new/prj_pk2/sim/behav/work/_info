@@ -1,0 +1,241 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/sim/behav
+vaudio_data_pkt2
+Z1 !s110 1714813256
+!i10b 1
+!s100 RQn7z_ggafU3CgBZ46bON1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZ<DQ4W5EVmPb:BWWUMCR_0
+R0
+w1714813163
+Z3 8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/audio_udp_pk2.v
+Z4 FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/audio_udp_pk2.v
+!i122 6
+L0 11 94
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1714813256.000000
+Z8 !s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/audio_udp_pk2.v|
+Z9 !s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/audio_udp_pk2.v|-work|work|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vaudio_udp_pk2
+Z12 !s110 1714914497
+!i10b 1
+!s100 ASHLYd5fN10U;[P2AJAb10
+R2
+ILc`?gC;]f3nfhk:4TFU>83
+R0
+w1714914308
+R3
+R4
+!i122 36
+L0 11 93
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1714914497.000000
+R8
+R9
+!i113 0
+R10
+R11
+vfifo_audo_data_pkt
+Z14 !s110 1714914498
+!i10b 1
+!s100 7S5gb0eTI4_TOVO8jTeH01
+R2
+IbJFXS6H0MeI2hRaT4RMQ70
+R0
+Z15 w1714914052
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/fifo_audo_data_pkt.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/fifo_audo_data_pkt.v
+!i122 40
+L0 20 103
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1714914498.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/fifo_audo_data_pkt.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/fifo_audo_data_pkt.v|-work|work|
+!i113 0
+R10
+R11
+vipm_distributed_fifo_ctr_v1_0
+R12
+!i10b 1
+!s100 fcW4BfbR6eRg9_cWU8hiH0
+R2
+I8Y88`_@LabZ5n5Z?7dl<03
+R0
+w1657560122
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_ctr_v1_0.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_ctr_v1_0.v
+!i122 37
+L0 18 351
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_ctr_v1_0.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_ctr_v1_0.v|-work|work|
+!i113 0
+R10
+R11
+vipm_distributed_fifo_v1_2_fifo_audo_data_pkt
+R14
+!i10b 1
+!s100 A66_:OUnJVJRO>h2SKaaB0
+R2
+Ii_??L_fV_aFE957l3C46e0
+R0
+R15
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_v1_2_fifo_audo_data_pkt.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_v1_2_fifo_audo_data_pkt.v
+!i122 38
+L0 21 84
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_v1_2_fifo_audo_data_pkt.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_fifo_v1_2_fifo_audo_data_pkt.v|-work|work|
+!i113 0
+R10
+R11
+vipm_distributed_sdpram_v1_2_fifo_audo_data_pkt
+R14
+!i10b 1
+!s100 j;kBcWH:RWD]9l3l^<PSW2
+R2
+IA3f>:PNR1R3RKCREF]9Ao3
+R0
+R15
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt.v
+!i122 39
+L0 22 90
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipm_distributed_sdpram_v1_2_fifo_audo_data_pkt.v|-work|work|
+!i113 0
+R10
+R11
+vipml_fifo_ctrl_v1_3
+R1
+!i10b 1
+!s100 E^>D]>RZech1SjNdWf8ac3
+R2
+I^_3libL<]JgCJl4@o<VlS3
+R0
+w1657559934
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_ctrl_v1_3.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_ctrl_v1_3.v
+!i122 7
+L0 21 361
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_ctrl_v1_3.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_ctrl_v1_3.v|-work|work|
+!i113 0
+R10
+R11
+vipml_fifo_v1_6_fifo_audo_data_pkt
+!s110 1714813257
+!i10b 1
+!s100 ]RHFVUnNikFc^l`NoeY7U3
+R2
+IhDJk=KAaJ]4KkLYA]zUlM1
+R0
+Z17 w1714812704
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_v1_6_fifo_audo_data_pkt.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_v1_6_fifo_audo_data_pkt.v
+!i122 9
+L0 25 116
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_v1_6_fifo_audo_data_pkt.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_fifo_v1_6_fifo_audo_data_pkt.v|-work|work|
+!i113 0
+R10
+R11
+vipml_sdpram_v1_6_fifo_audo_data_pkt
+R1
+!i10b 1
+!s100 lYHmN9zHj;mD9Aon1i]cf0
+R2
+IT<<9^OWKlc8^bH[f[JA=b3
+R0
+R17
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_sdpram_v1_6_fifo_audo_data_pkt.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_sdpram_v1_6_fifo_audo_data_pkt.v
+!i122 8
+L0 20 1096
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_sdpram_v1_6_fifo_audo_data_pkt.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/ipcore/fifo_audo_data_pkt/rtl/ipml_sdpram_v1_6_fifo_audo_data_pkt.v|-work|work|
+!i113 0
+R10
+R11
+vtb_audio_data_pkt
+R14
+!i10b 1
+!s100 dn=fT?iibA=ONJRZoWGJ12
+R2
+IQj7Aj5oR:R5A0WoNc9j3:3
+R0
+w1714813172
+8C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/tb_audio_data_pkt.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/tb_audio_data_pkt.v
+!i122 41
+L0 5 113
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/tb_audio_data_pkt.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/tb_audio_data_pkt.v|-work|work|
+!i113 0
+R10
+R11

@@ -1,0 +1,347 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_fft_top/sim/behav
+vasyn_fifo
+Z1 !s110 1715256300
+!i10b 1
+!s100 ZW8APT@nQG7Jd?z0;]L9i1
+InWX9o[_dTh`5WehLDZIRS3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1712022812
+Z4 8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v
+Z5 FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v
+L0 3
+Z6 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1715256300.000000
+Z8 !s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v|
+Z9 !s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v|-work|work|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vaudio_fft_top
+R1
+!i10b 1
+!s100 5F>jOomO1kfPDbea2FOhQ3
+ITz@OMmal1@=S:T58PELX<1
+R2
+R0
+w1715240067
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/audio_fft_top.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/audio_fft_top.v
+Z12 L0 14
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/audio_fft_top.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/audio_fft_top.v|-work|work|
+!i113 0
+R10
+R11
+vcordic_jpl
+R1
+!i10b 1
+!s100 A]]em<_eX]YVckUk8k]I92
+IO`7LiiG;a<c_9MPAXomA_3
+R2
+R0
+w1711937172
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/cordic_jpl.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/cordic_jpl.v
+Z13 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/cordic_jpl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/cordic_jpl.v|-work|work|
+!i113 0
+R10
+R11
+vdata_module_fft
+Z14 !s110 1715256301
+!i10b 1
+!s100 bz<jC1:VS<4S7KB[@c_>M2
+IGB:KGX?AZYjcEIAzo[3m?1
+R2
+R0
+w1715169016
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/data_module_fft.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/data_module_fft.v
+R12
+R6
+r1
+!s85 0
+31
+Z15 !s108 1715256301.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/data_module_fft.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/data_module_fft.v|-work|work|
+!i113 0
+R10
+R11
+vdual_port_sync
+R1
+!i10b 1
+!s100 bN^Y;IoVMAJ0d2>k5XO8X2
+I[SZ]Sa1EHFC_3bmOJ6<Bd0
+R2
+R0
+R3
+R4
+R5
+L0 143
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vfft_ctrl
+R14
+!i10b 1
+!s100 2P;zPOINEEjCK_HWN=6J:1
+Id`PUVc9:fk7VjKYA:UOJ:2
+R2
+R0
+w1715172174
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_ctrl.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_ctrl.v
+L0 3
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_ctrl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_ctrl.v|-work|work|
+!i113 0
+R10
+R11
+vfft_top
+R14
+!i10b 1
+!s100 G_JH3oLQhe1m]Y_F1A@@@2
+IOo1h<dTgSTYGWCHe4oMYl0
+R2
+R0
+w1715223536
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_top.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_top.v
+L0 7
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_top.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/fft_top.v|-work|work|
+!i113 0
+R10
+R11
+vipml_sdpram_v1_7_drm
+R14
+!i10b 1
+!s100 W@oFg]8Q_:nD^`:<mdU9E3
+I[SnXCVO0a<k@WT46nHH7e1
+R2
+R0
+w1710405626
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v
+Z16 L0 18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/rtl/ipml_sdpram_v1_7_drm.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_core_only
+R14
+!i10b 1
+!s100 AA5SAkXG<1@17Y2WfWddl1
+IPS3mFU[ajfnf<;eFR1Ao]1
+R2
+R0
+w1710141051
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/pnr/core_only/ipsxe_fft_core_only.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/pnr/core_only/ipsxe_fft_core_only.v
+L0 13
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/pnr/core_only/ipsxe_fft_core_only.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/pnr/core_only/ipsxe_fft_core_only.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_distram_sdpram
+R14
+!i10b 1
+!s100 O9DAcA[Jfg=9J]9MEoH^30
+I?4L7>=EgJ^JcEG4nAnf^U1
+R2
+R0
+Z17 w1693017429
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v
+Z18 L0 20
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sdpram/ipsxe_fft_distram_sdpram.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_distram_sreg
+R14
+!i10b 1
+!s100 e9^@i=dj==jF3;1<fS>b=1
+IQFGM]^[CedQezMoVPlA@`2
+R2
+R0
+R17
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/ipsxe_fft_distram_sreg.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/ipsxe_fft_distram_sreg.v
+R13
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/ipsxe_fft_distram_sreg.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/ipsxe_fft_distram_sreg.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_distributed_sdpram_v1_2
+R14
+!i10b 1
+!s100 >_4174nkzdGU0HWQTi_=`2
+IfgCJ1EBFg<L?l735Se8LJ1
+R2
+R0
+R17
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v
+R18
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_sdpram_v1_2.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_distributed_shiftregister_v1_3
+R14
+!i10b 1
+!s100 8c^<1AK8VgSd?f4WVG>c>2
+IBg9Qmm[_:BhVz^D?HCbJ81
+R2
+R0
+R17
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v
+L0 19
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/distram_sreg/rtl/ipsxe_fft_distributed_shiftregister_v1_3.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_drm_sdpram_18k
+R14
+!i10b 1
+!s100 VTf^A]?OfPl=0<EROIOBQ0
+IcR>WFA<U@]0Ha1Pi=n_z`3
+R2
+R0
+R17
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v
+R16
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_18k.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_drm_sdpram_36k
+R14
+!i10b 1
+!s100 o94XZX_jOSc`TA1ja=HQR0
+Ik`XCMI=h5JNT5<Wbejj^F0
+R2
+R0
+w1710406338
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v
+R16
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/rtl/drm_sdpram/ipsxe_fft_drm_sdpram_36k.v|-work|work|
+!i113 0
+R10
+R11
+vipsxe_fft_exp_rom
+R14
+!i10b 1
+!s100 >J4gd0=Jk<Me8jDMB^>4?3
+I@VJb_gEBlkFBW50XXA?`D2
+R2
+R0
+w1710473721
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/ipsxe_fft_exp_rom.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/ipsxe_fft_exp_rom.v
+R12
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/ipsxe_fft_exp_rom.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/logos_fft_demo/ipsxe_fft_exp_rom.v|-work|work|
+!i113 0
+R10
+R11

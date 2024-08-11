@@ -1,0 +1,12 @@
+VoiceprintRecognition/dataset/Voiceprintrecognition/1.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/10.m4a 	0.8101847767829895	
+VoiceprintRecognition/dataset/Voiceprintrecognition/1.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/7.m4a 	0.8675733804702759	
+VoiceprintRecognition/dataset/Voiceprintrecognition/1.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/8.m4a 	0.8560916781425476	
+VoiceprintRecognition/dataset/Voiceprintrecognition/10.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/3.m4a 	0.8162596821784973	
+VoiceprintRecognition/dataset/Voiceprintrecognition/3.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/8.m4a 	0.8473103642463684	
+VoiceprintRecognition/dataset/Voiceprintrecognition/3.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/9.m4a 	0.8678901791572571	
+VoiceprintRecognition/dataset/Voiceprintrecognition/4.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/7.m4a 	0.8413371443748474	
+VoiceprintRecognition/dataset/Voiceprintrecognition/4.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/9.m4a 	0.8056478500366211	
+VoiceprintRecognition/dataset/Voiceprintrecognition/6.mp3 	VoiceprintRecognition/dataset/Voiceprintrecognition/8.m4a 	0.8026719093322754	
+VoiceprintRecognition/dataset/Voiceprintrecognition/7.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/8.m4a 	0.8664838671684265	
+VoiceprintRecognition/dataset/Voiceprintrecognition/7.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/9.m4a 	0.8223637342453003	
+VoiceprintRecognition/dataset/Voiceprintrecognition/8.m4a 	VoiceprintRecognition/dataset/Voiceprintrecognition/9.m4a 	0.8123260736465454	

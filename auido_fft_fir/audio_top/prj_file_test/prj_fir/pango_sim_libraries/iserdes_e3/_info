@@ -1,0 +1,37 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_fir/pango_sim_libraries
+vSotpPEvFB/3AAnA/11hkdx4nJ+l7EUlIEpMY3rvM3jo=
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1715932892
+!i10b 0
+!s100 zCFZOJW9E?TR:[_?BedmY3
+I;h3H:3k2T<liDfFe2VF9T0
+VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+!i8a 2038530816
+!s105 iserdes_e3_hcl_iologic_vp_unit
+S1
+dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+w1715932892
+8./iserdes_e3_source_codes/iserdes_e3_hcl_iologic.vp
+F./iserdes_e3_source_codes/iserdes_e3_hcl_iologic.vp
+L0 23
+OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1715932892.000000
+!s107 ./iserdes_e3_source_codes/iserdes_e3_hcl_iologic.vp|
+!s90 -incr|-f|./filelist_iserdes_e3_gtp.f|-work|iserdes_e3|-sv|-mfcu|
+!i113 0
+o-work iserdes_e3 -sv -mfcu -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+nfb843e3

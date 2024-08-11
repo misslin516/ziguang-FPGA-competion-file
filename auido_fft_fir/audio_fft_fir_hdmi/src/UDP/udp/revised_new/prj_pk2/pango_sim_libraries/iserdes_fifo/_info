@@ -1,0 +1,219 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/revised_new/prj_pk2/pango_sim_libraries
+vJog19+ibcLCdxy+Od0H0eg==
+Z0 !s110 1714812917
+!i10b 0
+!s100 fX33WY5;[gL3=QPHDU<Ul3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISz`3MQ;6DW5A7mfIX8e[H1
+!i119 1
+!i8a 1960669184
+Z2 dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z3 w1714812917
+Z4 8./iserdes_fifo_source_codes/iserdes_fifo_async_fifo.vp
+Z5 F./iserdes_fifo_source_codes/iserdes_fifo_async_fifo.vp
+!i122 0
+Z6 L0 23 1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1714812917.000000
+!s107 ./iserdes_fifo_source_codes/iserdes_fifo_async_fifo.vp|
+Z10 !s90 -incr|-f|./filelist_iserdes_fifo_gtp.f|-work|iserdes_fifo|
+!i113 0
+Z11 o-work iserdes_fifo -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+na20eba8
+vSAa5//C+uO2GSBa8Q9IXuA==
+R0
+!i10b 0
+!s100 4dGzZ?Z?bzTUQSH4TQR663
+R1
+IcV`KAPR<2Jj=WDB6aA]=U3
+!i119 1
+!i8a 2031613984
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 ./iserdes_fifo_source_codes/iserdes_fifo_async_fifo.vp|
+R10
+!i113 0
+R11
+R12
+n48fa048
+v2lZTP1wXtTzjFqZzBV2HiQ==
+R0
+!i10b 0
+!s100 V77H`hG>Sg59334KSBM;S3
+R1
+IfRg^FWm<_lc8A71iL4NN23
+!i119 1
+!i8a 698441840
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R12
+na2feea8
+vS4L9DpDaxG5bbESynbgJkkyuuBPZAGI5yQVnKWqXdrk=
+R0
+!i10b 0
+!s100 2eigHSWgSPaLBZB=Z12mf2
+R1
+IhYlnZaeC<G7Y`2mcL[g[T3
+!i119 1
+!i8a 1364538912
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R12
+nc99855f
+vczzN/0jUnnKN9QXybpCgEA==
+R0
+!i10b 0
+!s100 jkN>z_ceZ;:Ce>Wgj[:EM2
+R1
+IKANkF>5d^h?a8B:B:k72;3
+!i119 1
+!i8a 2131726208
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R12
+nff55678
+viL7BpP4DBuz2ORJVsUvozTeAitq6nySz8ZYreaG3M4o=
+R0
+!i10b 0
+!s100 <TG:dc:NUEh@IUb9iKHk11
+R1
+IigOgAB4gZ02MM2]3X8Bg73
+!i119 1
+!i8a 1917846928
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R12
+n4d58de8
+vCdVNPQ+9GAzoM9KU7J9meA==
+R0
+!i10b 0
+!s100 ^f5W?;MUFoS9M6A^0YB]80
+R1
+I1]6J?4CP8k^K:[dg4XN8K1
+!i119 1
+!i8a 515761744
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R12
+nf1d0fb8
+vsXsGWsXXMOrDqZGzXUbqig==
+R0
+!i10b 0
+!s100 >^AEG9KEjdhnNAc_?Zibj2
+R1
+IH_[7`EHG[V;nL?FSRg>lS3
+!i119 1
+!i8a 1676769776
+R2
+R3
+R4
+R5
+!i122 0
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!i113 0
+R11
+R12
+nff56c58

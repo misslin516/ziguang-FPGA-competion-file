@@ -1,0 +1,65 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/86151/Desktop/auido_fft_fir/audio_fft_fir_hdmi/src/UDP/udp/udp_pre_prj/pango_sim_libraries
+v45Gw30LFg14un0WnAUD+gIOmQKXfjasOyfHVsL6fPCU=
+Z0 !s10a 1657559054
+Z1 !s110 1713768045
+!i10b 0
+!s100 :2]CFoe9F1EjC5LSLmfaG2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+II:69:4eTBOIlfIm?NF<VV1
+!i119 1
+!i8a 1685230496
+Z3 dD:/fpga_competition/FPGA_competition/ziguangtongchuang_file/MES50HP_v3/set_up/set_up_file/PDS_2022.1/arch/vendor/pango/verilog/simulation/modelsim10.2c
+Z4 w1713768045
+8./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp
+F./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp
+!i122 0
+Z5 L0 23 1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1713768045.000000
+Z9 !s107 ./ddc_e2_source_codes/ddc_e2_dly_chain.vp|./ddc_e2_source_codes/ddc_e2_ddrphy_gray2therm.vp|
+Z10 !s90 -incr|-f|./filelist_ddc_e2_gtp.f|-work|ddc_e2|
+!i113 0
+Z11 o-work ddc_e2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+n1bf28ed
+vDd34zhlVFiUP7H25L5/t7snZDZjr9+ECDscjKeX0IBk=
+R0
+R1
+!i10b 0
+!s100 Elgf?YOb3]O4eY]HI]0lH3
+R2
+I?PXfzUDHa?N5oXi;JIS1j3
+!i119 1
+!i8a 1713404912
+R3
+R4
+8./ddc_e2_source_codes/ddc_e2_dly_chain.vp
+F./ddc_e2_source_codes/ddc_e2_dly_chain.vp
+!i122 0
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+ncdb165e

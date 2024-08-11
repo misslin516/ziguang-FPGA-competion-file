@@ -1,0 +1,270 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_hdmi_revised/sim/behav
+vasyn_fifo
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZW8APT@nQG7Jd?z0;]L9i1
+InWX9o[_dTh`5WehLDZIRS3
+R0
+Z2 w1712022812
+Z3 8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v
+Z4 FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v
+L0 3
+Z5 OL;L;10.6d;65
+Z6 !s108 1715514271.000000
+Z7 !s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v|
+Z8 !s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/fft_top/asyn_fifo.v|-work|work|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vdual_port_sync
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bN^Y;IoVMAJ0d2>k5XO8X2
+I[SZ]Sa1EHFC_3bmOJ6<Bd0
+R0
+R2
+R3
+R4
+L0 143
+R5
+R6
+R7
+R8
+!i113 0
+R9
+R10
+vfifo_ctrl_hdmi
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^:FTbUE>NGj;:QLCe[ITm2
+IF0bKQ@B0IXCgg1QibBK]02
+R0
+w1715514242
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/fifo_ctrl_hdmi.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/fifo_ctrl_hdmi.v
+L0 2
+R5
+Z11 !s108 1715514270.000000
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/fifo_ctrl_hdmi.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/fifo_ctrl_hdmi.v|-work|work|
+!i113 0
+R9
+R10
+vhdmi_test_revised
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 2WAhDoinD;XK<85UnUVU@3
+IaVGaK57=3=0je?7<QU<P10
+R0
+w1715481197
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_test_revised.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_test_revised.v
+L0 8
+R5
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_test_revised.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_test_revised.v|-work|work|
+!i113 0
+R9
+R10
+vhdmi_top_revised
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Ak5WKR4]YXGbceK605`CV1
+I[Z5WgEeE66Y;dcI;d<OU03
+R0
+w1715513980
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_top_revised.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_top_revised.v
+L0 6
+R5
+R11
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_top_revised.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/hdmi_top_revised.v|-work|work|
+!i113 0
+R9
+R10
+viic_dri
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 =W?z_J?8@z>X:C?G;5AhE1
+I^4Q3kfInn>R6BL0CHHTZj2
+R0
+w1676639665
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/iic_dri.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/iic_dri.v
+L0 23
+R5
+R11
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/iic_dri.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/iic_dri.v|-work|work|
+!i113 0
+R9
+R10
+vms7200_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 iKo1Z0cH:JJ?U>SS=@1Qn2
+IJldRXFfA?9zLPCMe1UoD43
+R0
+Z12 w1676639664
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7200_ctl.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7200_ctl.v
+Z13 L0 22
+R5
+R11
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7200_ctl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7200_ctl.v|-work|work|
+!i113 0
+R9
+R10
+vms7210_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 3i5eYm:V@LE2=JU1[>K:V0
+IEYo;5TT?GKRMlTlz;_7l_0
+R0
+R12
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7210_ctl.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7210_ctl.v
+R13
+R5
+R11
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7210_ctl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms7210_ctl.v|-work|work|
+!i113 0
+R9
+R10
+vms72xx_ctl
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 VaoO?Dfmz0Znod8@VXMSf1
+IfKlQ3CFWWXeWSOn22oOLd3
+R0
+R12
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms72xx_ctl.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms72xx_ctl.v
+R13
+R5
+R11
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms72xx_ctl.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/ms72xx_ctl.v|-work|work|
+!i113 0
+R9
+R10
+vpattern_vg_row
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 DG]E5o73I0PI]mLPOlG]?0
+IbX8<7ZdbPZ6MXUf]0Lf;j0
+R0
+w1715500379
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/pattern_vg_row.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/pattern_vg_row.v
+L0 24
+R5
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/pattern_vg_row.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/pattern_vg_row.v|-work|work|
+!i113 0
+R9
+R10
+vpll
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6kZ4nL;nm6a385Kb]6?@m0
+I5KAhzKmWP<E^O=e>MjFj11
+R0
+w1715417566
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_hdmi_revised/ipcore/pll/pll.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_hdmi_revised/ipcore/pll/pll.v
+L0 20
+R5
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_hdmi_revised/ipcore/pll/pll.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/prj_file_test/prj_audio_hdmi_revised/ipcore/pll/pll.v|-work|work|
+!i113 0
+R9
+R10
+vsync_vg_revised
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _BAgbcfA4F_NSJCMKgVKh0
+IDQid5Q8Rja?:mR@7:G`UY1
+R0
+w1715500413
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/sync_vg_revised.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/sync_vg_revised.v
+L0 33
+R5
+R11
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/sync_vg_revised.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/sync_vg_revised.v|-work|work|
+!i113 0
+R9
+R10
+vtb_hdmi_top
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 E3F]X78o>od1l7_V>0G;`0
+I@fHoYYVB52:SXon26SjaZ1
+R0
+w1715496268
+8C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/tb_hdmi_top_revised.v
+FC:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/tb_hdmi_top_revised.v
+L0 7
+R5
+R6
+!s107 C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/tb_hdmi_top_revised.v|
+!s90 -reportprogress|300|C:/Users/86151/Desktop/auido_fft_fir/audio_top/src/hdmi_top/src/tb_hdmi_top_revised.v|-work|work|
+!i113 0
+R9
+R10
