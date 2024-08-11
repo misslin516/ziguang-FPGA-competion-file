@@ -1,1 +1,1 @@
-Audio_top 为项目最新文件夹
+This file include some codes of ziguangFPGA,like verilog code and python code.
