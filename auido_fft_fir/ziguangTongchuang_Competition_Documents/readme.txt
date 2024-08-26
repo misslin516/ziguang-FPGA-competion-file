@@ -1,17 +1,18 @@
-1. doc�����ǰ���������ĵ��ͷ����ĵ����Լ�һЩͼƬ
-2. python project������λ��������python����
-	a) audio_classificationΪ�ܴ����ļ�
-	b) fpga_outΪ�ɼ���Ƶ�����ļ�
-	c) api_io.pyΪ��������һ��API���ļ�
-3. src�����˸���ģ���FPGA����
-4.audio_wav_pakage ������FPGA�ɼ��������źźͳ�ʼ�����ź�
-	a)FPGA_acquisition�����FPGA�ɼ�����Ƶ�źţ������ڸòɼ�����Ƶ�źŽ��д���
-	b)Ideal_cirums �����ԭʼ��Ƶ�źź�PC�ϴ������źš�
-	c��FIRȥ��Ч����չʾ��ȥ��ǰ��ȥ������ƵЧ����
-5.����һ���ܿ��ֵ��к�.jpg���͡���һ���ܺ��µ�Ů��.jpg��Ϊ��������һ��API���ɵ���Ƶ���ﻭ��
-6.FPGAƵ��¼Ƶ���������Ƶ�׵���Ƶ.40s֮ǰ��ʾ���ǵĹٷ��ṩ������ȥ����Ƶ˳��Ϊ����1��2��40s֮�����ȥ����Ƶ����ʾ��˳��Ϊ����1��2��
-7.FPGA��λ��������Ҫ�������λ��һЩ������Ƶ��
-8.����ѹ�����ļ��ܴ󣬹�ɾ����SRL45���ݼ���CASIA���ݼ�������ֱ�������Ͻ������ء�
-9.prjΪFPGA��ģ��ķ���ģ��
-10.��λ�����ܼ��Ϊ�����λ��������Ƶ����ʶ�������������Ա�ʶ��ͱ����Ĳ�����Ƶ��
+1. doc里面是包括了设计文档和仿真文档，以及一些图片
+2. python project包含上位机处理的python代码
+	a) audio_classification为总代码文件
+	b) fpga_out为采集音频保存文件
+	c) api_io.py为调用文心一言API的文件
+3. src包含了各个模块的FPGA代码
+4.audio_wav_pakage 包括了FPGA采集的语音信号和初始语音信号
+	a)FPGA_acquisition保存的FPGA采集的音频信号，并基于该采集的音频信号进行处理
+	b)Ideal_cirums 保存的原始音频信号和PC上处理的信号。
+	c）FIR去噪效果：展示了去噪前和去噪后的音频效果。
+5.《画一个很快乐的男孩.jpg》和《画一个很害怕的女孩.jpg》为调用文心一言API生成的音频人物画像。
+6.FPGA频谱录频，保存的是频谱的视频.40s之前显示的是的官方提供的两个去噪音频顺序为：先1后2；40s之后的是去噪后的频谱显示，顺序为：先1后2；
+7.FPGA上位机处理主要是针对上位的一些处理视频。
+8.由于压缩包文件很大，故删除了SRL45数据集和CASIA数据集。可以直接在网上进行下载。
+9.prj为FPGA子模块的仿真模块
+10.上位机功能检测为检测上位机处理音频情绪识别、人声调整、性别识别和变声的测试视频。
 
+看最新的readme!!!!!
