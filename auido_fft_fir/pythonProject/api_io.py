@@ -33,8 +33,8 @@ the following is API request see :https://console.bce.baidu.com/ai/?_=1714359492
 the AI_picture instruction see:https://ai.baidu.com/ai-doc/NLP/qlakgh129
 """
 
-API_KEY = "z2bHcykNdmUEufig352qsuw8"
-SECRET_KEY = "oJNgl5yo8SwDya1Aw3s6tX17j2KFx44s"  # 可以换成自己的API
+API_KEY = "换成自己的API"
+SECRET_KEY = "换成自己的API"  # 可以换成自己的API
 
 
 def main1(prompt:str,resolution:str,style:str,numberofpic:int,API_KEY,SECRET_KEY):
@@ -486,8 +486,8 @@ def txt2audio(choice,savchoice,txt,filename):
 
 
 if __name__ == '__main__':
-    API_KEY = "z2bHcykNdmUEufig352qsuw8"
-    SECRET_KEY = "oJNgl5yo8SwDya1Aw3s6tX17j2KFx44s"  # 可以换成自己的API
+    API_KEY = "自己的API"
+    SECRET_KEY = "自己的API"  # 可以换成自己的API
     file_name = "C:/Users/86151/Desktop/auido_fft_fir"
 
     gender = input(f'请输入性别\n')
@@ -504,8 +504,8 @@ if __name__ == '__main__':
         # 1.测试时候在此处正确填写相关信息即可运行
         # 2.相应的API可以在官网自己申请
     time1 = datetime.now()
-    wsParam = Ws_Param(APPID='53f02355', APISecret='MzJhNzY2MzVmODQyMjQ2MDczOTYyZGRm',
-                       APIKey='0a2c1187f94d5404915bf4fd496f3df1',
+    wsParam = Ws_Param(APPID='自己的API', APISecret='自己的API',
+                       APIKey='自己的API',
                        AudioFile=r"audio/id00841-enroll.wav")     #
     websocket.enableTrace(False)
     wsUrl = wsParam.create_url()
